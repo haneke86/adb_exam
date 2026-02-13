@@ -10,7 +10,7 @@
       "Küpeşte"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Omurga"
+    "explanation": "Omurga, teknenin en altında baştan kıça uzanan ana yapı elemanıdır. Tüm iskelet yapısı omurga üzerine inşa edilir; bu nedenle 'teknenin belkemiği' olarak da bilinir."
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
       "Küpeşte"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Kemere"
+    "explanation": "Kemere, karşılıklı postaları enlemesine birbirine bağlayan ve güvertenin üzerine kurulduğu kirişlerdir. Postalar dikeyken, kemereler yataydır ve güverteyi taşır."
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
       "Küpeşte"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Bodoslama"
+    "explanation": "Bodoslama, omurganın baş ve kıç uçlarındaki düşey veya eğik uzantılarıdır. Baş bodoslama teknenin ön ucunu, kıç bodoslama arka ucunu oluşturur. Kemere ve küpeşte gibi enlemesine elemanlarla karıştırılmamalıdır."
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
       "Posta"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Posta"
+    "explanation": "Postalar, omurgaya bağlanan ve teknenin kaburgasını meydana getiren eğri ağaçlardır. İnsan vücudundaki kaburgalar gibi, postalar da tekne gövdesine şeklini verir ve yapısal sağlamlığı sağlar."
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
       "Kuşak"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Dümen palası"
+    "explanation": "Dümen palası, kıç bodoslamaya takılan ve suyun içerisinde hareket ederek teknenin yön değiştirmesini sağlayan levhadır. Dümen kovanı ise palasın bağ noktasını oluşturur; ikisini karıştırmamak önemlidir."
   },
   {
     "id": 6,
@@ -75,7 +75,7 @@
       "Küpeşte"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Küpeşte"
+    "explanation": "Küpeşte, posta başlarını birbirine bağlayan ve güvertenin en dıştaki ilk parçasıdır. Teknenin üstünden baktığınızda kenarlarda göreceğiniz yapısal elemandır; hem dayanıklılık sağlar hem de güvenlik sınırı oluşturur."
   },
   {
     "id": 7,
@@ -88,7 +88,7 @@
       "Teknenin su kesiminden yukarda kalan, iç kısmı"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Teknenin su kesiminden yukarda kalan, dış kısmı"
+    "explanation": "Borda, teknenin su kesiminden yukarıda kalan dış kısmıdır. Karina (su altındaki dış kısım) ile karıştırılmamalıdır. Alabanda ise aynı bölgenin iç kısmını ifade eder."
   },
   {
     "id": 8,
@@ -101,7 +101,7 @@
       "Borda"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Karina"
+    "explanation": "Karina, teknenin su altında kalan dış kısmıdır. Su üstündeki dış kısım 'borda', su altındaki iç kısım ise 'sintine' olarak adlandırılır. Bu dört bölgeyi birbirinden ayırt etmek için su kesimi hattını referans alın."
   },
   {
     "id": 9,
@@ -114,7 +114,7 @@
       "Borda"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Sintine"
+    "explanation": "Sintine, teknenin su altında kalan iç kısmı yani iç tabanıdır. Su ve yakıt sızıntıları burada toplanır. Dış kısım olan karina ile karıştırmamak için: dış = karina, iç = sintine şeklinde aklınızda tutun."
   },
   {
     "id": 10,
@@ -127,7 +127,7 @@
       "Teknenin su kesiminden yukarda kalan, iç kısmı"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Teknenin su kesiminden yukarda kalan, iç kısmı"
+    "explanation": "Alabanda, teknenin su kesiminden yukarıda kalan iç kısmıdır. Borda dış yüzeyi ifade ederken, alabanda aynı bölgenin iç yüzeyi için kullanılır. Dışı borda, içi alabanda olarak hatırlayabilirsiniz."
   },
   {
     "id": 11,
@@ -140,7 +140,7 @@
       "Yelpaze"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Yeke"
+    "explanation": "Yeke, dümen palasına bağlı olup onu kontrol etmeye yarayan kol veya çubuktur. Küçük teknelerde doğrudan elle yeke kullanılırken, büyük teknelerde dümen dolabı yeke yerine geçer."
   },
   {
     "id": 12,
@@ -153,7 +153,7 @@
       "Kemere"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Usturmaça"
+    "explanation": "Usturmaça, teknenin yanaşma sırasında zarar görmesini önleyen koruyucu bir yastıktır. Diğer seçenekler (bodoslama, omurga, kemere) teknenin yapısal iskelet elemanlarıdır; usturmaça ise koruma işlevi görür."
   },
   {
     "id": 13,
@@ -166,7 +166,7 @@
       "Parampet"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Parampet"
+    "explanation": "Parampet, güvertenin kenarında bulunan korkuluk ya da alçak duvardır ve teknenin gövde/güvenlik yapısına aittir. Diğer seçenekler (direk, bumba, ıskaça) ise yelken donanımı ile ilgili elemanlardır."
   },
   {
     "id": 14,
@@ -179,7 +179,7 @@
       "Fora"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Fora"
+    "explanation": "Fora, bir yere bağlı halat veya düzeneğin çözülmesi, çıkarılması, açılması için verilen komuttur. Volta (bağlama) komutuyla zıt anlamlıdır. 'Fora et' denildiğinde bağlanmış şeyi çözmeniz istenir."
   },
   {
     "id": 15,
@@ -192,7 +192,7 @@
       "Fora"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Toka"
+    "explanation": "Toka, bir cismin istenilen yere çıkarılması veya bir flama/sancağın gönderdeki yerine çekilmesi için verilen komuttur. Yukarı doğru hareket içerir; mayna (indirme) ile ters yönlüdür."
   },
   {
     "id": 16,
@@ -205,7 +205,7 @@
       "Bir halat yardımıyla yukarı çekilmiş yelken, flama gibi gibi şeylerin aşağı indirilmesi için verilen komut"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Bir cismin istenilen yere çıkartılması veya bir flama veya sancağın gönderdeki yerine çekilmesi için verilen komut"
+    "explanation": "Toka komutu, bir cismi istenilen yere çıkarmak veya bir flama ya da sancağı gönderdeki yerine çekmek için verilir. Bayrak törenleri ve seyir hazırlıklarında sık kullanılan bir komuttur."
   },
   {
     "id": 17,
@@ -218,7 +218,7 @@
       "Mayna"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Laçka"
+    "explanation": "Laçka, halatın tamamen elden çıkarılmadan, yani kontrol altında tutularak boşlanması için verilen komuttur. Fora'dan farkı, halatı tamamen bırakmamanız, sadece gevşetmenizdir."
   },
   {
     "id": 18,
@@ -231,7 +231,7 @@
       "Fora"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Volta"
+    "explanation": "Volta, halatın koçboynuzu veya anele gibi bağlama noktasına sarılarak bağlanması için verilen komuttur. 'Volta et' denildiğinde halatı düzgünce sarmalısınız. Fora (çözme) komutunun zıttıdır."
   },
   {
     "id": 19,
@@ -244,7 +244,7 @@
       "Bir halat yardımıyla yukarı çekilmiş yelken, flama gibi şeylerin aşağı indirilmesi için verilen komut."
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Bir halat yardımıyla yukarı çekilmiş yelken, flama gibi şeylerin aşağı indirilmesi için verilen komut."
+    "explanation": "Arya, bir halat yardımıyla yukarı çekilmiş yelken, flama gibi şeylerin aşağı indirilmesi için verilen komuttur. Mayna da indirme anlamına gelir ancak arya özellikle halat sistemiyle indirmeyi ifade eder."
   },
   {
     "id": 20,
@@ -257,7 +257,7 @@
       "Mayna"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Hisa"
+    "explanation": "Hisa, herhangi bir şeyin (özellikle yelken veya flama gibi) yukarı kaldırılmasına, çekilmesine verilen isimdir. Arya (indirme) komutunun zıttıdır. 'Yelken hisa!' denildiğinde yelkeni yukarı çekersiniz."
   },
   {
     "id": 21,
@@ -270,7 +270,7 @@
       "Mayna"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Vira"
+    "explanation": "Vira, halatın çekilmesi veya yükseltilmesi için verilen komuttur. Özellikle demir zincirini almak için 'Vira bismillah!' komutu kullanılır. Mayna (indirme) komutunun karşıtıdır."
   },
   {
     "id": 22,
@@ -283,7 +283,7 @@
       "Mayna"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Mayna"
+    "explanation": "Mayna, bir yükün indirilmesi ya da aşağı doğru yavaşça bırakılması için verilen komuttur. Vira (yukarı çekme) ile zıt anlamlıdır. 'Yelken mayna!' denildiğinde yelkeni aşağı indirirsiniz."
   },
   {
     "id": 23,
@@ -296,7 +296,7 @@
       "Avara"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Aborda"
+    "explanation": "Aborda, bir teknenin başka bir tekneye, rıhtıma veya iskeleye bordasını vererek yanaşması demektir. Kıçtan kara veya baştan kara'dan farkı, teknenin yan tarafı (bordası) ile yanaşmasıdır."
   },
   {
     "id": 24,
@@ -309,7 +309,7 @@
       "Alesta"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Alarga"
+    "explanation": "Alarga, bir teknenin sahilden açıkta durarak beklemesi durumudur. Aborda (yanaşma) ile karıştırılmamalıdır; alarga tam tersine mesafeli durmak anlamına gelir."
   },
   {
     "id": 25,
@@ -322,7 +322,7 @@
       "Mapa"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Usturmaça"
+    "explanation": "Usturmaça, teknenin iskele, rıhtım veya başka bir tekneye yanaşırken zarar görmemesi için bordaya asılarak araya konulan balon veya silindir şeklinde sentetik yastıktır. Tonoz ve mapa ise bağlama elemanlarıdır."
   },
   {
     "id": 26,
@@ -335,7 +335,7 @@
       "Alesta"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Avara"
+    "explanation": "Avara, teknenin yanaşık olduğu yerden ayrılması demektir. Aborda'nın (yanaşma) tersidir. Avara olunca tekne serbest kalır ve seyrine devam edebilir."
   },
   {
     "id": 27,
@@ -348,7 +348,7 @@
       "Alesta"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Alabora"
+    "explanation": "Alabora, bir teknenin ters dönmesi, devrilmesi durumudur. Avara (ayrılma) veya alarga (açıkta bekleme) ile karıştırılmamalıdır; alabora ciddi bir kaza durumunu ifade eder."
   },
   {
     "id": 28,
@@ -361,7 +361,7 @@
       "İskele baş omuzluk-sancak kıç omuzluktan geçen tekneyi ikiye bölen hat"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) İskele-Sancak orta hattından geçen tekneyi ikiye bölen hat"
+    "explanation": "Kemere hattı, teknenin tam ortasından iskele-sancak yönünde geçen ve tekneyi ön-arka olarak ikiye bölen enlemesine hattır. Pruva-pupa hattı boyuna keserken, kemere hattı enlemesine keser."
   },
   {
     "id": 29,
@@ -374,7 +374,7 @@
       "45°"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) 90°"
+    "explanation": "Pruva-pupa hattı tekneyi boyuna (baştan kıça), kemere hattı ise enlemesine (iskeleden sancağa) keser. Bu iki hat birbirine dik olduğu için aralarında 90 derecelik açı vardır."
   },
   {
     "id": 30,
@@ -387,7 +387,7 @@
       "Sancak Baş Omuzluğu"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Sancak Bordayı"
+    "explanation": "Saat modeli tekne üzerine yerleştirildiğinde: saat 12 pruva, saat 6 pupa, saat 3 sancak, saat 9 iskele yönüne denk gelir. Yelkovan saat 3'te pruvayı gösterirken akrep saat 12'de olur; bu da sancak bordayı gösterir."
   },
   {
     "id": 31,
@@ -400,7 +400,7 @@
       "Sancak kıç omuzluğu"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) İskele baş omuzluğu"
+    "explanation": "Saat 10:30'da yelkovan pupa yönünü (saat 6) gösterirken, akrep saat 10-11 arasındadır. Saat kadranında 10:30 pozisyonu iskele baş omuzluğuna karşılık gelir; yani teknenin sol ön köşesidir."
   },
   {
     "id": 32,
@@ -413,7 +413,7 @@
       "Sancak kıç omuzluğu"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Sancak kıç omuzluğu"
+    "explanation": "Saat 04:30'da yelkovan pupa yönünü (saat 6) gösterirken, akrep saat 4-5 arasındadır. Bu pozisyon sancak kıç omuzluğuna karşılık gelir; yani teknenin sağ arka köşesidir."
   },
   {
     "id": 33,
@@ -426,7 +426,7 @@
       "Rüzgâr aksi"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Rüzgâr üstü"
+    "explanation": "Rüzgâr üstü, teknenin rüzgârın geldiği tarafıdır. Rüzgâr hangi bordadan geliyorsa o taraf 'rüzgâr üstü'dür. Rüzgâr önden geliyorsa pruva rüzgâr üstüdür."
   },
   {
     "id": 34,
@@ -439,7 +439,7 @@
       "Rüzgâr aksi"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Rüzgâr altı"
+    "explanation": "Rüzgâr altı, teknenin rüzgârın geldiği tarafın tam tersi olan taraftır. Rüzgâr sancaktan esiyorsa iskele tarafı rüzgâr altıdır. Rüzgâr üstü ile her zaman zıt yöndedir."
   },
   {
     "id": 35,
@@ -452,7 +452,7 @@
       "Omurga hattının solunda kalan alan"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Kıç tarafın gerisinde, ufuk yönündeki alan"
+    "explanation": "Pupa, teknenin kıç tarafının gerisinde ufuk yönündeki alandır. Pruva (ön taraf) ile tam ters yöndedir. Baştan kıça bakıldığında arkanızda kalan yön pupadır."
   },
   {
     "id": 36,
@@ -465,7 +465,7 @@
       "Omurga hattının solunda kalan alan."
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Baş tarafın ötesinde, ufuk yönündeki alan"
+    "explanation": "Pruva, teknenin baş tarafının ötesinde ufuk yönündeki alandır. Seyir yönünde ön tarafa baktığınızda göreceğiniz yön pruvadır; pupa ise tam tersi olan arka yöndür."
   },
   {
     "id": 37,
@@ -478,7 +478,7 @@
       "Arka kısmı"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Omurga hattının sağ tarafı"
+    "explanation": "Pupa yönüne (arkaya) bakıldığında iskele tarafı omurga hattının sağında kalır. Ancak pruva yönüne (öne) bakıldığında iskele sol taraftadır. Yönü belirlerken hangi yöne baktığınız önemlidir."
   },
   {
     "id": 38,
@@ -491,7 +491,7 @@
       "Arka kısmı"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Omurga hattının sağ tarafı"
+    "explanation": "Pruva yönüne (öne) bakıldığında sancak tarafı omurga hattının sağıdır. Sancak her zaman pruva yönünde sağ taraftır; iskele ise sol taraftır. Bu kural hiç değişmez."
   },
   {
     "id": 39,
@@ -504,7 +504,7 @@
       "Borda köşeleri"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Omuzluk"
+    "explanation": "Omuzluk, teknenin baş ve kıç kısımlarında omurga hattı ile 45 derecelik açı yapan köşelere verilen addır. Dört omuzluk vardır: iskele baş, sancak baş, iskele kıç ve sancak kıç omuzlukları."
   },
   {
     "id": 40,
@@ -517,7 +517,7 @@
       "Hepsi"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Avara olur"
+    "explanation": "Bir yere aborda (yanaşma) etmiş olan tekne, o yerden ayrılmak için avara olur. Aborda yanaşmayı, avara ise ayrılmayı ifade eder; birbirlerinin zıttıdır."
   },
   {
     "id": 41,
@@ -530,7 +530,7 @@
       "Neta"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Aborda"
+    "explanation": "Avara (ayrılma) teriminin zıttı abordadır (yanaşma). Tekne bir yere yanaşıyorsa aborda olur, ayrılıyorsa avara olur. Alesta (hazır ol) ve neta (düzgün, tertipli) farklı anlam taşıyan terimlerdir."
   },
   {
     "id": 42,
@@ -543,7 +543,7 @@
       "Fora"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Çapariz"
+    "explanation": "Neta, tekne üzerinde her şeyin düzenli, toplu ve yerli yerinde olması anlamına gelir. Çapariz ise halatların veya eşyaların birbirine dolanmış, karışık durumunu ifade eder. Dolayısıyla neta ve çapariz birbirinin zıttıdır."
   },
   {
     "id": 43,
@@ -556,7 +556,7 @@
       "Alarga"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Aganta"
+    "explanation": "Aganta, 'tut, bırakma, dayan' anlamına gelen bir komuttur ve tutmak/direnmek ifade eder. Diğer seçenekler (laçka, lava, alarga) hep bir şeyi serbest bırakma, gevşetme veya uzaklaşma anlamı taşır."
   },
   {
     "id": 44,
@@ -569,7 +569,7 @@
       "Alesta"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Alesta"
+    "explanation": "Alesta, 'hazır ol, dikkatli ol' anlamına gelen bir uyarı komutudur. Diğer seçenekler (arya, hisa, toka) ise hep bir şeyi indirme veya yukarı çekme gibi fiziksel hareket içeren komutlardır."
   },
   {
     "id": 45,
@@ -582,7 +582,7 @@
       "Funda"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Funda"
+    "explanation": "Arya (indirme), mayna (indirme) ve toka (yukarı çekme) halat/zincirin dikey hareketini ifade eden komutlardır. Funda ise demiri denize atmayı (bırakmayı) ifade eder ve dikey halat hareketi değildir."
   },
   {
     "id": 46,
@@ -595,7 +595,7 @@
       "Vira"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Toka"
+    "explanation": "Hisa (yukarı çekme), funda (demir atma) ve vira (çekme/yükseltme) komutlarında halat/zincir aşağı yönde veya denize doğru hareket eder. Toka ise bir cismi yukarı çıkarma veya flama çekme komutu olup farklı bir işleve sahiptir."
   },
   {
     "id": 47,
@@ -608,7 +608,7 @@
       "Gövde"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Arma"
+    "explanation": "Arma, yelkenli bir teknede direk, yelken, çarmıh, ıstralya gibi tüm direk ve yelken donanımını kapsayan genel terimdir. Gövde (tekne kabuğu) ve donanım (ekipman) farklı kavramlardır; arma yalnızca yelken-direk sistemini ifade eder."
   },
   {
     "id": 48,
@@ -621,7 +621,7 @@
       "Manika"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Lumboz"
+    "explanation": "Lumboz, tekne bordalarına açılmış sızdırmaz cam pencerelerdir ve iç mekana hava ile ışık girmesini sağlar. Menhol bakım kapağı, kaporta güverte üstü kapak, manika ise havalandırma kanalıdır; bunların hiçbiri borda penceresi değildir."
   },
   {
     "id": 49,
@@ -634,7 +634,7 @@
       "Güverte"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Güverte"
+    "explanation": "Güverte, kemerelerin (enine taşıyıcı eğri) üstünü kaplayan ve baştan kıça uzanan ana platformdur. Kasara ise güvertenin üzerinde yükselen kısmi yapılardır; güverte tüm tekneyi kaplayan ana yürüme ve çalışma alanıdır."
   },
   {
     "id": 50,
@@ -647,7 +647,7 @@
       "Bumba"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Irgat"
+    "explanation": "Irgat, teknenin baş tarafında bulunan ve demir zinciri ile halatları mekanik olarak sarmaya-vermeye yarayan vinç mekanizmasıdır. Demir atma ve alma manevralarının vazgeçilmez ekipmanıdır."
   },
   {
     "id": 51,
@@ -660,7 +660,7 @@
       "Kurtağzı"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Manika"
+    "explanation": "Manika, tekne içine hava girişi sağlayan havalandırma borusudur ve halat bağlama işlevi yoktur. Baba, anele ve kurtağzı ise doğrudan halat bağlamak veya yönlendirmek için kullanılan donanımlardır."
   },
   {
     "id": 52,
@@ -673,7 +673,7 @@
       "Yukarıdakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: E) Yukarıdakilerin hepsi"
+    "explanation": "Koçboynuzu, baba ve kurtağzı halat bağlama ve yönlendirme donanımlarıdır. Koçboynuzu halat volta etmek, baba halat bağlamak, kurtağzı ise halatı istenilen noktadan yönlendirmek için kullanılır; dolayısıyla hepsi bu işleve sahiptir."
   },
   {
     "id": 53,
@@ -686,7 +686,7 @@
       "Puntel"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Matafora"
+    "explanation": "Matafora, tekne çevresindeki güvenlik teli olan vardavelanın geçtiği dikey dikme çubuklardır. Vardavela telleri mataforaların üzerinden geçerek güvertedeki personelin denize düşmesini engeller."
   },
   {
     "id": 54,
@@ -699,7 +699,7 @@
       "Puntel"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Vardavela"
+    "explanation": "Vardavela, tekne güvertesinin etrafına güvenlik amacıyla gerilen tel veya halatlardır. Mataforalara (dikmelere) bağlanarak bir korkuluk sistemi oluşturur ve mürettebatın denize düşmesini önler."
   },
   {
     "id": 55,
@@ -712,7 +712,7 @@
       "Puntel"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Manika"
+    "explanation": "Manika, hava akımını yakalayarak tekne içine yönlendiren bir havalandırma donatısıdır. Genellikle güverte üzerinde bulunan boru veya huni şeklinde bir yapıdır ve kapalı mekanlarda taze hava dolaşımını sağlar."
   },
   {
     "id": 56,
@@ -725,7 +725,7 @@
       "Direği her iki bordaya bağlayan tel donanım"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Direği teknenin baş-kıç doğrultusunda destekleyen tel veya çubuk"
+    "explanation": "Istralya, direği teknenin baş-kıç doğrultusunda (boyuna) destekleyen tel veya çubuktur. Baş ıstralya direği öne, kıç ıstralya (torina) direği arkaya doğru tutan elemandır. Bordalara bağlanan destekler ise çarmıh adını alır."
   },
   {
     "id": 57,
@@ -738,7 +738,7 @@
       "Istralya"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Çarmıh"
+    "explanation": "Çarmıh, direği iki bordadan (sağ ve sol yandan) destekleyerek yanal hareketini engelleyen tel veya çubuk donanımdır. Istralya boyuna (baş-kıç), çarmıh ise enine (borda) destek sağlar; bu ikisi birlikte direği sabit tutar."
   },
   {
     "id": 58,
@@ -751,7 +751,7 @@
       "Istralya"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Iskota"
+    "explanation": "Iskota, yelkeni kontrol eden ve açısını ayarlayan halattır. Adını kontrol ettiği yelkenden alır; örneğin genoa ıskotası, flok ıskotası gibi. Yelkencilikte en sık kullanılan manevra halatlarından biridir."
   },
   {
     "id": 59,
@@ -764,7 +764,7 @@
       "Balançina"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Mandar"
+    "explanation": "Mandar, yelkeni direk boyunca yukarı çekmeye (basmaya) ve aşağı indirmeye (mayna etmeye) yarayan halattır. Her yelkenin kendi mandarı vardır; grandi mandarı, flok mandarı gibi isimlendirilir."
   },
   {
     "id": 60,
@@ -777,7 +777,7 @@
       "Balançina"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Gurcata"
+    "explanation": "Gurcata, direğin orta boyunda veya daha yukarısında yer alan ve çarmıhları iki yana doğru açarak daha etkili bir destek açısı sağlayan metal veya ahşap çıkıntılardır. Çarmıhların destek açısını artırarak direk stabilitesini güçlendirir."
   },
   {
     "id": 61,
@@ -790,7 +790,7 @@
       "Yukarıdakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
+    "explanation": "Denizcilik bağlarının üç temel özelliği vardır: hızlı bağlanır, güvenlidir ve çözmesi kolaydır. Bu üç özellik, denizde acil durumlarda hızlı hareket edebilmek için kritik öneme sahiptir."
   },
   {
     "id": 62,
@@ -803,7 +803,7 @@
       "Doblin"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Çıma"
+    "explanation": "Çıma, halatın bağ yapılan serbest ucudur. Halatın bir beden (yükü taşıyan ana gövde) ve bir çıma (bağ yapılan uç) kısmı vardır. Denizde halat atma işlemine de 'çıma atmak' denir."
   },
   {
     "id": 63,
@@ -816,7 +816,7 @@
       "Piyan"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Beden"
+    "explanation": "Beden, halatın yükü taşıyan ana gövde kısmıdır. Çıma bağ yapılan uç, kasa ise halat üzerinde oluşturulan ilmek anlamına gelir. Halatın gerilim altında kalan ve asıl işi yapan bölümüne beden denir."
   },
   {
     "id": 64,
@@ -829,7 +829,7 @@
       "Yukarıdakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
+    "explanation": "İzbarço bağı üç önemli özelliğe sahiptir: sabit bir kasa (ilmek) oluşturur, yük altında daralıp sıkışmaz ve kolayca çözülebilir. Bu özellikleri sayesinde denizcilikte en çok kullanılan bağlardan biridir."
   },
   {
     "id": 65,
@@ -842,7 +842,7 @@
       "Anele bağı"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Piyan"
+    "explanation": "Piyan, kesilen halatın uç kısmındaki kolların (liflerin) dağılmasını önlemek için çımaya yapılan sarma bağıdır. Halat kesildiğinde uçları açılır ve zayıflar; piyan bu dağılmayı engelleyerek halatın ömrünü uzatır."
   },
   {
     "id": 66,
@@ -855,7 +855,7 @@
       "Açmaz (Koltuk halatı)"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Pürmeçe (Çapraz halat)"
+    "explanation": "Pürmeçe (çapraz halat), rıhtıma yanaşmış teknenin ileri-geri hareketini kontrol eden çapraz bağlanan halatlardır. Baş pürmeçe baştan kıça doğru, kıç pürmeçe kıçtan başa doğru uzanarak teknenin boyuna kaymasını önler."
   },
   {
     "id": 67,
@@ -868,7 +868,7 @@
       "Açmaz (Koltuk halatı)"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Açmaz (Koltuk halatı)"
+    "explanation": "Açmaz (koltuk halatı), teknenin rüzgar ve akıntı etkisiyle rıhtımdan açılmasını (uzaklaşmasını) engelleyen halatlardır. Baş ve kıçtan rıhtıma dik veya dike yakın açıyla bağlanarak tekneyi rıhtıma yakın tutar."
   },
   {
     "id": 68,
@@ -881,7 +881,7 @@
       "Önce sekiz çizilir sonra koçboynuzu çevresinde bir tur çevrilir"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Koçboynuzunu çevresinde bir tur döndürülür"
+    "explanation": "Koçboynuzuna halat volta ederken önce koçboynuzunun çevresinde bir tam tur döndürülür, ardından sekiz çizerek volta yapılır. İlk tur, halatın kaymasını önleyerek güvenli bir temel oluşturur."
   },
   {
     "id": 69,
@@ -894,7 +894,7 @@
       "Kasa dikişiyle kasa yapmak"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Halatın halka halinde sarılması"
+    "explanation": "Roda, halatın düzgün bir şekilde halka halinde (daire biçiminde) sarılarak toplanması işlemidir. Güvertede halatların düzenli durması ve dolaşmaması için kullanılan temel bir denizcilik tekniğidir."
   },
   {
     "id": 70,
@@ -907,7 +907,7 @@
       "Volta edilir"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Foralı yapılır"
+    "explanation": "Foralı bağ, bağın kolay ve hızlı çözülmesi istendiğinde uygulanan bir tekniktir. Bağın son aşamasında halatın ucunu ilmekten geçirmek yerine katlanmış haliyle (bight) geçirilir; böylece ucundan çekildiğinde bağ anında çözülür."
   },
   {
     "id": 71,
@@ -920,7 +920,7 @@
       "Sancak bağı yapılır"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Bosa tutulur"
+    "explanation": "Bosa tutmak, halata esneklik kazandırmak ve yükü paylaştırmak amacıyla halatı bir babaya veya koçboynuzuna alarak ani gerilimleri absorbe etmektir. Özellikle demirleme ve bağlama sırasında ekipmana zarar veren şokları önlemek için kullanılır."
   },
   {
     "id": 72,
@@ -933,7 +933,7 @@
       "Apiko"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Funda"
+    "explanation": "Funda, demir atma komutudur. Başüstündeki personele 'Funda!' denildiğinde çapa denize bırakılır. Vira almak, mayna indirmek, apiko ise zincirin dikey gergin durumunu ifade eder."
   },
   {
     "id": 73,
@@ -946,7 +946,7 @@
       "Kaloma"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Salpa"
+    "explanation": "Salpa, demir alma sırasında çapanın dipten kurtulduğunu, yani deniz tabanından söküldüğünü bildiren terimdir. Başüstündeki kişi 'Salpa!' diyerek kaptana çapanın serbest kaldığını haber verir ve tekne hareket edebilir duruma geçer."
   },
   {
     "id": 74,
@@ -959,7 +959,7 @@
       "Kaloma"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Apiko"
+    "explanation": "Apiko, demir alma sırasında zincirin tamamen dikey ve gergin olduğu, ancak çapanın henüz dipten kopmadığı durumu ifade eder. Zincir dikleşip gerginleştiğinde apiko olmuştur; bir sonraki aşamada çapa dipten kurtulunca 'salpa' olur."
   },
   {
     "id": 75,
@@ -972,7 +972,7 @@
       "Vira"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Vira"
+    "explanation": "Vira, ırgata sarma yönünde (yani zinciri/halatı alma yönünde) verilen komuttur. Demir alma işlemine başlarken 'Vira!' komutuyla ırgat çalıştırılır ve zincir toplanmaya başlar."
   },
   {
     "id": 76,
@@ -985,7 +985,7 @@
       "Kaloma"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Kaloma"
+    "explanation": "Kaloma, çapaya bağlı halat ve/veya zincirin denize verilen toplam miktarıdır (uzunluğudur). Yeterli kaloma vermek, çapanın dip tutuşunu güçlendirir; kısa kaloma çapanın sürüklenmesine yol açar."
   },
   {
     "id": 77,
@@ -998,7 +998,7 @@
       "Vira"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Aganta"
+    "explanation": "Aganta, hareket halindeki zincir veya halatın akışını durdurma komutudur. Zincir verilirken 'Aganta!' dendiğinde ırgat veya fren mekanizması devreye girerek zincirin akışı durdurulur."
   },
   {
     "id": 78,
@@ -1011,7 +1011,7 @@
       "Aganta"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Bosa tutmak"
+    "explanation": "Bosa tutmak, demir zinciri veya halatının yükünü bir ara halat aracılığıyla alarak koçboynuzuna veya babaya aktarma işlemidir. Ani gerilimlerden ırgatın dişlilerinin zarar görmesini önler ve yükü dağıtır."
   },
   {
     "id": 79,
@@ -1024,7 +1024,7 @@
       "Kıçtan alınmalı ve tekne üzerinde yol olmamalı"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Başa alınmalı ve teknenin üzerinde çok ağır geri yol olmalı"
+    "explanation": "Demirlerken rüzgar ve akıntı başa alınmalı ve teknenin üzerinde çok ağır geri yol olmalıdır. Bu sayede çapa denize atıldığında zincir düzgün serilir, çapa dibe düzgün oturur ve sürükleme riski azalır."
   },
   {
     "id": 80,
@@ -1037,7 +1037,7 @@
       "60"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) 48"
+    "explanation": "Tamamen zincir kullanılan demirlemede kaloma oranı derinliğin 4 katıdır. 12 metre derinlik x 4 = 48 metre kaloma verilmelidir. Bu oran zincirin ağırlığı sayesinde çapanın yatay çekiş açısını koruyarak tutunmasını sağlar."
   },
   {
     "id": 81,
@@ -1050,7 +1050,7 @@
       "60"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) 50"
+    "explanation": "Tamamen halat kullanılan demirlemede kaloma oranı derinliğin 10 katıdır. 5 metre derinlik x 10 = 50 metre kaloma verilmelidir. Halat zincirden hafif olduğu için çapanın tutması adına daha fazla kaloma gerekir."
   },
   {
     "id": 82,
@@ -1063,7 +1063,7 @@
       "Derinliğin 12 katı"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Derinliğin en az 6 katı"
+    "explanation": "Zincir ve halat birlikte (karma) kullanılan demirlemede kaloma oranı derinliğin en az 6 katıdır. Bu oran, sadece zincir (4 kat) ile sadece halat (10 kat) arasında bir orta değerdir; zincir kısmının ağırlığı halat kısmının hafifliğini kısmen dengeler."
   },
   {
     "id": 83,
@@ -1076,7 +1076,7 @@
       "45 m."
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) 36 m."
+    "explanation": "Tamamen zincir kullanarak demirlemede kaloma oranı derinliğin 4 katıdır. 9 metre derinlik x 4 = 36 metre kaloma verilmelidir. Zincirin kendi ağırlığı yatay çekiş sağladığı için halata göre daha az kaloma yeterlidir."
   },
   {
     "id": 84,
@@ -1089,7 +1089,7 @@
       "Derinliğin en az 12 katı"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Derinliğin en az 4 katı"
+    "explanation": "Sadece zincir kullanılan demirlemede kaloma miktarı derinliğin en az 4 katı olmalıdır. Zincirin ağırlığı sayesinde çapaya gelen çekiş kuvveti yatay kalır ve çapanın dipte tutunması güçlenir. Halat için bu oran 10 kat, karma kullanımda ise 6 kattır."
   },
   {
     "id": 85,
@@ -1102,7 +1102,7 @@
       "Salınım dairesi içinde herhangi bir kara cismi olmamalıdır"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Salınım dairesi kaloma miktarı yarıçaplı bir dairedir"
+    "explanation": "Salınım dairesi sadece kaloma miktarı yarıçaplı bir daire değildir; doğru hesaplaması kaloma + tekne boyu + emniyet payı toplamı yarıçaplı bir dairedir. Tekne demirli dururken rüzgar ve akıntıyla bu daire içinde salınır; bu nedenle diğer teknelerin ve kara cisimlerinin salınım dairesinin dışında kalması gerekir."
   },
   {
     "id": 86,
@@ -1115,7 +1115,7 @@
       "D"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) C D"
+    "explanation": "Demirleme noktası seçerken salınım dairenizin diğer teknelerin salınım dairesiyle kesişmemesi ve kara cisimlerine değmemesi gerekir. C ve D noktaları bu koşulları sağlayan uygun konumlardır; A ve B noktaları mevcut teknelerle çakışma riski taşır."
   },
   {
     "id": 87,
@@ -1128,7 +1128,7 @@
       "10 derece"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) 40 derece"
+    "explanation": "Çift çapa demirlemede iki zincir arasındaki açının yaklaşık 40 derece olması tavsiye edilir. Açı çok büyük olursa (90 veya 180 derece gibi) çapalar arası mesafe artar ve rüzgar dönüşlerinde zincirler dolanabilir; 40 derece hem tutunma hem manevra açısından ideal dengededir."
   },
   {
     "id": 88,
@@ -1141,7 +1141,7 @@
       "Yukarıdakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
+    "explanation": "Çapanın tutup tutmadığı birden fazla yöntemle kontrol edilebilir: hafif tornistan verilerek teknenin tepkisi gözlenir, karadan iki sabit noktadan kerteriz alınarak konum değişikliği takip edilir ve sağnaklarda teknenin başını rüzgara dönüp dönemediğine bakılır. Bu yöntemlerin hepsi geçerlidir."
   },
   {
     "id": 89,
@@ -1154,7 +1154,7 @@
       "Çapaya ağırlık bağlamak için"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Çapanın yerini belirtmek ve gerekirse kurtarmak için"
+    "explanation": "Çapaya şamandıra bağlanması, çapanın deniz tabanındaki konumunu yüzeyde görünür kılmak ve gerektiğinde çapayı kurtarabilmek içindir. Özellikle çapa takılırsa, şamandıra halatından çekerek kurtarma işlemi yapılabilir."
   },
   {
     "id": 90,
@@ -1167,7 +1167,7 @@
       "Halat çapaya camadan bağı ile bağlanır"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Halat çapaya camadan bağı ile bağlanır"
+    "explanation": "Halat çapaya camadan bağı ile bağlanır. Camadan bağı, halatın çapa halkasına güvenli şekilde tutunmasını sağlayan ve yük altında sıkışmayan bir denizci bağıdır. Doğrudan bağlama veya radanzalı kasa gibi yöntemler halat-çapa bağlantısı için uygun değildir."
   },
   {
     "id": 91,
@@ -1180,7 +1180,7 @@
       "Baş halat üzerinde, tornistanla manevra yapılarak, kıç açılmaya çalışılır deniz"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Baş halat üzerinde, tornistanla manevra yapılarak, kıç açılmaya çalışılır deniz"
+    "explanation": "Sert rüzgâr veya dar manevra sahasında baş açılamadığında, baş halat üzerinde tornistan yapılarak kıç rüzgârüstüne açılır. Baş halat teknenin burnunu sabit tutarken, tornistan kuvveti kıçı iskeleden uzaklaştırır ve tekne emniyetle avaraya hazırlanır."
   },
   {
     "id": 92,
@@ -1193,7 +1193,7 @@
       "Rüzgâra uygun kıç omuzluğu vererek"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Rüzgâra baş vererek"
+    "explanation": "Rüzgâr iskele boyunca eserken, iskeleye rüzgâra baş vererek yaklaşılmalıdır. Böylece rüzgâr teknenin hızını doğal olarak keser, kontrollü bir yanaşma sağlanır ve tekne iskeleye çarpmadan yavaşlar."
   },
   {
     "id": 93,
@@ -1206,7 +1206,7 @@
       "Hiçbiri"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) İskele taraftan aborda olmalıdır"
+    "explanation": "Tornistanda pervane etkisiyle kıçı iskeleye çeken bir tekne, rüzgârsız havada iskele tarafından aborda olmalıdır. Bu sayede geri manevrada pervane kıçı iskeleye doğru çekerek tekneyi rıhtıma yanaştırır ve yanaşma kolaylaşır."
   },
   {
     "id": 94,
@@ -1219,7 +1219,7 @@
       "Hiçbiri"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Sancak taraftan aborda olmalıdır"
+    "explanation": "Tornistanda kıçı sancağa çeken bir tekne, rüzgârsız havada sancak taraftan aborda olmalıdır. Pervane etkisi kıçı sancağa çekeceğinden, tekne doğal olarak rıhtıma yaslanır ve yanaşma manevrası daha kontrollü gerçekleşir."
   },
   {
     "id": 95,
@@ -1232,7 +1232,7 @@
       "Dümen tam olarak iskeleye basılır, motora tornistan yol verilir."
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Dümen tam olarak iskeleye basılır, motora ileri yol verilir."
+    "explanation": "Baş çapraz (pürmeçe) halatı üzerinde kıçı rüzgârüstüne açmak için dümen tam iskeleye basılır ve motora ileri yol verilir. Su akımı dümeni iterek kıçı sancağa (rüzgârüstüne) döndürürken, pürmeçe halatı başı sabit tutar."
   },
   {
     "id": 96,
@@ -1245,7 +1245,7 @@
       "Yukarıdakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
+    "explanation": "Manevrayı etkileyen unsurlar pervane, akıntı, rüzgâr ve dümendir. Pervane itme kuvveti ve yan etkisi, dümen yönlendirmesi, akıntı ve rüzgâr dış kuvvetleri birlikte teknenin manevra kabiliyetini belirler."
   },
   {
     "id": 97,
@@ -1258,7 +1258,7 @@
       "Tornistanda sancağa"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) İskeleye"
+    "explanation": "Yekeli (dümenli) teknede yekenin ucu sancağı gösteriyorsa tekne iskeleye döner. Yeke, dümen palasının uzantısıdır; yeke sancağa itildiğinde pala iskeleye döner ve su akımı teknenin kıçını sancağa iterek baş iskeleye yönelir."
   },
   {
     "id": 98,
@@ -1271,7 +1271,7 @@
       "Tornistanda sancağa"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Sancağa"
+    "explanation": "Yekeli teknede yekenin ucu iskeleyi gösteriyorsa tekne sancağa döner. Yeke iskeleye itildiğinde dümen palası sancağa döner, su akımı kıçı iskeleye iterek teknenin başı sancak tarafa yönelir."
   },
   {
     "id": 99,
@@ -1284,7 +1284,7 @@
       "Hiçbir yöne çekmez"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Sancağa"
+    "explanation": "Sola devirli (saat yönü tersine dönen) pervane, tornistanda kıçı sancağa çeker. Tornistanda pervane dönüş yönü tersine döndüğünden, alttaki kanat sancak tarafta daha yoğun suyla temas eder ve kıçı sancağa iter."
   },
   {
     "id": 100,
@@ -1297,7 +1297,7 @@
       "Hiçbir yöne çekmez"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Sancağa"
+    "explanation": "Sağa devirli (saat yönünde dönen) pervane, ileri yolda teknenin başını sancağa çeker. Pervane dönerken üst yarıda sancak tarafa baskı yapar ve bu asimetrik itme kuvveti teknenin başını hafifçe sancağa yönlendirir."
   },
   {
     "id": 101,
@@ -1310,7 +1310,7 @@
       "Hiçbir yöne çekmez"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) İskeleye"
+    "explanation": "Sola devirli pervane, ileri yolda teknenin başını iskeleye çeker. Pervane saat yönünün tersine dönerken oluşan asimetrik itme kuvveti, teknenin başını iskele tarafa yönlendirir."
   },
   {
     "id": 102,
@@ -1323,7 +1323,7 @@
       "Hiçbir yöne çekmez"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) İskeleye"
+    "explanation": "Sağa devirli pervane, tornistanda kıçı iskeleye çeker. Geri viteste pervane dönüşü tersine döndüğünden, alt kanat iskele tarafta daha fazla baskı yapar ve kıçı iskeleye iter. Bu etki düşük sürat manevralarında belirgin olarak hissedilir."
   },
   {
     "id": 103,
@@ -1336,7 +1336,7 @@
       "Viya"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) (İskele veya Sancak) Alabanda"
+    "explanation": "Alabanda komutu, dümenin dönmek istenen tarafa sonuna kadar basılması anlamına gelir. 'İskele alabanda' veya 'sancak alabanda' şeklinde verilir ve acil dönüş gereken durumlarda maksimum dümen açısı uygulanır."
   },
   {
     "id": 104,
@@ -1349,7 +1349,7 @@
       "Alarga"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Alarga"
+    "explanation": "Alarga bir dümen komutu değil, tekneyi iskeleden uzaklaştırma (mesafe alma) anlamına gelen bir denizcilik terimidir. Ortala, viya böyle ve tornistan ise dümen veya makine komutlarıdır."
   },
   {
     "id": 105,
@@ -1362,7 +1362,7 @@
       "Viya böyle"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) İskele veya sancak alabanda"
+    "explanation": "Tam pruvanızda kayalık gördüğünüzde iskele veya sancak alabanda komutu verilir. Alabanda, dümenin sonuna kadar basılmasıdır ve tehlikeden en hızlı şekilde uzaklaşmak için maksimum dönüş açısı sağlar."
   },
   {
     "id": 106,
@@ -1375,7 +1375,7 @@
       "İleri"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) İskele alabanda"
+    "explanation": "İki tarafı kayalık dar kanalda 'iskele alabanda' yanlış bir komuttur. Dar geçitlerde alabanda komutu tekneyi keskin dönüşe zorlayarak kayalıklara çarpmaya neden olabilir; bunun yerine küçük dümen hareketleriyle rotada kalınmalıdır."
   },
   {
     "id": 107,
@@ -1388,7 +1388,7 @@
       "Hiçbiri"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) İskele alabanda"
+    "explanation": "İskele baş omuzlukta yakın mesafede demirli bir tekne varken 'iskele alabanda' komutu çatışmaya neden olur. İskele alabanda teknenin başını iskeleye döndüreceğinden, tam da demirli teknenin bulunduğu yöne doğru ani bir dönüş yapılmış olur."
   },
   {
     "id": 108,
@@ -1401,7 +1401,7 @@
       "Başka bir teknenin yardım etmesini bekler, yardıma gelen tekne olmaması durumunda yardım ederim"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Yardım etmek zorundayım"
+    "explanation": "Denizde tehlike çağrısı aldığınızda yardım etmek yasal bir zorunluluktur. Deniz hukuku ve SOLAS sözleşmesine göre, denizde tehlikedeki kişilere yardım etmek her kaptanın vazgeçilmez sorumluluğudur; koşullar veya kişisel tercih buna engel olamaz."
   },
   {
     "id": 109,
@@ -1414,7 +1414,7 @@
       "Kurtarmadan doğacak hasardan kimin sorumlu olacağını"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Kurtarma ücreti talep edilip, edilmeyeceğini"
+    "explanation": "Kurtarma operasyonu öncesinde, yardıma gelen tekne kaptanıyla kurtarma ücreti talep edilip edilmeyeceği mutlaka karara bağlanmalıdır. Bu anlaşma yapılmazsa, deniz hukukuna göre kurtaran taraf sonradan yüksek bir kurtarma ücreti talep edebilir."
   },
   {
     "id": 110,
@@ -1427,7 +1427,7 @@
       "Havai Fişekler"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Havai Fişekler"
+    "explanation": "Havai fişekler can kurtarma amaçlı görünür işaret değildir. Paraşütlü işaret fişeği, el maytabı ve yüzer duman işareti SOLAS tarafından onaylı tehlike işaretleridir; havai fişekler ise eğlence amaçlıdır ve uluslararası tehlike işareti olarak tanınmaz."
   },
   {
     "id": 111,
@@ -1440,7 +1440,7 @@
       "Yağmurluk"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Güvenlik ekipmanı ve can halatı"
+    "explanation": "Kötü hava şartlarında güvertede çalışırken güvenlik ekipmanı (emniyet kemeri) ve can halatı kullanılmalıdır. Bu ekipman, sert denizde dengeyi kaybettiğinizde sizi tekneye bağlı tutar ve denize düşmenizi engeller."
   },
   {
     "id": 112,
@@ -1453,7 +1453,7 @@
       "Oscar-Ordu e."
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Oscar-Ordu e."
+    "explanation": "Denize adam düşmesi durumunda işaret şamandırasının ucuna Oscar (O) sancağı takılır. Uluslararası işaret sancaklarında Oscar harfi 'denize adam düştü' anlamına gelir ve çevredeki teknelere bu durumu görsel olarak bildirir."
   },
   {
     "id": 113,
@@ -1466,7 +1466,7 @@
       "İşaret Şamandırası"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) İşaret Şamandırası"
+    "explanation": "Balıkçı ağları, batıklar gibi yerleri işaretlemek için kullanılan, üzerinde ufak bayrak bulunan yüzer araca işaret şamandırası denir. Kardinal, ışıklı ve fener şamandıraları ise seyir güvenliği için farklı amaçlarla kullanılır."
   },
   {
     "id": 114,
@@ -1479,7 +1479,7 @@
       "A-Aydın sancağı toka edilir ve VHF’den anons edilir"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) O-Oscar sancağı toka edilir ve VHF’den anons edilir"
+    "explanation": "Denize adam düşmesi durumunda gündüz vakti O-Oscar sancağı toka edilir ve VHF telsizden anons yapılır. Oscar sancağı uluslararası 'denize adam düştü' işaretidir; VHF anonsu ise çevredeki tüm tekneleri sesli olarak uyarır."
   },
   {
     "id": 115,
@@ -1492,7 +1492,7 @@
       "Pervane geri çalıştırılır ve dümen insanın düştüğü yöne alabanda edilir"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Pervane durdurulur ve dümen insanın düştüğü yöne alabanda edilir"
+    "explanation": "Denize düşen kişiyi pervaneden korumak için önce pervane durdurulur, sonra dümen kişinin düştüğü yöne alabanda edilir. Pervaneyi durdurmak yaralanmayı önler; dümeni düşen tarafa kırmak ise kıçı ve pervaneyi kişiden uzaklaştırır."
   },
   {
     "id": 116,
@@ -1505,7 +1505,7 @@
       "Sancak alabanda,160"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Sancak alabanda,140"
+    "explanation": "Williamson dönüşünde sancaktan düşen kişi için önce sancak alabanda yapılır. 080 rotasından 60 derece sapma ile 140 dereceye gelindiğinde dümen ters alabandaya (iskeleye) basılır ve ters rotaya (260 derece) girilerek düşen kişinin üzerine gidilir."
   },
   {
     "id": 117,
@@ -1518,7 +1518,7 @@
       "260-180"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) 120-000"
+    "explanation": "Williamson dönüşünde iskele taraftan adam düşüşünde önce iskele alabanda yapılır. 180 rotasından 60 derece sapınca 120 dereceye gelinir, sonra ters alabanda ile 360/000 rotasına girilerek düşen kişiye geri dönülür."
   },
   {
     "id": 118,
@@ -1531,7 +1531,7 @@
       "Can yeleği"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Işıklı can simidi"
+    "explanation": "Gece denize adam düşmesi durumunda ışıklı can simidi kullanılmalıdır. Karanlıkta düşen kişinin yerini tespit etmek çok zordur; ışıklı can simidi hem kişiye tutunma imkânı sağlar hem de konumunu görünür kılar."
   },
   {
     "id": 119,
@@ -1544,7 +1544,7 @@
       "Yukarıdakilerin sırayla hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdakilerin sırayla hepsi"
+    "explanation": "Çatışma durumunda sırasıyla: önce can emniyeti sağlanır, tekneler kendiliğinden ayrılmamışsa çatışma pozisyonunda kalınır, ardından su girişi kontrol edilerek gerekli önlemler alınır. Bu sıralama, önce insan hayatını, sonra tekne güvenliğini korumayı amaçlar."
   },
   {
     "id": 120,
@@ -1557,7 +1557,7 @@
       "İlave tedbirler alınarak tekne su üstünde tutulmaya çalışılmalıdır"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Liman yakınsa, limana; yakın değilse tekneyi en yakın sahile oturtmak için şartlar değerlendirilip, harekete geçilmelidir"
+    "explanation": "Batma ihtimali varsa liman yakınsa limana yönelmeli, değilse tekne en yakın sahile oturtulmaya çalışılmalıdır. Hemen terk etmek yerine tekneyi sığ suya oturtmak, hem kazazedelerin hem de teknenin kurtarılma şansını artırır."
   },
   {
     "id": 121,
@@ -1570,7 +1570,7 @@
       "Oturduğu yönde."
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Oturduğu yönün aksi yönünde"
+    "explanation": "Karaya oturma bölgesi hakkında bilgi yoksa tekne, oturduğu yönün aksi istikametinde yüzdürülmeye çalışılmalıdır. Tekne bu yönden geldiğine göre arkasında derin su olduğu kesindir ve bilinmeyen bir yöne hareket etmek ilâve karaya oturmaya neden olabilir."
   },
   {
     "id": 122,
@@ -1583,7 +1583,7 @@
       "Yukarıdakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
+    "explanation": "Yardım almadan tekneyi yeniden yüzdürmek için motor/yelken manevrası, tekneyi bir tarafa yatırma ve ağırlıkları azaltma/kaydırma yöntemlerinin hepsi kullanılabilir. Her yöntem su çekimini veya temas alanını azaltarak teknenin kurtulmasına yardımcı olur."
   },
   {
     "id": 123,
@@ -1596,7 +1596,7 @@
       "İktisadi süratle oturulmalıdır"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Dümen dinleyecek kadar sürat olmalıdır"
+    "explanation": "Tekneyi isteyerek karaya oturtma durumunda sadece dümen dinleyecek kadar sürat olmalıdır. Fazla sürat tekneye ciddi yapısal hasar verir; çok yavaş sürat ise dümen kontrolünü kaybettirerek teknenin istenmeyen açıda oturmasına neden olur."
   },
   {
     "id": 124,
@@ -1609,7 +1609,7 @@
       "Rüzgâraltı sahilde karaya oturtulmalıdır"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Mutlaka demir atılmalıdır"
+    "explanation": "İsteyerek karaya oturtmada en önemli uygulama mutlaka demir atmaktır. Demir, teknenin akıntı veya dalgalarla daha derine sürüklenmesini önler ve kurtarma sırasında tekneyi geri çekmek için sabit bir referans noktası oluşturur."
   },
   {
     "id": 125,
@@ -1622,7 +1622,7 @@
       "En yakın kıyı istasyonu"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Yedeklenen teknenin kaptanı"
+    "explanation": "Yedekleme işlemini yedeklenen teknenin kaptanı kontrol eder. Deniz hukukuna göre teknenin sorumluluğu kaptanındadır; yedekleyen tekne yalnızca çekme gücü sağlar, rota ve manevra kararlarını yedeklenen teknenin kaptanı verir."
   },
   {
     "id": 126,
@@ -1635,7 +1635,7 @@
       "Mümkün olduğunca kısa olmalıdır"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Aşırı yük olmamalı ve ani gerilmelere karşı ortasında (zincir gibi) bir ağırlık olmalıdır"
+    "explanation": "Yedek halatında aşırı yük olmamalı ve ani gerilmelere karşı ortasında zincir gibi bir ağırlık bulunmalıdır. Bu ağırlık, dalgalarda oluşan ani gerilimleri sönümleyerek halatın kopmasını ve tehlikeli geri tepmeyi önler."
   },
   {
     "id": 127,
@@ -1648,7 +1648,7 @@
       "Aykırı omuzluklardaki halat bağlama noktalarına"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Güçlü halat bağlama noktalarına ve gerekirse teraziye alınarak"
+    "explanation": "Yedek halatı güçlü halat bağlama noktalarına ve gerekirse teraziye alınarak volta edilmelidir. Yükün birden fazla noktaya eşit dağılması (teraziye alma) bağlama noktalarının aşırı zorlanmasını engeller ve güvenliği artırır."
   },
   {
     "id": 128,
@@ -1661,7 +1661,7 @@
       "Yedekte çekilen teknenin iktisadi sürati"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Yedekteki tekneye zarar vermeyecek uygun gövde sürati"
+    "explanation": "Yedekleme sürati, yedekteki tekneye zarar vermeyecek uygun gövde sürati olmalıdır. Fazla sürat yedeklenen teknede aşırı dalga direnci ve yapısal gerilme yaratır; her teknenin gövde şekline göre belirli bir maksimum güvenli sürati vardır."
   },
   {
     "id": 129,
@@ -1674,7 +1674,7 @@
       "Kaptanın kimliği"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Teknenin çağrı adı"
+    "explanation": "Yedekleme yardımı talep eden tekne, mutlaka teknenin çağrı adını bildirmelidir. Çağrı adı, VHF telsiz iletişiminde tekneyi tanımlayan temel bilgidir ve kurtarma koordinasyonunda teknenin doğru şekilde tespit edilmesini sağlar."
   },
   {
     "id": 130,
@@ -1687,7 +1687,7 @@
       "Yukarıdakilerden herhangi birini yapabilir"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) En kısa zamanda yardıma gelecek, boy olarak en uygun tekneyi çağırmalı ve durumu diğer teknelere bildirmelidir"
+    "explanation": "Birden fazla tekne yardıma cevap verdiğinde, en kısa sürede ulaşabilecek ve boy olarak en uygun tekne çağrılmalı, diğer teknelere durum bildirilmelidir. Büyük bir tekne küçük bir tekneyi yedeklerken orantısız güç sorunlara yol açabilir."
   },
   {
     "id": 131,
@@ -1700,7 +1700,7 @@
       "Yukarıdakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
+    "explanation": "Yedekleme halatı hazırlanırken yükü paylaştıracak şekilde döşenmeli, ana donanıma zorunlu olmadıkça bağlanmamalı ve sürtünmelerden korunmalıdır. Bu kuralların hepsi halatın ömrünü uzatır ve kopma riskini en aza indirir."
   },
   {
     "id": 132,
@@ -1713,7 +1713,7 @@
       "Yukarıdakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
+    "explanation": "Yedekleme düzeni kurulurken tekneler kolayca ayrılabilmeli, el altında kesici alet bulunmalı ve halatın pervane/dümene sarılmaması sağlanmalıdır. Acil durumlarda hızlı ayrılma hayati önem taşır; bu nedenle tüm bu tedbirler birlikte uygulanır."
   },
   {
     "id": 133,
@@ -1726,7 +1726,7 @@
       "Hiçbiri"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Ağır ağır ilerleyerek yedek halatının boşu alınır ve ani yük binmesine müsaade edilmeden uygun yedekleme süratine çıkılır"
+    "explanation": "Yedekleme başlarken ağır ağır ilerleyerek halatın boşu alınır ve ani yük binmesi önlenerek kademeli olarak uygun sürate çıkılır. Ani çekme kuvveti halatın veya bağlama noktalarının kopmasına yol açabilir."
   },
   {
     "id": 134,
@@ -1739,7 +1739,7 @@
       "Her hangi bir yerden itebilir"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Kıç omuzluktan"
+    "explanation": "Bordadan yedekleme sırasında küçük tekne, büyük tekneyi kıç omuzluktan itmelidir. Kıç omuzluktan itme, büyük teknenin dümen kontrolünü kolaylaştırır ve her iki teknenin de manevra kabiliyetini en üst düzeyde tutar."
   },
   {
     "id": 135,
@@ -1752,7 +1752,7 @@
       "Portakal renkli duman işareti"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Securite (Emniyet) Mesajı"
+    "explanation": "Yedekleme sırasında trafik yoğunluğu varsa Securite (Emniyet) mesajıyla diğer tekneler uyarılır. Securite mesajı seyir emniyetini ilgilendiren durumlar için kullanılır; MAYDAY can tehlikesi, Pan Pan acil durum içindir."
   },
   {
     "id": 136,
@@ -1765,7 +1765,7 @@
       "Isı kaynağı ve yanıcı madde"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Isı kaynağı, yanıcı madde, oksijen"
+    "explanation": "Yangının oluşması için ısı kaynağı, yanıcı madde ve oksijen bir arada bulunmalıdır. Bu üç unsur yangın üçgenini oluşturur; herhangi birinin ortadan kaldırılması yangının söndürülmesini veya başlamamasını sağlar."
   },
   {
     "id": 137,
@@ -1778,7 +1778,7 @@
       "Yukarıdakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
+    "explanation": "Yağ/yakıt sızıntıları, düşük tutuşma sıcaklıklı maddeler ve uygunsuz elektrik tesisatının hepsi teknede yangın nedenidir. Bu kaynakların her biri ısı, yanıcı madde veya kıvılcım sağlayarak yangın üçgenini tamamlayabilir."
   },
   {
     "id": 138,
@@ -1791,7 +1791,7 @@
       "Yukarıdakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
+    "explanation": "Yağ ve yakıt yangınlarını önlemek için sızıntı kontrolü, sintine/motor çevresi temizliği ve kapalı mahallerde buhar birikmesinin engellenmesi birlikte uygulanmalıdır. Bu tedbirler yanıcı madde birikimini ve tutuşma riskini ortadan kaldırır."
   },
   {
     "id": 139,
@@ -1804,7 +1804,7 @@
       "Yukarıdakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
+    "explanation": "Gaz tüplerinden kaynaklanan yangınları önlemek için havalandırılmış/yalıtılmış bölmelerde muhafaza, bağlantı kaçak kontrolü ve uzun süre kullanılmayacaksa önce tüp vanasının kapatılması gerekir. Tüm bu önlemler gaz sızıntısını ve tutuşma riskini azaltır."
   },
   {
     "id": 140,
@@ -1817,7 +1817,7 @@
       "Yukarıdakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
+    "explanation": "Elektrik kaynaklı yangınları önlemek için projeye uygun kablo kesiti, doğru değerde sigortalar ve yetkili kişilerce onarım birlikte sağlanmalıdır. Uygunsuz kablo veya sigorta aşırı ısınmaya, yetkisiz müdahale ise kısa devreye neden olabilir."
   },
   {
     "id": 141,
@@ -1830,7 +1830,7 @@
       "Yukarıdakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
+    "explanation": "Güvenlik önlemi alınmadan kaynak, iyi yalıtılmamış egzoz borusu ve kontrolsüz açık ateş (sigara, ızgara, ocak) teknelerde yangın kaynağıdır. Bu faktörlerin her biri yanıcı maddelerle temas ettiğinde yangın başlatabilir."
   },
   {
     "id": 142,
@@ -1843,7 +1843,7 @@
       "Sürat arttırılır. Yanan bölge rüzgâr üstüne alınır"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Sürat azaltılır. Yanan bölge rüzgâr üstüne alınır"
+    "explanation": "Güvertede yangın çıktığında sürat azaltılır ve yanan bölge rüzgâr üstüne alınır. Süratı düşürmek göreli rüzgârı azaltarak alevi besleyen hava akımını keser; yanan bölgeyi rüzgâr üstüne almak alevlerin teknenin geri kalanına yayılmasını engeller."
   },
   {
     "id": 143,
@@ -1856,7 +1856,7 @@
       "Sürati arttırılır. Teknenin başını rüzgâr üstüne veririm"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Sürati azaltılır. Teknenin başını rüzgâr üstüne veririm"
+    "explanation": "Kıç bölgede yangın çıktığında sürat azaltılır ve teknenin başı rüzgâr üstüne verilir. Böylece kıçtaki yangın rüzgâr üstünde kalır, rüzgâr alevleri teknenin dışına doğru taşır ve yangının güverteye yayılması önlenir."
   },
   {
     "id": 144,
@@ -1869,7 +1869,7 @@
       "Yangına yandan yaklaşılır ve yangın söndürücü aşağıdan yukarıya, yukarıdan aşağıya süpürülerek püskürtülür."
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Yangına rüzgâr üstünden yaklaşılır ve yangın söndürücü alevlerin dibinden (kaynağından) ileri doğru süpürülerek püskürtülür"
+    "explanation": "Yangına müdahalede rüzgâr üstünden yaklaşılır ve söndürücü alevlerin dibinden (kaynağından) ileri doğru süpürülerek püskürtülür. Rüzgâr üstünden yaklaşmak dumanı sizden uzak tutar; kaynaktan başlamak yangının kökenini söndürerek yeniden alevlenmeyi önler."
   },
   {
     "id": 145,
@@ -1882,7 +1882,7 @@
       "Yukarıdakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
+    "explanation": "Kamara içi yangında önce yangın battaniyesiyle alevler örtülür, tüm girişler kapatılarak hava akımı kesilir, yüz ıslak bezle korunarak söndürücüyle müdahale edilir. Hava akımını kesmek oksijeni azaltır ve yangının büyümesini engeller."
   },
   {
     "id": 146,
@@ -1895,7 +1895,7 @@
       "Halon gazlı"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Deniz suyu"
+    "explanation": "Elektrik yangınlarına deniz suyuyla asla müdahale edilmemelidir. Su elektriği iletir ve elektrik çarpması riski yaratır. Karbondioksit, kuru kimyevi toz veya halon gazı gibi iletken olmayan söndürücüler kullanılmalıdır."
   },
   {
     "id": 147,
@@ -1908,7 +1908,7 @@
       "Yangını, yanıcı maddeyi soğutarak söndürmek için"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Yangını, alevlerin havayla temasını keserek (boğarak) söndürmek için"
+    "explanation": "Yangın battaniyesi alevlerin üzerine kapatılarak oksijen temasını keser ve yangını boğarak söndürür. Bu yöntem yangın üçgenindeki oksijenin ortadan kaldırılması prensibine dayanır ve yangının başlangıç aşamasında çok etkilidir."
   },
   {
     "id": 148,
@@ -1921,7 +1921,7 @@
       "Kuru kimyevi tozlu"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Kuru kimyevi tozlu"
+    "explanation": "Teknelerde katı, sıvı ve gaz yangınlarının hepsine karşı kuru kimyevi tozlu söndürücü tavsiye edilir. Bu tip söndürücüler genel maksatlıdır (ABC sınıfı) ve farklı yangın türlerinde etkili olduğundan teknelerde en pratik çözümdür."
   },
   {
     "id": 149,
@@ -1934,7 +1934,7 @@
       "Deniz suyu"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Karbondioksit"
+    "explanation": "Elektrik ve motor bölmesi yangınlarında karbondioksit (CO2) söndürücü kullanılması tavsiye edilir. CO2 iletken değildir, bu yüzden elektrik çarpması riski oluşturmaz; ayrıca kalıntı bırakmadığından hassas motor parçalarına zarar vermez."
   },
   {
     "id": 150,
@@ -1947,7 +1947,7 @@
       "Kuru Kimyevi Tozlu YSC’ler genel maksatlı kullanılamaz, bu nedenle teknelerde bulundurulmamalıdır."
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) YSC’ler, bazı yangın sınıflarına karşı şartlı olarak uygulanır"
+    "explanation": "Yangın söndürme cihazları, farklı yangın sınıflarına karşı şartlı olarak uygulanır. Her söndürücü tipi bazı yangın sınıflarında etkili, bazılarında etkisiz veya tehlikeli olabilir; bu yüzden söndürücü üzerindeki sınıf bilgisine dikkat edilmelidir."
   },
   {
     "id": 151,
@@ -1960,7 +1960,7 @@
       "İki yılda bir bakıma göndermeliyiz"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Basınç ibresinin yeşil bölgenin dışına çıkması ve kullanım süreleri sonunda bakıma göndermeliyiz"
+    "explanation": "Yangın söndürücüler, basınç ibresinin yeşil bölgenin dışına çıkması veya kullanım süresi sonunda bakıma gönderilmelidir. Basınç düşüşü söndürücünün çalışmayacağını gösterir; kullanım süresi ise kimyasal maddenin etkinliğini kaybetme riskini işaret eder."
   },
   {
     "id": 152,
@@ -1973,7 +1973,7 @@
       "Kaptan ve II. Kaptan (veya yardımcısı)"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Kaptan"
+    "explanation": "Tekne yalnızca kaptanın emriyle terk edilir. Kaptan, gemideki en yetkili kişidir ve terk kararını deniz hukuku uyarınca yalnızca o verebilir. Kontrolsüz bir tahliye panik ve can kaybına yol açabilir."
   },
   {
     "id": 153,
@@ -1986,7 +1986,7 @@
       "Yukarıdakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
+    "explanation": "Tekne terk ederken uygun giysiler (bere, eldiven, yünlü giysi, tulum) giyilmelidir; çünkü bu giysiler soğuk şokunu önler, ısı kaybını yavaşlatarak hipotermiyi geciktirir ve kurtarma aracında doğa koşullarından korur."
   },
   {
     "id": 154,
@@ -1999,7 +1999,7 @@
       "Bol su içmek ve bol yemek yemek"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Kalın yünlü giysiler giymek ve can yeleği takmak"
+    "explanation": "Tekneyi terk ederken en önemli kişisel hazırlık kalın yünlü giysiler giyip can yeleği takmaktır. Yünlü giysiler ıslakken bile yalıtım sağlayarak hipotermi riskini azaltır; can yeleği ise suda batmayı önleyerek hayatta kalma süresini uzatır."
   },
   {
     "id": 155,
@@ -2012,7 +2012,7 @@
       "Can yeleğimi suya atar, onun yanına ayak üstü pozisyonda atlarım"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Can yeleğimin kayışlarını vucuduma zarar vermeyecek ölçüde sıkar, göğsüme doğru bastırarak, ayak üstü pozisyonda atlarım"
+    "explanation": "Denize atlarken can yeleğinin kayışları sıkılmalı, yelek göğse bastırılmalı ve ayak üstü pozisyonda atlanmalıdır. Kayışların sıkılması yeleğin suyun etkisiyle çıkmasını engeller, göğse bastırmak boyun yaralanmasını önler, ayak üstü giriş derin dalışı sınırlar."
   },
   {
     "id": 156,
@@ -2025,7 +2025,7 @@
       "Yardımın geleceğini tahmin ettiğim yöne doğru yüzerim"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Mümkünse yüzer bir cisme tutunur, mümkün değilse kollar vucuda yapışık, ayaklar bitişik ve karına çekilmiş pozisyonda, hareketsiz beklerim"
+    "explanation": "Can salı hasarlandığında mümkünse yüzer bir cisme tutunulmalı, değilse kollar vücuda yapışık, ayaklar bitişik ve karına çekilmiş (HELP) pozisyonunda hareketsiz beklenmelidir. Bu pozisyon ısı kaybını en aza indirerek hayatta kalma süresini uzatır."
   },
   {
     "id": 157,
@@ -2038,7 +2038,7 @@
       "Kurtarılmayı bekledikleri yöne doğru yüzmelidirler"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Grup oluşturup, birbirlerine mümkün olduğu kadar sokularak beklemelidirler"
+    "explanation": "Birden fazla kazazede suda bekliyorsa grup oluşturup birbirlerine mümkün olduğunca sokulmalıdır. Bu huddle (sığınma) pozisyonu vücut ısısının korunmasını sağlar, görünürlüğü artırır ve kurtarma ekiplerinin grubu fark etmesini kolaylaştırır."
   },
   {
     "id": 158,
@@ -2051,7 +2051,7 @@
       "Her durumda en yakın sahile ulaşmak için kürek çekmeye başlarız"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Batan tekneden emniyetli bir mesafeye (80-100 m.) çıkarız"
+    "explanation": "Can salına bindikten ve tüm kazazedeleri aldıktan sonra ilk olarak batan tekneden 80-100 metre emniyetli mesafeye çıkılır. Batan tekne çevresinde emme etkisi, yüzen enkaz ve yakıt sızıntısı gibi tehlikeler olabilir."
   },
   {
     "id": 159,
@@ -2064,7 +2064,7 @@
       "Hemen gece gündüz farkı gözetmeksizin can salı ışıkları yakılmalıdır"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Deniz demiri atılarak kaza bölgesinin dışına çıkma engellenmelidir"
+    "explanation": "Emniyetli mesafeye açıldıktan sonra öncelikle deniz demiri atılarak kaza bölgesinden uzaklaşma önlenmelidir. Kurtarma ekipleri son bilinen konuma gelecektir; deniz demiri akıntının salı sürüklemesini engelleyerek bulunma şansını artırır."
   },
   {
     "id": 160,
@@ -2077,7 +2077,7 @@
       "İlk 24 saat içilmez, sonra günde toplam 50 cl. (2 bardak)"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) İlk 24 saat içilmez, sonra günde toplam 50 cl. (2 bardak)"
+    "explanation": "Can salında su kullanımı: ilk 24 saat su içilmemeli, sonrasında günde toplam 50 cl (2 bardak) ile yetinilmelidir. İlk 24 saatte vücut mevcut su deposunu kullanır; sonra minimum tüketim, sınırlı su stokunun en uzun süre dayanmasını sağlar."
   },
   {
     "id": 161,
@@ -2090,7 +2090,7 @@
       "Cankurtarma aracında deniz tutmasına karşı ilaçlar bulunmaz"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Miğde bulantısının yaratacağı su kaybını engellemek için, hemen alınmalıdır"
+    "explanation": "Deniz tutmasına karşı ilaçlar can salına biner binmez hemen alınmalıdır. Kusma ciddi su ve elektrolit kaybına neden olarak dehidrasyonu hızlandırır; bu nedenle bulantı başlamadan önce ilaç almak hayatta kalma şansını artırır."
   },
   {
     "id": 162,
@@ -2103,7 +2103,7 @@
       "Pusula kartı"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Tehlike anında mevki bildiren telsiz yönlendiricisi"
+    "explanation": "EPIRB (Emergency Position Indicating Radio Beacon), tehlike anında teknenin mevkiini uydu aracılığıyla ileten acil durum telsiz vericisidir. Cihaz aktive edildiğinde konum bilgisini otomatik olarak kurtarma koordinasyon merkezlerine gönderir."
   },
   {
     "id": 163,
@@ -2116,7 +2116,7 @@
       "İşaret fişeği"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Kıçtan takma motor"
+    "explanation": "Can salı içinde kıçtan takma motor bulunmaz. Can salında deniz demiri, radar reflektörü, işaret fişeği, su, erzak ve ilkyardım malzemesi gibi hayatta kalma ekipmanları bulunur; ancak motor standart donanıma dahil değildir."
   },
   {
     "id": 164,
@@ -2129,7 +2129,7 @@
       "Yüzüstü yatırılır, giysileri gevşetilir."
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Hasta sırt üstü yatırılır, ayaklarının altına (minder, usturmaça gibi...) bir malzeme konularak 25-30 cm. yukarı kaldırılır. Sıkı giysileri gevşetilir."
+    "explanation": "Bayılma durumunda beyne yeterli kan gitmediği için hastanın sırt üstü yatırılıp ayaklarının 25-30 cm yukarı kaldırılması (Trendelenburg pozisyonu) gerekir. Bu pozisyon yerçekimi yardımıyla kanın beyne yönelmesini sağlar. Ayrıca sıkı giysilerin gevşetilmesi kan dolaşımını rahatlatır."
   },
   {
     "id": 165,
@@ -2142,7 +2142,7 @@
       "Hasta yan yatırılır, dizler hafif bükülür, altta kalan kol aşağı doğru uzatılır. Üstte kalan el yanak altına yerleştirilir. Baş geriye itili ve ağız açık tutulur."
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Hasta yan yatırılır, dizler hafif bükülür, altta kalan kol aşağı doğru uzatılır. Üstte kalan el yanak altına yerleştirilir. Baş geriye itili ve ağız açık tutulur."
+    "explanation": "Komadaki, kusan veya üst solunum yollarında kanaması olan hastalar yan yatırılır (koma pozisyonu). Bu pozisyonda dizler hafif bükülür, alttaki kol aşağı uzatılır, üstteki el yanak altına konur ve baş geriye itilip ağız açık tutulur. Amaç, kusmuğun veya kanın solunum yolunu tıkamasını engellemektir."
   },
   {
     "id": 166,
@@ -2155,7 +2155,7 @@
       "Sırt üstü yatar pozisyonda"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Yarı oturur pozisyonda"
+    "explanation": "Nefes darlığı çeken hastalar yarı oturur pozisyonda bekletilmelidir. Bu pozisyon diyaframın rahatça hareket etmesini sağlar ve akciğerlerin daha verimli genişlemesine yardımcı olarak solunumu kolaylaştırır."
   },
   {
     "id": 167,
@@ -2168,7 +2168,7 @@
       "Ateş"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Hava yolu"
+    "explanation": "Temel Yaşam Desteği'nde (TYD) bilincini kaybetmiş bir kazazedede öncelikle hava yolu kontrol edilir. A-B-C sıralaması (Airway-Breathing-Circulation) ilkyardımın temel prensibidir; hava yolu açık değilse solunum ve dolaşım değerlendirmesinin bir anlamı olmaz."
   },
   {
     "id": 168,
@@ -2181,7 +2181,7 @@
       "Dakikada 10 (6 saniyede bir) temposuna uygun yapay solunuma başlarım."
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Arka arkaya 2 kurtarıcı soluk verdikten sonra dakikada 12-15 (5 saniyede bir) temposuna uygun yapay solunuma başlarım."
+    "explanation": "Hava yolu açık ve nabız olan ancak solunumu durmuş kazazedeye yapay solunum uygulanır. Önce arka arkaya 2 kurtarıcı soluk verilir, ardından dakikada 12-15 tempo ile (yaklaşık 5 saniyede bir) yapay solunuma devam edilir. Nabız olduğu için kalp masajına gerek yoktur; sadece solunumun desteklenmesi yeterlidir."
   },
   {
     "id": 169,
@@ -2194,7 +2194,7 @@
       "Hiçbiri"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Suni solunum ve kalp masajı birlikte uygulanır"
+    "explanation": "Hava yolu açık ancak kalp atışları saptanamayan bir kazazedeye hem suni solunum hem de kalp masajı birlikte uygulanmalıdır. Kalp durduğunda dolaşım ve oksijenlenme birlikte kesilir; bu yüzden sadece biriyle yetinmek yeterli değildir, her ikisinin eşzamanlı yapılması gerekir."
   },
   {
     "id": 170,
@@ -2207,7 +2207,7 @@
       "Göğüs kemiğinin ortasına koyarım ve dakikada 90 temposuna göre uygularım."
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Göğüs kemiğinin 3’te bir alt noktasına koyarım ve dakikada 60 temposuna göre uygularım."
+    "explanation": "ADB ilkyardım kılavuzuna göre kalp masajında eller göğüs kemiğinin (sternum) alt üçte birlik noktasına konulur ve dakikada 60 bası uygulanır. Bu nokta kalbin üzerinde en etkili basıncı oluşturur; daha üstte veya kaburga üzerinde yapılan bası etkisiz kalır veya yaralanmaya neden olabilir."
   },
   {
     "id": 171,
@@ -2220,7 +2220,7 @@
       "5 kalp masajı, 2 suni solunum"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) 15 kalp masajı, 2 suni solunum"
+    "explanation": "ADB kılavuzuna göre tek kurtarıcının uyguladığı TYD'de oran 15 kalp masajı ve 2 suni solunumdur. Bu oran, tek kişinin hem dolaşımı hem solunumu idame ettirmesi gereken durumda en verimli denge olarak belirlenmiştir."
   },
   {
     "id": 172,
@@ -2233,7 +2233,7 @@
       "5 kalp masajı, 2 suni solunum"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) 5 kalp masajı, 1 suni solunum"
+    "explanation": "ADB kılavuzuna göre iki kurtarıcının uyguladığı TYD'de oran 5 kalp masajı ve 1 suni solunumdur. İki kişi olduğunda biri sürekli masaj yaparken diğeri solunum verir; bu sayede daha sık solunum desteği sağlanabilir ve oranlar buna göre ayarlanmıştır."
   },
   {
     "id": 173,
@@ -2246,7 +2246,7 @@
       "Bütün uygulamayı keser koma pozisyonuna alırım."
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Kalp masajını keser, 5 saniyede bir (dakikada 12) temposuna uygun olarak suni solunuma devam ederim."
+    "explanation": "Nabız geri gelip gözbebekleri küçülmeye başladıysa kalp yeniden çalışıyor demektir; ancak solunum henüz başlamamışsa kalp masajı durdurulur ve sadece yapay solunum sürdürülür. Tempo olarak 5 saniyede bir (dakikada 12) suni solunum uygulanır. Kalbin gereksiz yere masajla zorlanmaması için nabız döndüğünde masaj kesilmelidir."
   },
   {
     "id": 174,
@@ -2259,7 +2259,7 @@
       "Islak giysilerini çıkartır, kurulanır, yuttuğu su çıkartıldıktan sonra standart kontrollere başlanır."
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Sırtüstü düz bir zemine yatırılıp, hemen standart kontrollere başlanır."
+    "explanation": "Suda boğulma vakalarında zaman kaybetmeden kazazede sırt üstü düz bir zemine yatırılarak hemen standart kontrollere (hava yolu, solunum, dolaşım) başlanmalıdır. Islak giysi çıkarma veya yuttuğu suyu çıkartma gibi işlemlerle vakit kaybetmek, beynin oksijensiz kaldığı süreyi uzatır ve hayati tehlikeyi artırır."
   },
   {
     "id": 175,
@@ -2272,7 +2272,7 @@
       "Yaranın üstüne gazlı bez ve tampon üstüste konur ve alt bölgelere kan geçmeyecek şekilde sargı yapılır."
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Yaranın üstüne önce gazlı bez konur, birkaç tur sargı yapıldıktan sonra tampon konup, alt bölgelere kan geçecek sıkılıkta sarılır."
+    "explanation": "Basınçlı sargı tekniğinde önce yaranın üstüne gazlı bez konur, birkaç tur sargı sardıktan sonra üzerine tampon eklenir ve sargıya devam edilir. Sargı alt bölgelere kan geçecek sıkılıkta olmalıdır; çok sıkı sarılırsa kan dolaşımı tamamen kesilir ve doku hasarı oluşabilir. Amaç kanamayı kontrol altına alırken uzvun beslenmesini korumaktır."
   },
   {
     "id": 176,
@@ -2285,7 +2285,7 @@
       "Kol-Pazu bölgesine uygular. 5 dakikada 1 dakika gevşetirim."
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Kol-Pazu bölgesine uygular. 20 dakikada 5-10 saniye gevşetirim."
+    "explanation": "Ön kol kanamasında turnike dirseğin üstüne değil, kol-pazu bölgesine uygulanır. Turnike her zaman yaranın yukarısındaki tek kemikli bölgeye (üst kol veya üst bacak) konulmalıdır; çift kemikli bölgelerde damarlar kemikler arasında kalacağı için turnike etkisiz olur. 20 dakikada bir 5-10 saniye gevşetilerek distal dokulara kan gitmesi sağlanır."
   },
   {
     "id": 177,
@@ -2298,7 +2298,7 @@
       "Oksijenli su veya antiseptik solüsyonlarla; sadece dış bölgeleri temizlenir."
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Oksijenli su veya antiseptik solüsyonlarla; yara merkez kabul edilerek, içten dışa dairesel olarak temizlenir."
+    "explanation": "Yara temizliği oksijenli su veya antiseptik solüsyonlarla yapılır. Temizleme yönü, yara merkez kabul edilerek içten dışa doğru dairesel hareketlerle olmalıdır. Bu teknik, çevredeki mikropların yaraya taşınmasını önler ve enfeksiyon riskini en aza indirir."
   },
   {
     "id": 178,
@@ -2311,7 +2311,7 @@
       "Yukardakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukardakilerin hepsi"
+    "explanation": "Kapalı yaralarda (deri bütünlüğü bozulmamış) üç temel müdahale birlikte uygulanır: yaralı bölge kalp seviyesinin üstüne kaldırılarak şişme azaltılır, içi sıvı dolu kabarcıklar varsa patlatılmaz ve soğuk uygulama yapılarak damar daralması sağlanıp şişme ile ağrı kontrol altına alınır."
   },
   {
     "id": 179,
@@ -2324,7 +2324,7 @@
       "Yabancı cisim çıkartılmaz, üstüne sargı yapılır."
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Yabancı cisim çıkartılmaz ve hareket ettirilmez. Yaralı bölge kalp seviyesinin üstüne çıkartılır."
+    "explanation": "Vücutta kalmış yabancı cisim kesinlikle çıkarılmamalı ve hareket ettirilmemelidir; çünkü cisim damarı tıkıyor olabilir ve çıkarıldığında kontrolsüz kanama başlayabilir. Yaralı bölge kalp seviyesinin üstüne kaldırılarak kanama baskısı azaltılır. Cismin çıkarılması hastane koşullarında yapılmalıdır."
   },
   {
     "id": 180,
@@ -2337,7 +2337,7 @@
       "Yanık deri soyulup, sargı yapılmalıdır."
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Yanık bölge 10 dakika suyun altında tutulmalı, takılar çıkartılmalı ve gazlı bez ile örtülmelidir."
+    "explanation": "Hafif yanıklarda ilk müdahale olarak yanık bölge en az 10 dakika akan suyun altında soğutulmalıdır. Bu, ısının derin dokulara yayılmasını önler ve ağrıyı azaltır. Ardından takılar şişme başlamadan çıkarılır ve bölge steril gazlı bezle örtülür. Diş macunu, yoğurt gibi maddeler enfeksiyon riskini artırdığı için kesinlikle uygulanmamalıdır."
   },
   {
     "id": 181,
@@ -2350,7 +2350,7 @@
       "Yukardaki yöntemlerden en kısa müdahale hangisiyle yapılabilecekse bu yöntem uygulanır."
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukardaki yöntemlerden en kısa müdahale hangisiyle yapılabilecekse bu yöntem uygulanır."
+    "explanation": "Giysileri yanmakta olan kazazedeye müdahalede en önemli prensip, ateşi en kısa sürede söndürmektir. Su dökmek, yangın battaniyesi örtmek veya normal battaniye kullanmak hepsi geçerli yöntemlerdir; hangisi o an en hızlı uygulanabilecekse o tercih edilmelidir. Geciken her saniye yanık derecesini artırır."
   },
   {
     "id": 182,
@@ -2363,7 +2363,7 @@
       "Hiçbiri"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Kabarcıklar patlatılmamalı ve deri soyulmamalıdır."
+    "explanation": "Yanık sonucu oluşan kabarcıklar (büller) kesinlikle patlatılmamalı ve deri soyulmamalıdır. Kabarcığın içindeki sıvı, alttaki yeni dokuyu enfeksiyona karşı koruyan doğal bir bariyer görevi görür. Patlatıldığında bu koruma ortadan kalkar ve enfeksiyon riski ciddi şekilde artar."
   },
   {
     "id": 183,
@@ -2376,7 +2376,7 @@
       "Kazazedenin karın bölgesinin altına konur ve kuvvetli bir bası uygulanır."
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Kazazedenin kaburga kemiklerinin önde hemen altına konur ve kuvvetli bir bası uygulanır."
+    "explanation": "Heimlich manevrası sırasında yumruk yapılan eller kazazedenin kaburga kemiklerinin önde birleştiği noktanın hemen altına (epigastrik bölge) yerleştirilir ve içeri-yukarı doğru kuvvetli bası uygulanır. Bu hareket diyaframı yukarı iterek akciğerlerdeki havayı sıkıştırır ve tıkanıklığa neden olan cismi dışarı atma basıncı oluşturur."
   },
   {
     "id": 184,
@@ -2389,7 +2389,7 @@
       "Kemikler oldukları pozisyonda atellenip, tamponla desteklenir."
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Kemikler oldukları pozisyonda atellenip, tamponla desteklenir."
+    "explanation": "Kırıklarda kemikler asla yerine oturtulmaya çalışılmamalıdır. Kırık kemik uçları oldukları pozisyonda atele alınır ve tamponla desteklenir. Kemikleri hareket ettirmek çevre dokuları, damarları ve sinirleri yaralayabilir; bu nedenle tespit olduğu gibi yapılır ve kesin tedavi hastanede gerçekleştirilir."
   },
   {
     "id": 185,
@@ -2402,7 +2402,7 @@
       "Yukardakilerin hepsi."
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukardakilerin hepsi."
+    "explanation": "Omurga kırıklarında omurilik hasarı riski çok yüksek olduğundan maksimum sabitleme esastır. Boyuna boyunluk veya her iki yana destek konması, bacaklar arasına yastık yerleştirilmesi ve hastanın bulunduğu pozisyonda tahta veya bezlerle sabitlenmesi gerekir. Omurga kırığında en küçük hareket bile kalıcı felce yol açabilir."
   },
   {
     "id": 186,
@@ -2415,7 +2415,7 @@
       "Yukardakilerin hepsi."
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukardakilerin hepsi."
+    "explanation": "Deniz tutmasına müdahalede hastanın güvertede temiz havada bulundurulması, kaybedilen sıvının yerine konması ve kan şekerini düşürmemek için muz veya bisküvi gibi hafif gıdalar verilmesi birlikte uygulanmalıdır. Deniz tutması iç kulaktaki denge organının uyumsuzluğundan kaynaklanır ve bu üç önlem belirtileri hafifletir."
   },
   {
     "id": 187,
@@ -2428,7 +2428,7 @@
       "Yukardakilerin hepsi"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukardakilerin hepsi"
+    "explanation": "Deniz tutmasını önlemek için ağır yemeklerden ve alkolden kaçınılmalı, asitli gıdalar alınmamalı ve kapalı-havasız mekanlarda bulunulmamalıdır. Bu faktörlerin hepsi mide-bağırsak hassasiyetini artırarak bulantı eşiğini düşürür. Tüm bu önlemler bir arada uygulanmalıdır."
   },
   {
     "id": 188,
@@ -2441,7 +2441,7 @@
       "Kazazedenin vücut sıcaklığında bir ortamda."
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Ilık ( 20-25°C ) ve havadar bir ortamda."
+    "explanation": "Hipotermi tedavisi ılık (20-25°C) ve havadar bir ortamda yapılmalıdır. Çok sıcak ortam (35-40°C) tehlikelidir çünkü vücudun ani ısınması periferik damarlarda genişlemeye yol açar ve soğuk kan bir anda kalbe dönerse ölümcül kalp ritim bozukluklarına neden olabilir. Isıtma kademeli ve kontrollü olmalıdır."
   },
   {
     "id": 189,
@@ -2454,7 +2454,7 @@
       "Çok sıcak bir odaya alınır, giysileri çıkartır."
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Islak giysiler çıkartılır, yünlü kuru giysiler giydirilip, battaniyeye sarılır. Şekerli sıcak içecekler verilebilir, alkol verilmez."
+    "explanation": "Hipotermili kazazedenin ıslak giysileri çıkarılarak yünlü kuru giysiler giydirilir ve battaniyeye sarılır. Şekerli sıcak içecekler verilebilir ancak alkol kesinlikle verilmez. Alkol damarları genişleterek vücudun ısı kaybını hızlandırır ve iç organ sıcaklığını daha da düşürür; dışarıdan sıcaklık hissi verse de aslında hipotermini derinleştirir."
   },
   {
     "id": 190,
@@ -2467,7 +2467,7 @@
       "Yukarıdaki şıkların hiçbiri doğru değildir."
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukarıdaki şıkların hiçbiri doğru değildir."
+    "explanation": "Bu soruda A, B ve C şıklarının üçü de ilkyardımın temel hukuki ve etik ilkeleri olarak doğrudur: bilinçli hastadan izin alınması, bilinçsiz hastada zımni rıza varsayılması ve ilkyardımcının zarar vermeme (primum non nocere) prensibi. Dolayısıyla 'hiçbiri doğru değildir' şıkkı yanlıştır, çünkü aslında hepsi doğrudur."
   },
   {
     "id": 191,
@@ -2480,7 +2480,7 @@
       "1015.25 mb."
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) 1013.25 mb."
+    "explanation": "Deniz seviyesinde standart atmosfer basıncı 1013.25 milibardır. Bu değer, meteorolojide referans basınç olarak kullanılır; barometre okumaları bu standarda göre yorumlanır. 1013.25 mb'nin üzeri yüksek basınç, altı alçak basınç olarak değerlendirilir."
   },
   {
     "id": 192,
@@ -2493,7 +2493,7 @@
       "Manometre"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Barometre"
+    "explanation": "Atmosfer basıncını ölçen alet barometredir. Anemometre rüzgâr hızını, higrometre nem oranını, manometre ise kapalı sistemlerdeki basıncı ölçer. Denizde hava tahmini yapabilmek için barometre en temel meteoroloji aletidir."
   },
   {
     "id": 193,
@@ -2506,7 +2506,7 @@
       "Üç saatte bir, ondalığına kadar okunmalıdır."
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Üç saatte bir, ondalığına kadar okunmalıdır."
+    "explanation": "Barometre üç saatte bir ondalığına kadar okunmalıdır. Üç saatlik okuma aralıkları, basınçtaki eğilimi (tandansı) doğru değerlendirmek için uluslararası meteoroloji standartlarına uygundur. Ondalık hassasiyeti, basınç değişimlerinin küçük ama önemli farkları yakalamanızı sağlar."
   },
   {
     "id": 194,
@@ -2519,7 +2519,7 @@
       "Yukardakilerin hepsi."
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Yukardakilerin hepsi."
+    "explanation": "Barometre tekneye monte edilirken üç hususa birden dikkat edilmelidir: yakınında ısı kaynağı olmamalı, üzerine doğrudan güneş ışığı gelmemeli ve sarsıntının en az olduğu bir noktaya yerleştirilmelidir. Isı ve güneş okumaları yanıltır, sarsıntı ise mekanik hasara yol açabilir."
   },
   {
     "id": 195,
@@ -2532,7 +2532,7 @@
       "Bu bilgiyle rüzgâr kuvveti hakkında yorum yapılamaz."
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Rüzgâr kuvvetli eser."
+    "explanation": "İzobarların (eşit basınç eğrilerinin) sıklaştığı bölgelerde basınç farkı kısa mesafede büyük olduğundan rüzgâr kuvvetli eser. İzobar aralıkları ne kadar darsa basınç gradyanı o kadar yüksektir ve rüzgâr o kadar şiddetlidir. Sinoptik haritada sıkışık izobar gördüğünüzde kuvvetli rüzgâra hazırlıklı olun."
   },
   {
     "id": 196,
@@ -2545,7 +2545,7 @@
       "Soğuk hava kütlelerinin yer değiştirmesiyle."
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Hava kütlesinin yüksek basınç bölgesinden alçak basınç bölgesine hareketiyle."
+    "explanation": "Rüzgâr, hava kütlesinin yüksek basınç bölgesinden alçak basınç bölgesine doğru hareket etmesiyle oluşur. Doğada basınç farkları dengelenmeye çalışır; bu dengeleme hareketi rüzgârı meydana getirir. Basınç farkı ne kadar büyükse rüzgâr o kadar kuvvetli olur."
   },
   {
     "id": 197,
@@ -2558,7 +2558,7 @@
       "Kuzeye doğru"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Saat yönünün aksi yönde"
+    "explanation": "Kuzey yarı kürede alçak basınç (siklon) bölgesinde rüzgâr, Coriolis kuvvetinin etkisiyle saat yönünün aksine döner. Bunu hatırlamak için: 'Alçakta aksi' diyebilirsiniz. Güney yarı kürede ise tam tersi, saat yönünde döner."
   },
   {
     "id": 198,
@@ -2571,7 +2571,7 @@
       "Batıya doğru"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Saat yönünde"
+    "explanation": "Kuzey yarı kürede yüksek basınç (antisiklon) bölgesinde rüzgâr saat yönünde döner. Hatırlatma: 'Yüksekte yön' (saat yönü). Antisiklonlar genellikle açık ve sakin hava getirir; rüzgâr merkezden dışarıya doğru saat yönünde yayılır."
   },
   {
     "id": 199,
@@ -2584,7 +2584,7 @@
       "Sağ ilerinizde."
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Sol ilerinizde"
+    "explanation": "Bu, Buys Ballot kuralıdır: Kuzey yarı kürede sırtınızı rüzgâra döndüğünüzde alçak basınç merkezi sol ilerinizde kalır. Bu kural denizde hava sistemlerinin konumunu tahmin etmek için çok pratik bir yöntemdir. Denizciler bu sayede fırtına merkezinin hangi yönde olduğunu pusula olmadan bile kestirebilir."
   },
   {
     "id": 200,
@@ -2597,7 +2597,7 @@
       "135 yönünden"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) 225 yönünden 15 knot"
+    "explanation": "Meteorolojik haritalardaki rüzgâr sembolleri, ok yönü ve tüylerle okunur. Ok esme yönünü, tüy sayısı hızı gösterir: her uzun tüy 10 knot, her kısa tüy 5 knot değerindedir. Bu soruda sembol 225 derece (güneybatı/lodos) yönünden 15 knot estiğini göstermektedir."
   },
   {
     "id": 201,
@@ -2610,7 +2610,7 @@
       "Lodos"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Yıldız"
+    "explanation": "Kuzeyden (000/360 derece) esen rüzgâra Yıldız denir. Yıldız rüzgârı adını Kutup Yıldızı'ndan alır; kuzeyden geldiği için soğuk ve kuru karakter taşır. Pusula gülü üzerinde Tramontana olarak da bilinir."
   },
   {
     "id": 202,
@@ -2623,7 +2623,7 @@
       "Kıble"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Poyraz"
+    "explanation": "045 dereceden (kuzeydoğu) esen rüzgâra Poyraz denir. Poyraz, İstanbul ve Marmara'da en çok karşılaşılan rüzgârdır; Karadeniz üzerinden gelir. Hatırlatma: Poyraz = KD (kuzeydoğu), 'P' harfi ile 'PozitifKD' diye akılda tutulabilir."
   },
   {
     "id": 203,
@@ -2636,7 +2636,7 @@
       "Gün Doğusu"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Gün Doğusu"
+    "explanation": "090 dereceden (doğu) esen rüzgâra Gün Doğusu denir. Adı, güneşin doğduğu yönden gelmesinden kaynaklanır. Pusula gülünde doğu yönüne karşılık gelir ve Akdeniz'de Levante olarak da bilinir."
   },
   {
     "id": 204,
@@ -2649,7 +2649,7 @@
       "Kıble"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Keşişleme"
+    "explanation": "135 dereceden (güneydoğu) esen rüzgâra Keşişleme denir. Keşişleme, güneydoğudan eser ve Akdeniz'de Sirocco ile benzer yönden gelir. Adını İstanbul Boğazı'ndaki keşişlerin yaşadığı bölgeden aldığı rivayet edilir."
   },
   {
     "id": 205,
@@ -2662,7 +2662,7 @@
       "Karayel"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Kıble"
+    "explanation": "180 dereceden (güney) esen rüzgâra Kıble denir. Kıble adı, İstanbul'dan bakıldığında Kâbe'nin (kıble yönünün) güneyde kalmasından gelir. Sıcak ve nemli karakter taşır; Akdeniz havzasında yaygındır."
   },
   {
     "id": 206,
@@ -2675,7 +2675,7 @@
       "Lodos"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Karayel"
+    "explanation": "315 dereceden (kuzeybatı) esen rüzgâra Karayel denir. Karayel, Avrupa kara parçası üzerinden geldiği için bu adı almıştır. Genellikle soğuk ve kuru eser; Ege ve Marmara'da sert deniz koşulları yaratabilir."
   },
   {
     "id": 207,
@@ -2688,7 +2688,7 @@
       "Keşişleme"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Lodos"
+    "explanation": "225 dereceden (güneybatı) esen rüzgâra Lodos denir. Lodos, sıcak ve nemli karakterde olup özellikle Marmara Denizi ve İstanbul Boğazı'nda etkili olur. Güneybatıdan gelen bu rüzgâr genellikle yağışlı hava ve kabarık deniz getirir."
   },
   {
     "id": 208,
@@ -2701,7 +2701,7 @@
       "Yıldız"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Gün Batısı"
+    "explanation": "270 dereceden (batı) esen rüzgâra Gün Batısı denir. Adı, güneşin battığı yönden gelmesinden kaynaklanır. Pusula gülünde batı yönüne karşılık gelir ve uluslararası terminolojide Ponente olarak bilinir."
   },
   {
     "id": 209,
@@ -2714,7 +2714,7 @@
       "Gece süresince denizden karaya eser."
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Gündüz süresince denizden karaya eser."
+    "explanation": "Deniz meltemi gündüz vakti denizden karaya doğru eser. Sebebi termal farktır: gündüz güneş karayı denizden daha hızlı ısıtır, kara üzerindeki hava yükselir ve yerini denizden gelen serin hava alır. Sahil seyirlerinde öğleden sonra kuvvetlenir."
   },
   {
     "id": 210,
@@ -2727,7 +2727,7 @@
       "Gece süresince denizden karaya eser."
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Gece süresince karadan denize eser."
+    "explanation": "Kara meltemi gece vakti karadan denize doğru eser. Gece kara, denize göre daha hızlı soğur; deniz üzerindeki hava yükselir ve kara tarafından gelen serin hava onun yerini alır. Limandan gece çıkışlarda kara melteminden faydalanmak eski bir denizcilik geleneğidir."
   },
   {
     "id": 211,
@@ -2740,7 +2740,7 @@
       "Sıcaklık azalır, basınç yükselir."
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) Sıcaklık artar, basınç düşer."
+    "explanation": "Sıcak cephe yaklaşırken sıcaklık artar ve basınç düşer. Sıcak hava kütlesi soğuk havanın üzerine yavaşça çıktığı için önce yaygın bulutlanma ve çisenti başlar, ardından sıcaklık yükselirken basınç düşmeye devam eder. Barometre düşüyor ve hava ılıyorsa sıcak cephe yaklaşıyor olabilir."
   },
   {
     "id": 212,
@@ -2753,7 +2753,7 @@
       "N-NW-W-SW"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) SE-E-NE-N"
+    "explanation": "Kuzey yarı kürede soğuk cephe geçerken rüzgâr SE-E-NE-N yönünde dirise eder (saat yönünün aksine döner). Soğuk cephe hızlı hareket eder ve geçişi sırasında ani rüzgâr dönüşleri, sağanak yağış ve sıcaklık düşüşü beklenir. Bu rüzgâr kayması, soğuk cephenin belirgin işaretlerinden biridir."
   },
   {
     "id": 213,
@@ -2766,7 +2766,7 @@
       "N-NW-W-SW"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) SW-W-NW-N"
+    "explanation": "Kuzey yarı kürede sıcak cephe geçerken rüzgâr SW-W-NW-N yönünde dirise eder (saat yönünde döner). Sıcak cephe geçişi daha yavaş ve kademeli olur; rüzgâr güneybatıdan başlayıp kuzeye doğru dönerken bulutlar yükselir ve yağış azalır."
   },
   {
     "id": 214,
@@ -2779,7 +2779,7 @@
       "Yüksek basınç sırtlarında"
     ],
     "correct": 2,
-    "explanation": "Doğru cevap: C) Alçak basınç alanlarında"
+    "explanation": "Cepheler, sıcak ve soğuk hava kütlelerinin karşılaşması sonucu alçak basınç alanlarında oluşur. Alçak basınç merkezlerinde hava yükselme eğiliminde olduğu için farklı karakterdeki hava kütleleri burada buluşur ve cephe sistemleri meydana gelir. Yüksek basınç alanlarında ise hava alçalır ve cephe oluşumuna uygun değildir."
   },
   {
     "id": 215,
@@ -2792,7 +2792,7 @@
       "S"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) H"
+    "explanation": "Uluslararası sinoptik haritalarda yüksek basınç 'H' harfiyle gösterilir (İngilizce 'High' kelimesinden). Türkçe haritalarda 'YB' kullanılabilir, ancak uluslararası standart 'H' harfidir. Yüksek basınç alanları genellikle açık hava ve sakin koşullar anlamına gelir."
   },
   {
     "id": 216,
@@ -2805,7 +2805,7 @@
       "S"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) L"
+    "explanation": "Uluslararası sinoptik haritalarda alçak basınç 'L' harfiyle gösterilir (İngilizce 'Low' kelimesinden). Türkçe haritalarda 'AB' kullanılabilir, ancak uluslararası standart 'L' harfidir. Alçak basınç alanları genellikle bulutlu, yağışlı ve rüzgârlı hava koşullarını işaret eder."
   },
   {
     "id": 217,
@@ -2818,7 +2818,7 @@
       "Termometre"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Anemometre"
+    "explanation": "Rüzgârın hızını ve yönünü ölçen alet anemometredir. Barometre basınç, higrometre nem, termometre sıcaklık ölçer. Anemometre genellikle döner kepçeli veya pervane tipi olup mastın üst kısmına monte edilir."
   },
   {
     "id": 218,
@@ -2831,7 +2831,7 @@
       "Kalibrasyon"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) Tandans"
+    "explanation": "Basıncın zamana göre değişimine tandans (basınç eğilimi) denir. Tandans, basıncın yükselme veya düşme trendini ifade eder ve hava tahmini için kritik öneme sahiptir. Barometre okumasında anlık değer kadar tandans da önemlidir; basınç düşüyorsa kötüleşen hava koşulları beklenebilir."
   },
   {
     "id": 219,
@@ -2844,7 +2844,7 @@
       "Sinoptik"
     ],
     "correct": 3,
-    "explanation": "Doğru cevap: D) Sinoptik"
+    "explanation": "Basınç eğrilerinin (izobarların) ve cephelerin işlendiği hava haritalarına sinoptik harita denir. 'Sinoptik' kelimesi Yunanca'dan gelir ve 'aynı anda genel görünüm' anlamına gelir. Bu haritalar, belirli bir andaki atmosfer koşullarının kuşbakışı görünümünü sunar."
   },
   {
     "id": 220,
@@ -2857,7 +2857,7 @@
       "40 knot"
     ],
     "correct": 1,
-    "explanation": "Doğru cevap: B) 20 knot"
+    "explanation": "Beaufort 5 ölçeğinde rüzgâr yaklaşık 17-21 knot hızında, yani ortalama 20 knot civarında eser. Bu kuvvette denizde beyaz köpükler belirgin şekilde oluşur, dalgalar orta boyuttadır. Beaufort 5, 'taze rüzgâr' (fresh breeze) olarak adlandırılır ve küçük tekneler için dikkat gerektirir."
   },
   {
     "id": 221,
@@ -2870,6 +2870,6 @@
       "3 Bofor"
     ],
     "correct": 0,
-    "explanation": "Doğru cevap: A) 8 Bofor"
+    "explanation": "38-40 knot rüzgâr hızı Beaufort 8 kuvvetine karşılık gelir. Beaufort 8, 'fırtına' (gale) sınıfıdır; dalga yüksekliği 5-7 metreye ulaşabilir ve deniz köpükle kaplanır. Bu koşullarda küçük teknelerin denizde olmaması, büyük teknelerin ise fırtına önlemlerini alması gerekir."
   }
 ]
