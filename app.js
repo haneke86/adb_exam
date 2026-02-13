@@ -21,8 +21,34 @@ let SEC_QS = {};
 let CLOUD_OK = false;
 
 // ── Cloud sync helpers ──
+// Firebase converts objects with numeric keys into arrays, which breaks
+// our answers object (e.g. {"1":0,"2":1} becomes [null,0,1]).
+// We prefix keys with "q" before saving and strip it when loading.
 function safeKey(name) {
   return encodeURIComponent(name).replace(/\./g, '%2E');
+}
+
+function toCloudData(data) {
+  const ca = {};
+  for (const [k, v] of Object.entries(data.answers || {})) {
+    ca['q' + k] = v;
+  }
+  return { answers: ca, completed: data.completed || {} };
+}
+
+function fromCloudData(data) {
+  if (!data) return null;
+  const answers = {};
+  const raw = data.answers || {};
+  // Handle both prefixed keys and array (if old data exists)
+  if (Array.isArray(raw)) {
+    raw.forEach((v, i) => { if (v !== null && v !== undefined) answers[i] = v; });
+  } else {
+    for (const [k, v] of Object.entries(raw)) {
+      answers[k.replace(/^q/, '')] = v;
+    }
+  }
+  return { answers, completed: data.completed || {} };
 }
 
 async function cloudSave(username, data) {
@@ -31,7 +57,7 @@ async function cloudSave(username, data) {
     await fetch(`${DB_URL}/users/${safeKey(username)}.json`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data)
+      body: JSON.stringify(toCloudData(data))
     });
   } catch (e) { /* silent - localStorage is the fallback */ }
 }
@@ -41,7 +67,7 @@ async function cloudLoad(username) {
   try {
     const resp = await fetch(`${DB_URL}/users/${safeKey(username)}.json`);
     if (!resp.ok) return null;
-    return await resp.json();
+    return fromCloudData(await resp.json());
   } catch (e) { return null; }
 }
 
@@ -52,10 +78,9 @@ async function cloudLoadAll() {
     if (!resp.ok) return null;
     const data = await resp.json();
     if (!data) return null;
-    // Decode keys back to usernames
     const result = {};
     for (const [key, val] of Object.entries(data)) {
-      result[decodeURIComponent(key)] = val;
+      result[decodeURIComponent(key)] = fromCloudData(val);
     }
     return result;
   } catch (e) { return null; }
