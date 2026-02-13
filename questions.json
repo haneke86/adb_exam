@@ -165,8 +165,8 @@
       "Iskaça",
       "Parampet"
     ],
-    "correct": 2,
-    "explanation": "Doğru cevap: C) Iskaça"
+    "correct": 3,
+    "explanation": "Doğru cevap: D) Parampet"
   },
   {
     "id": 14,
@@ -386,8 +386,8 @@
       "Sancak Bordayı",
       "Sancak Baş Omuzluğu"
     ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Pupayı"
+    "correct": 2,
+    "explanation": "Doğru cevap: C) Sancak Bordayı"
   },
   {
     "id": 31,
@@ -724,8 +724,8 @@
       "Direği teknenin baş-kıç doğrultusunda destekleyen tel veya çubuk",
       "Direği her iki bordaya bağlayan tel donanım"
     ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Bumbayı askıya alan halat donanım"
+    "correct": 2,
+    "explanation": "Doğru cevap: C) Direği teknenin baş-kıç doğrultusunda destekleyen tel veya çubuk"
   },
   {
     "id": 57,
@@ -919,8 +919,8 @@
       "İzbarço bağı yapılır",
       "Sancak bağı yapılır"
     ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Piyan yapılır"
+    "correct": 1,
+    "explanation": "Doğru cevap: B) Bosa tutulur"
   },
   {
     "id": 72,
@@ -1036,8 +1036,8 @@
       "48",
       "60"
     ],
-    "correct": 1,
-    "explanation": "Doğru cevap: B) 36"
+    "correct": 2,
+    "explanation": "Doğru cevap: C) 48"
   },
   {
     "id": 81,
@@ -1049,8 +1049,8 @@
       "50",
       "60"
     ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) 30"
+    "correct": 2,
+    "explanation": "Doğru cevap: C) 50"
   },
   {
     "id": 82,
@@ -1075,8 +1075,8 @@
       "36 m.",
       "45 m."
     ],
-    "correct": 1,
-    "explanation": "Doğru cevap: B) 27 m."
+    "correct": 2,
+    "explanation": "Doğru cevap: C) 36 m."
   },
   {
     "id": 84,
@@ -1088,8 +1088,8 @@
       "Derinliğin en az 4 katı",
       "Derinliğin en az 12 katı"
     ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Derinliğin en az 3 katı"
+    "correct": 2,
+    "explanation": "Doğru cevap: C) Derinliğin en az 4 katı"
   },
   {
     "id": 85,
@@ -1205,8 +1205,8 @@
       "Fark etmez",
       "Hiçbiri"
     ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Sancak taraftan aborda olmalıdır"
+    "correct": 1,
+    "explanation": "Doğru cevap: B) İskele taraftan aborda olmalıdır"
   },
   {
     "id": 94,
@@ -1218,8 +1218,8 @@
       "Fark etmez",
       "Hiçbiri"
     ],
-    "correct": 1,
-    "explanation": "Doğru cevap: B) İskele taraftan aborda olmalıdır"
+    "correct": 0,
+    "explanation": "Doğru cevap: A) Sancak taraftan aborda olmalıdır"
   },
   {
     "id": 95,
@@ -1517,8 +1517,8 @@
       "240-000",
       "260-180"
     ],
-    "correct": 2,
-    "explanation": "Doğru cevap: C) 240-000"
+    "correct": 1,
+    "explanation": "Doğru cevap: B) 120-000"
   },
   {
     "id": 118,
@@ -1621,8 +1621,8 @@
       "Yedekleyen teknenin kaptanı",
       "En yakın kıyı istasyonu"
     ],
-    "correct": 2,
-    "explanation": "Doğru cevap: C) Yedekleyen teknenin kaptanı"
+    "correct": 0,
+    "explanation": "Doğru cevap: A) Yedeklenen teknenin kaptanı"
   },
   {
     "id": 126,
@@ -1699,8 +1699,8 @@
       "Yedek halatı güverte ve kurtağzındaki sürtünmelerden korunmalıdır",
       "Yukarıdakilerin hepsi"
     ],
-    "correct": 2,
-    "explanation": "Doğru cevap: C) Yedek halatı güverte ve kurtağzındaki sürtünmelerden korunmalıdır"
+    "correct": 3,
+    "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
   },
   {
     "id": 132,
@@ -1855,8 +1855,8 @@
       "Sürati azaltılır. Teknenin başını rüzgâr üstüne veririm",
       "Sürati arttırılır. Teknenin başını rüzgâr üstüne veririm"
     ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Sürati azaltılır. Teknenin kıçını rüzgâr üstüne veririm"
+    "correct": 2,
+    "explanation": "Doğru cevap: C) Sürati azaltılır. Teknenin başını rüzgâr üstüne veririm"
   },
   {
     "id": 144,
@@ -2206,8 +2206,8 @@
       "Tam kalbin üstüne gelecek şekilde kaburgaların üstüne koyarım ve dakikada 60- 80 temposuna göre uygularım.",
       "Göğüs kemiğinin ortasına koyarım ve dakikada 90 temposuna göre uygularım."
     ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Göğüs kemiğinin alt ucuna koyarım ve dakikada 90-100 temposuna göre uygularım."
+    "correct": 1,
+    "explanation": "Doğru cevap: B) Göğüs kemiğinin 3’te bir alt noktasına koyarım ve dakikada 60 temposuna göre uygularım."
   },
   {
     "id": 171,
@@ -2232,8 +2232,8 @@
       "15 kalp masajı, 5 suni solunum",
       "5 kalp masajı, 2 suni solunum"
     ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) 15 kalp masajı, 2 suni solunum"
+    "correct": 1,
+    "explanation": "Doğru cevap: B) 5 kalp masajı, 1 suni solunum"
   },
   {
     "id": 173,
