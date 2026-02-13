@@ -15,19 +15,6 @@
   {
     "id": 2,
     "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
-    "question": "Teknede “Omurga” nedir?",
-    "options": [
-      "Karşılıklı postaları birbirine bağlayan ve güvertenin üzerine kurulduğu, teknenin enlemesine kirişleri",
-      "Teknenin istenilen yönde gitmesini ve dönmesini sağlayan, kıç bodoslamaya takılan levha",
-      "Tekne iskeletinin altında bulunan ve baştan kıça uzanan, üzerine diğer bütün elemanların inşa edildiği temel yapı elemanı",
-      "Posta başlarını birbirine bağlayan ve güvertenin en dıştaki ilk parçası"
-    ],
-    "correct": 2,
-    "explanation": "Doğru cevap: C) Tekne iskeletinin altında bulunan ve baştan kıça uzanan, üzerine diğer bütün elemanların inşa edildiği temel yapı elemanı"
-  },
-  {
-    "id": 3,
-    "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
     "question": "Karşılıklı postaları birbirine bağlayan ve üzerine güvertenin kurulduğu, teknenin enlemesine kirişlerine ne ad verilir?",
     "options": [
       "Kemere",
@@ -39,20 +26,7 @@
     "explanation": "Doğru cevap: A) Kemere"
   },
   {
-    "id": 4,
-    "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
-    "question": "Teknede “Kemere ” nedir?",
-    "options": [
-      "Karşılıklı postaları birbirine bağlayan ve üzerine güvertenin kurulduğu teknenin enlemesine kirişleri",
-      "Teknenin istenilen yönde gitmesini ve dönmesini sağlayan, kıç bodoslamaya takılan levha",
-      "Tekne iskeletinin altında bulunan ve baştan kıça uzanan, diğer bütün elemanların üzerine inşa edildiği temel yapı elemanı",
-      "Posta başlarını birbirine bağlayan ve güvertenin en dıştaki ilk parçası"
-    ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Karşılıklı postaları birbirine bağlayan ve üzerine güvertenin kurulduğu teknenin enlemesine kirişleri"
-  },
-  {
-    "id": 5,
+    "id": 3,
     "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
     "question": "Teknenin başını ve kıçını oluşturmak için uzanan, omurganın devamı olan düşey veya eğik uzantılara ne denir?",
     "options": [
@@ -65,20 +39,7 @@
     "explanation": "Doğru cevap: C) Bodoslama"
   },
   {
-    "id": 6,
-    "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
-    "question": "Teknede “Bodoslama” nedir?",
-    "options": [
-      "Karşılıklı postaları birbirine bağlayan ve güvertenin üzerine kurulduğu teknenin enlemesine kirişleri",
-      "Teknenin başını ve kıçını oluşturmak için uzanan, omurganın devamı olan düşey veya eğik uzantılar",
-      "Tekne iskeletinin altında bulunan ve baştan kıça uzanan, diğer bütün elemanların üzerine inşa edildiği temel yapı elemanı",
-      "Posta başlarını birbirine bağlayan ve güvertenin en dıştaki ilk parçası"
-    ],
-    "correct": 1,
-    "explanation": "Doğru cevap: B) Teknenin başını ve kıçını oluşturmak için uzanan, omurganın devamı olan düşey veya eğik uzantılar"
-  },
-  {
-    "id": 7,
+    "id": 4,
     "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
     "question": "Omurgaya bağlanan ve teknenin kaburgasını meydana getiren eğri ağaçlara ne denir?",
     "options": [
@@ -91,20 +52,7 @@
     "explanation": "Doğru cevap: D) Posta"
   },
   {
-    "id": 8,
-    "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
-    "question": "Teknede “Posta” nedir?",
-    "options": [
-      "Omurgaya bağlanan ve teknenin kaburgasını meydana getiren eğri ağaçlar",
-      "Teknenin başını ve kıçını oluşturmak için uzanan, düşey veya eğik, omurganın devamı uzantılar",
-      "Tekne iskeletinin altında bulunan ve baştan kıça uzanan, diğer bütün elemanların üzerine inşa edildiği temel yapı elemanı",
-      "Teknenin istenilen yönde gitmesini ve dönmesini sağlayan, kıç bodoslamaya takılan levha"
-    ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Omurgaya bağlanan ve teknenin kaburgasını meydana getiren eğri ağaçlar"
-  },
-  {
-    "id": 9,
+    "id": 5,
     "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
     "question": "Teknenin istenilen yönde gitmesini ve dönmesini sağlayan, kıç bodoslamaya takılan levhaya ne denir?",
     "options": [
@@ -117,20 +65,7 @@
     "explanation": "Doğru cevap: A) Dümen palası"
   },
   {
-    "id": 10,
-    "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
-    "question": "Teknede “ Dümen Palası” nedir?",
-    "options": [
-      "Omurgaya bağlanan, teknenin kaburgasını meydana getiren eğri ağaç",
-      "Teknenin başını ve kıçını oluşturmak için uzanan, düşey veya eğik, omurganın devamı uzantılar",
-      "Tekne iskeletinin altında bulunan ve baştan kıça uzanan, diğer bütün elemanların üzerine inşa edildiği temel yapı elemanı",
-      "Teknenin istenilen yönde gitmesini ve dönmesini sağlayan, kıç bodoslamaya takılan levha"
-    ],
-    "correct": 3,
-    "explanation": "Doğru cevap: D) Teknenin istenilen yönde gitmesini ve dönmesini sağlayan, kıç bodoslamaya takılan levha"
-  },
-  {
-    "id": 11,
+    "id": 6,
     "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
     "question": "Posta başlarını birbirine bağlayan ve güvertenin en dıştaki ilk parçası nedir?",
     "options": [
@@ -143,20 +78,7 @@
     "explanation": "Doğru cevap: D) Küpeşte"
   },
   {
-    "id": 12,
-    "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
-    "question": "Teknede “Küpeşte” nedir?",
-    "options": [
-      "Karşılıklı postaları birbirine bağlayan ve güvertenin üzerine kurulduğu teknenin enlemesine kirişleri",
-      "Teknenin başını ve kıçını oluşturmak için uzanan, düşey veya eğik, omurganın devamı uzantılar",
-      "Tekne iskeletinin altında bulunan ve baştan kıça uzanan, diğer bütün elemanların üzerine inşa edildiği temel yapı elemanı",
-      "Posta başlarını birbirine bağlayan ve güvertenin en dıştaki ilk parçası"
-    ],
-    "correct": 3,
-    "explanation": "Doğru cevap: D) Posta başlarını birbirine bağlayan ve güvertenin en dıştaki ilk parçası"
-  },
-  {
-    "id": 13,
+    "id": 7,
     "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
     "question": "“Borda” teknenin hangi bölümüdür ?",
     "options": [
@@ -169,7 +91,7 @@
     "explanation": "Doğru cevap: B) Teknenin su kesiminden yukarda kalan, dış kısmı"
   },
   {
-    "id": 14,
+    "id": 8,
     "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
     "question": "Teknenin su altında kalan dış kısmına ne ad verilir?",
     "options": [
@@ -182,20 +104,7 @@
     "explanation": "Doğru cevap: B) Karina"
   },
   {
-    "id": 15,
-    "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
-    "question": "“Karina” teknenin hangi bölümüdür ?",
-    "options": [
-      "Teknenin su altında kalan dış kısmı",
-      "Teknenin su kesiminden yukarda kalan, dış kısmı",
-      "Teknenin su altında kalan iç kısmı",
-      "Teknenin su kesiminden yukarda kalan, iç kısmı"
-    ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Teknenin su altında kalan dış kısmı"
-  },
-  {
-    "id": 16,
+    "id": 9,
     "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
     "question": "Teknenin su altında kalan iç kısmına-iç tabana ne ad verilir?",
     "options": [
@@ -208,20 +117,7 @@
     "explanation": "Doğru cevap: A) Sintine"
   },
   {
-    "id": 17,
-    "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
-    "question": "“Sintine” teknenin hangi bölümüdür ?",
-    "options": [
-      "Teknenin su altında kalan dış kısmı",
-      "Teknenin su kesiminden yukarda kalan, dış kısmı",
-      "Teknenin su altında kalan iç kısmı-iç tabanı",
-      "Teknenin su kesiminden yukarda kalan, iç kısmı"
-    ],
-    "correct": 2,
-    "explanation": "Doğru cevap: C) Teknenin su altında kalan iç kısmı-iç tabanı"
-  },
-  {
-    "id": 18,
+    "id": 10,
     "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
     "question": "“ Alabanda” teknenin hangi bölümüdür ?",
     "options": [
@@ -234,33 +130,7 @@
     "explanation": "Doğru cevap: D) Teknenin su kesiminden yukarda kalan, iç kısmı"
   },
   {
-    "id": 19,
-    "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
-    "question": "Teknenin bel kemiği, temel yapı elemanı aşağıdakilerden hangisidir?",
-    "options": [
-      "Kaburga",
-      "Posta",
-      "Döşek",
-      "Omurga"
-    ],
-    "correct": 3,
-    "explanation": "Doğru cevap: D) Omurga"
-  },
-  {
-    "id": 20,
-    "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
-    "question": "Teknede su yağ vb. sıvıların biriktiği, teknenin iç tabanı neresidir?",
-    "options": [
-      "Iskaça",
-      "Sintine",
-      "Atık deposu",
-      "Firengi deliği"
-    ],
-    "correct": 1,
-    "explanation": "Doğru cevap: B) Sintine"
-  },
-  {
-    "id": 21,
+    "id": 11,
     "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
     "question": "Dümen palasını kontrol eden parça aşağıdakilerden hangisidir?",
     "options": [
@@ -273,7 +143,7 @@
     "explanation": "Doğru cevap: B) Yeke"
   },
   {
-    "id": 22,
+    "id": 12,
     "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
     "question": "Aşağıdakilerden hangisi işlev açısından diğerlerinden farklıdır?",
     "options": [
@@ -286,7 +156,7 @@
     "explanation": "Doğru cevap: C) Usturmaça"
   },
   {
-    "id": 23,
+    "id": 13,
     "section": "2. Tekne Kesitleri ve Gövde Biçimleri",
     "question": "Aşağıdaki parçalardan hangisi diğerleri ile bağlantısızdır?",
     "options": [
@@ -299,7 +169,7 @@
     "explanation": "Doğru cevap: C) Iskaça"
   },
   {
-    "id": 24,
+    "id": 14,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Bir yere bağlı halat veya düzeneğin çözülmesi, çıkarılması, açılması için verilen komut nedir?",
     "options": [
@@ -312,20 +182,7 @@
     "explanation": "Doğru cevap: D) Fora"
   },
   {
-    "id": 25,
-    "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
-    "question": "“Fora” komutunun anlamı nedir?",
-    "options": [
-      "Bir cismin istenilen yere çıkartılması veya bir flama veya sancağın gönderdeki yerine çekilmesi için verilen komut",
-      "Bir yere bağlı halat veya düzeneğin çözülmesi, çıkarılması, açılması için verilen komut",
-      "Halatın tamamen elden çıkarmadan, boşlanması için verilen komut",
-      "Bir halat yardımıyla yukarı çekilmiş yelken, flama gibi gibi şeylerin aşağı indirilmesi için verilen komut"
-    ],
-    "correct": 1,
-    "explanation": "Doğru cevap: B) Bir yere bağlı halat veya düzeneğin çözülmesi, çıkarılması, açılması için verilen komut"
-  },
-  {
-    "id": 26,
+    "id": 15,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Bir cismin istenilen yere çıkartılması veya bir flama veya sancağın gönderdeki yerine çekilmesi için verilen komut nedir?",
     "options": [
@@ -334,11 +191,11 @@
       "Vira",
       "Fora"
     ],
-    "correct": 2,
-    "explanation": "Doğru cevap: C) Vira"
+    "correct": 1,
+    "explanation": "Doğru cevap: B) Toka"
   },
   {
-    "id": 27,
+    "id": 16,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "“Toka” komutunun anlamı nedir?",
     "options": [
@@ -347,11 +204,11 @@
       "Halatın tamamen elden çıkarmadan, boşlanması için verilen komut",
       "Bir halat yardımıyla yukarı çekilmiş yelken, flama gibi gibi şeylerin aşağı indirilmesi için verilen komut"
     ],
-    "correct": 2,
-    "explanation": "Doğru cevap: C) Halatın tamamen elden çıkarmadan, boşlanması için verilen komut"
+    "correct": 0,
+    "explanation": "Doğru cevap: A) Bir cismin istenilen yere çıkartılması veya bir flama veya sancağın gönderdeki yerine çekilmesi için verilen komut"
   },
   {
-    "id": 28,
+    "id": 17,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Halatın tamamen elden çıkartılmadan, boşlanması için verilen komut nedir?",
     "options": [
@@ -364,20 +221,7 @@
     "explanation": "Doğru cevap: A) Laçka"
   },
   {
-    "id": 29,
-    "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
-    "question": "“Laçka” komutunun anlamı nedir?",
-    "options": [
-      "Bir cismin istenilen yere çıkartılması veya bir flama veya sancağın gönderdeki yerine çekilmesi için verilen komut",
-      "Bir yere bağlı halat veya düzeneğin çözülmesi, çıkarılması, açılması için verilmesi gereken komut",
-      "Halatın tamamen elden çıkartılmadan, boşlanması için verilen komut",
-      "Bir halat yardımıyla yukarı çekilmiş yelken, flama gibi şeylerin aşağı indirilmesi için verilen komut"
-    ],
-    "correct": 2,
-    "explanation": "Doğru cevap: C) Halatın tamamen elden çıkartılmadan, boşlanması için verilen komut"
-  },
-  {
-    "id": 30,
+    "id": 18,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Halatın koçboynuzu, anele gibi yerlere bağlanması için verilen komut nedir?",
     "options": [
@@ -390,33 +234,7 @@
     "explanation": "Doğru cevap: B) Volta"
   },
   {
-    "id": 31,
-    "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
-    "question": "“Volta” komutunun anlamı nedir?",
-    "options": [
-      "Halatın koçboynuzu, anele gibi yerlere bağlanması için verilen komut",
-      "Bir yere bağlı halat veya düzeneğin çözülmesi, çıkarılması, açılması için verilmesi gereken komut",
-      "Halatın tamamen elden çıkartılmadan, boşlanması için verilen komut",
-      "Bir halat yardımıyla yukarı çekilmiş yelken, flama gibi gibi şeylerin aşağı indirilmesi için verilen komut"
-    ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Halatın koçboynuzu, anele gibi yerlere bağlanması için verilen komut"
-  },
-  {
-    "id": 32,
-    "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
-    "question": "Bir halat yardımıyla yukarı çekilmiş yelken, flama gibi şeylerin aşağı indirilmesi için verilen komut nedir?",
-    "options": [
-      "Arya",
-      "Toka",
-      "Fora",
-      "Mayna"
-    ],
-    "correct": 3,
-    "explanation": "Doğru cevap: D) Mayna"
-  },
-  {
-    "id": 33,
+    "id": 19,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "“Arya” komutunun anlamı nedir?",
     "options": [
@@ -429,7 +247,7 @@
     "explanation": "Doğru cevap: D) Bir halat yardımıyla yukarı çekilmiş yelken, flama gibi şeylerin aşağı indirilmesi için verilen komut."
   },
   {
-    "id": 34,
+    "id": 20,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Herhangi bir şeyin (yelken gibi) yukarı kaldırılmasına, çekilmesine ne denir?",
     "options": [
@@ -442,20 +260,7 @@
     "explanation": "Doğru cevap: B) Hisa"
   },
   {
-    "id": 35,
-    "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
-    "question": "“Hisa” komutunun anlamı nedir?",
-    "options": [
-      "Herhangi bir şeyin yukarı kaldırılması, çekilmesi",
-      "Bir yere bağlı halat veya düzeneğin çözülmesi, çıkarılması, açılması",
-      "Halatın tamamen elden çıkartılmadan, boşlanması",
-      "Bir halat yardımıyla yukarı çekilmiş yelken, flama gibi şeylerin aşağı indirilmesi"
-    ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Herhangi bir şeyin yukarı kaldırılması, çekilmesi"
-  },
-  {
-    "id": 36,
+    "id": 21,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Halatın çekmek (almak) veya yükseltmek için verilen komut nedir?",
     "options": [
@@ -468,20 +273,7 @@
     "explanation": "Doğru cevap: A) Vira"
   },
   {
-    "id": 37,
-    "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
-    "question": "“Vira” komutunun anlamı nedir?",
-    "options": [
-      "Halatın koçboynuzu ,anele gibi yerlere bağlanması için verilen komut.",
-      "Halatın veya zinciri çekmek (almak) veya yükseltmek için verilen komut.",
-      "Halatın tamamen elden çıkartılmadan, boşlanması için verilen komut.",
-      "Bir halat yardımıyla yukarı çekilmiş yelken, flama gibi malzemenin aşağı indirilmesi için verilen komut"
-    ],
-    "correct": 1,
-    "explanation": "Doğru cevap: B) Halatın veya zinciri çekmek (almak) veya yükseltmek için verilen komut."
-  },
-  {
-    "id": 38,
+    "id": 22,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Bir yükün indirilmesi, aşağı doğru yavaşça bırakılması için verilen komut nedir?",
     "options": [
@@ -494,33 +286,7 @@
     "explanation": "Doğru cevap: D) Mayna"
   },
   {
-    "id": 39,
-    "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
-    "question": "“Mayna” komutunun anlamı nedir?",
-    "options": [
-      "Halatın koçboynuzu, anele gibi yerlere bağlanması için verilen komut",
-      "Halatın veya zinciri çekmek (almak) veya yükseltmek için verilen komut",
-      "Halatın tamamen elden çıkartılmadan, boşlanması için verilen komut",
-      "Bir yükün indirilmesi, aşağı doğru yavaşça bırakılması için verilen komut"
-    ],
-    "correct": 3,
-    "explanation": "Doğru cevap: D) Bir yükün indirilmesi, aşağı doğru yavaşça bırakılması için verilen komut"
-  },
-  {
-    "id": 40,
-    "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
-    "question": "“Aborda” olmak nedir?",
-    "options": [
-      "Limandan ayrılmak",
-      "Diğer bir tekneye çarpmak",
-      "Denizde demir üstünde beklemek",
-      "Bir teknenin, bir tekneye veya bir iskeleye, bir rıhtıma tamamen bordasını vererek yanaşması"
-    ],
-    "correct": 3,
-    "explanation": "Doğru cevap: D) Bir teknenin, bir tekneye veya bir iskeleye, bir rıhtıma tamamen bordasını vererek yanaşması"
-  },
-  {
-    "id": 41,
+    "id": 23,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Bir teknenin, bir başka tekneye, rıhtıma veya iskeleye bordasını vererek yanaşmasına ne denir?",
     "options": [
@@ -533,20 +299,7 @@
     "explanation": "Doğru cevap: A) Aborda"
   },
   {
-    "id": 42,
-    "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
-    "question": "Alargada olmak nedir?",
-    "options": [
-      "Limanda rıhtıma bağlı olmak",
-      "Açık denizde demir üstünde olmak",
-      "Sahilden açıkta beklemek, durmak",
-      "Alarm durumunda olmak"
-    ],
-    "correct": 2,
-    "explanation": "Doğru cevap: C) Sahilden açıkta beklemek, durmak"
-  },
-  {
-    "id": 43,
+    "id": 24,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Bir teknenin sahilden açıkta durması, beklemesi durumuna ne denir?",
     "options": [
@@ -559,20 +312,7 @@
     "explanation": "Doğru cevap: B) Alarga"
   },
   {
-    "id": 44,
-    "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
-    "question": "Usturmaça nedir?",
-    "options": [
-      "Tekneyi iskeleye bağlayan halat",
-      "Teknenin iskeleye veya başka bir tekne üzerine bağlanırken zarar görmemesi için araya koyulan sentetik maddelerden yapılmış balon veya silindir şeklindeki yastıklar",
-      "Koltuk halatına bağlanan lastik amortisör",
-      "Mevki belirlemek için denize bırakılan işaret balonu"
-    ],
-    "correct": 1,
-    "explanation": "Doğru cevap: B) Teknenin iskeleye veya başka bir tekne üzerine bağlanırken zarar görmemesi için araya koyulan sentetik maddelerden yapılmış balon veya silindir şeklindeki yastıklar"
-  },
-  {
-    "id": 45,
+    "id": 25,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Teknenin iskeleye veya başka bir tekne üzerine bağlanırken zarar görmemesi için araya koyulan sentetik maddelerden yapılmış balon veya silindir şeklindeki yastıklara ne ad verilir?",
     "options": [
@@ -585,20 +325,7 @@
     "explanation": "Doğru cevap: C) Usturmaça"
   },
   {
-    "id": 46,
-    "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
-    "question": "Avara olmak nedir ?",
-    "options": [
-      "Bir yere yanaşmak",
-      "Bir yerden ayrılmak",
-      "Açık denizde beklemek",
-      "Bir tekneye yanaşmak"
-    ],
-    "correct": 1,
-    "explanation": "Doğru cevap: B) Bir yerden ayrılmak"
-  },
-  {
-    "id": 47,
+    "id": 26,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Teknenin yanaşık olduğu yerden ayrılmasına ne denir?",
     "options": [
@@ -611,20 +338,7 @@
     "explanation": "Doğru cevap: A) Avara"
   },
   {
-    "id": 48,
-    "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
-    "question": "Alabora olmak nedir ?",
-    "options": [
-      "Bir tekneye yaslanmak",
-      "İskeleye yanaşmak",
-      "Teknenin ters dönmesi",
-      "İskeleden ayrılmak"
-    ],
-    "correct": 2,
-    "explanation": "Doğru cevap: C) Teknenin ters dönmesi"
-  },
-  {
-    "id": 49,
+    "id": 27,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Bir teknenin ters dönmesine ne denir?",
     "options": [
@@ -637,7 +351,7 @@
     "explanation": "Doğru cevap: B) Alabora"
   },
   {
-    "id": 50,
+    "id": 28,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Kemere hattı nedir ?",
     "options": [
@@ -646,11 +360,11 @@
       "Pruva-pupa hattından geçen tekneyi ikiye bölen hat",
       "İskele baş omuzluk-sancak kıç omuzluktan geçen tekneyi ikiye bölen hat"
     ],
-    "correct": 2,
-    "explanation": "Doğru cevap: C) Pruva-pupa hattından geçen tekneyi ikiye bölen hat"
+    "correct": 0,
+    "explanation": "Doğru cevap: A) İskele-Sancak orta hattından geçen tekneyi ikiye bölen hat"
   },
   {
-    "id": 51,
+    "id": 29,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Pupa-Pruva doğrultusu ile kemere hattı arasında kaç derecelik bir açı vardır?",
     "options": [
@@ -663,7 +377,7 @@
     "explanation": "Doğru cevap: B) 90°"
   },
   {
-    "id": 52,
+    "id": 30,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Pupa-Pruva hattı ile kemere hattının kesiştiği noktaya bir saat yerleştirsek, saat 3’te yelkovan pruvayı gösterirken akrep nereyi gösterir?",
     "options": [
@@ -676,7 +390,7 @@
     "explanation": "Doğru cevap: A) Pupayı"
   },
   {
-    "id": 53,
+    "id": 31,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Pupa-Pruva hattı ile kemere hattının kesiştiği noktaya bir saat yerleştirsek, saat 10:30’da yelkovan pupayı gösterirken akrep nereyi gösterir?",
     "options": [
@@ -689,7 +403,7 @@
     "explanation": "Doğru cevap: B) İskele baş omuzluğu"
   },
   {
-    "id": 54,
+    "id": 32,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Pupa-Pruva hattı hattı ile kemere hattının kesiştiği noktaya bir saat yerleştirsek, saat 04:30’da yelkovan pupayı gösterirken akrep nereyi gösterir?",
     "options": [
@@ -702,7 +416,7 @@
     "explanation": "Doğru cevap: D) Sancak kıç omuzluğu"
   },
   {
-    "id": 55,
+    "id": 33,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Teknenin rüzgârın geldiği tarafına, tekne aynı rüzgâra tâbi kaldığı sürece ne denir?",
     "options": [
@@ -715,7 +429,7 @@
     "explanation": "Doğru cevap: A) Rüzgâr üstü"
   },
   {
-    "id": 56,
+    "id": 34,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Teknede rüzgârın geldiği tarafın tersindeki tarafına, tekne aynı rüzgâra tâbi kaldığı sürece ne denir?",
     "options": [
@@ -728,7 +442,7 @@
     "explanation": "Doğru cevap: B) Rüzgâr altı"
   },
   {
-    "id": 57,
+    "id": 35,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Bir teknenin pupası neresidir?",
     "options": [
@@ -741,7 +455,7 @@
     "explanation": "Doğru cevap: B) Kıç tarafın gerisinde, ufuk yönündeki alan"
   },
   {
-    "id": 58,
+    "id": 36,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Bir teknenin pruvası neresidir?",
     "options": [
@@ -754,7 +468,7 @@
     "explanation": "Doğru cevap: A) Baş tarafın ötesinde, ufuk yönündeki alan"
   },
   {
-    "id": 59,
+    "id": 37,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Pupa yönüne bakıldığında teknenin iskele tarafı neresidir?",
     "options": [
@@ -763,11 +477,11 @@
       "Ön kısmı",
       "Arka kısmı"
     ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Omurga hattının sol tarafı"
+    "correct": 1,
+    "explanation": "Doğru cevap: B) Omurga hattının sağ tarafı"
   },
   {
-    "id": 60,
+    "id": 38,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Pruva yönüne bakıldığında teknenin sancak tarafı neresidir?",
     "options": [
@@ -780,7 +494,7 @@
     "explanation": "Doğru cevap: A) Omurga hattının sağ tarafı"
   },
   {
-    "id": 61,
+    "id": 39,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Teknenin baş ve kıç kısmında, omurga hattı ile 45 derecelik açı yapan, her iki taraftaki köşelere ne denir?",
     "options": [
@@ -793,7 +507,7 @@
     "explanation": "Doğru cevap: C) Omuzluk"
   },
   {
-    "id": 62,
+    "id": 40,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Bir yere aborda olan tekne bu yerden başka bir yere gidebilmek için…",
     "options": [
@@ -806,7 +520,7 @@
     "explanation": "Doğru cevap: C) Avara olur"
   },
   {
-    "id": 63,
+    "id": 41,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Aşağıdakilerden hangisi avara teriminin zıddıdır?",
     "options": [
@@ -819,7 +533,7 @@
     "explanation": "Doğru cevap: B) Aborda"
   },
   {
-    "id": 64,
+    "id": 42,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Neta terimi aşağıdakilerden hangisiyle zıt bir anlam ifade eder?",
     "options": [
@@ -832,7 +546,7 @@
     "explanation": "Doğru cevap: C) Çapariz"
   },
   {
-    "id": 65,
+    "id": 43,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Aşağıdaki terimlerden hangisi diğerlerine benzemez?",
     "options": [
@@ -845,7 +559,7 @@
     "explanation": "Doğru cevap: A) Aganta"
   },
   {
-    "id": 66,
+    "id": 44,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Aşağıdaki terimlerden hangisi diğerlerine benzemez?",
     "options": [
@@ -858,7 +572,7 @@
     "explanation": "Doğru cevap: D) Alesta"
   },
   {
-    "id": 67,
+    "id": 45,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Demir halatının/zincirinin yönü dikkate alındığında aşağıdakilerden hangisi diğerlerine benzemez?",
     "options": [
@@ -871,7 +585,7 @@
     "explanation": "Doğru cevap: D) Funda"
   },
   {
-    "id": 68,
+    "id": 46,
     "section": "3. Genel Denizcilik Terimleri ve Teknede Yönler",
     "question": "Demir halatının/zincirinin yönü dikkate alındığında aşağıdakilerden hangisi diğerlerine benzemez?",
     "options": [
@@ -884,7 +598,7 @@
     "explanation": "Doğru cevap: A) Toka"
   },
   {
-    "id": 69,
+    "id": 47,
     "section": "4-5. Motorlu ve Yelkenli Tekneler",
     "question": "Yelkenli teknelerde, direk ve yelken ile ilgili özellikleri kapsayan genel terime ne ad verilir?",
     "options": [
@@ -897,7 +611,7 @@
     "explanation": "Doğru cevap: B) Arma"
   },
   {
-    "id": 70,
+    "id": 48,
     "section": "4-5. Motorlu ve Yelkenli Tekneler",
     "question": "Bordalara açılmış ve teknenin içine hava ve ışık girmesini sağlayan sızdırmaz pencerelere ne ad verilir?",
     "options": [
@@ -910,20 +624,7 @@
     "explanation": "Doğru cevap: A) Lumboz"
   },
   {
-    "id": 71,
-    "section": "4-5. Motorlu ve Yelkenli Tekneler",
-    "question": "Lumboz nedir?",
-    "options": [
-      "Teknelerde başta bulunan, halat ve demir manevralarında kullanılan mekanizmadır",
-      "Teknenin etrafına güvenlik amacıyla konulan vardavela tellerini destekleyen dikmelerdir",
-      "Bordalara açılmış ve teknenin içine hava ve ışık girmesini sağlayan sızdırmaz pencerelerdir",
-      "Teknenin etrafına güvenlik amacıyla konulan tellerdir"
-    ],
-    "correct": 2,
-    "explanation": "Doğru cevap: C) Bordalara açılmış ve teknenin içine hava ve ışık girmesini sağlayan sızdırmaz pencerelerdir"
-  },
-  {
-    "id": 72,
+    "id": 49,
     "section": "4-5. Motorlu ve Yelkenli Tekneler",
     "question": "Kemerelerin üstünü kaplayan ve baştan kıça uzanan platforma ne ad verilir?",
     "options": [
@@ -936,7 +637,7 @@
     "explanation": "Doğru cevap: D) Güverte"
   },
   {
-    "id": 73,
+    "id": 50,
     "section": "4-5. Motorlu ve Yelkenli Tekneler",
     "question": "Teknelerde başta bulunan, halat ve demir manevralarında kullanılan mekanizmaya ne ad verilir?",
     "options": [
@@ -949,7 +650,7 @@
     "explanation": "Doğru cevap: A) Irgat"
   },
   {
-    "id": 74,
+    "id": 51,
     "section": "4-5. Motorlu ve Yelkenli Tekneler",
     "question": "Aşağıdaki hangi donanım halat bağlamak için kullanılmaz?",
     "options": [
@@ -962,7 +663,7 @@
     "explanation": "Doğru cevap: C) Manika"
   },
   {
-    "id": 75,
+    "id": 52,
     "section": "4-5. Motorlu ve Yelkenli Tekneler",
     "question": "Halatların tekneye istenilen noktadan kumanda etmesi için kullanılan donanım hangisidir?",
     "options": [
@@ -975,7 +676,7 @@
     "explanation": "Doğru cevap: E) Yukarıdakilerin hepsi"
   },
   {
-    "id": 76,
+    "id": 53,
     "section": "4-5. Motorlu ve Yelkenli Tekneler",
     "question": "Teknenin etrafına güvenlik amacıyla konulan vardavela tellerini destekleyen dikmelere ne ad verilir?",
     "options": [
@@ -988,7 +689,7 @@
     "explanation": "Doğru cevap: C) Matafora"
   },
   {
-    "id": 77,
+    "id": 54,
     "section": "4-5. Motorlu ve Yelkenli Tekneler",
     "question": "Tekne etrafını güvenlik amacıyla koruyan tellere ne ad verilir?",
     "options": [
@@ -1001,20 +702,7 @@
     "explanation": "Doğru cevap: A) Vardavela"
   },
   {
-    "id": 78,
-    "section": "4-5. Motorlu ve Yelkenli Tekneler",
-    "question": "Vardavela nedir?",
-    "options": [
-      "Teknenin etrafını güvenlik amacıyla koruyan teller",
-      "Vardevale tellerini destekleyen çubuklar",
-      "Deniz merdiveni",
-      "Bayrak direği çubuğu"
-    ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Teknenin etrafını güvenlik amacıyla koruyan teller"
-  },
-  {
-    "id": 79,
+    "id": 55,
     "section": "4-5. Motorlu ve Yelkenli Tekneler",
     "question": "Hava akımını içeri yönlendirerek tekne içinin havalandırılmasını sağlayan donatı nedir?",
     "options": [
@@ -1027,20 +715,7 @@
     "explanation": "Doğru cevap: B) Manika"
   },
   {
-    "id": 80,
-    "section": "4-5. Motorlu ve Yelkenli Tekneler",
-    "question": "Manika nedir?",
-    "options": [
-      "Hava akımını içeri yönlendirerek tekne içinin havalandırılmasını sağlayan donatı",
-      "Teknenin etrafına güvenlik amacıyla konulan vardavela tellerini destekleyen dikmeler",
-      "Bordalara açılmış ve teknenin içine hava ve ışık girmesini sağlayan sızdırmaz pencereler",
-      "Teknenin etrafına güvenlik amacıyla konulan teller"
-    ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Hava akımını içeri yönlendirerek tekne içinin havalandırılmasını sağlayan donatı"
-  },
-  {
-    "id": 81,
+    "id": 56,
     "section": "4-5. Motorlu ve Yelkenli Tekneler",
     "question": "Istralya nedir?",
     "options": [
@@ -1053,7 +728,7 @@
     "explanation": "Doğru cevap: A) Bumbayı askıya alan halat donanım"
   },
   {
-    "id": 82,
+    "id": 57,
     "section": "4-5. Motorlu ve Yelkenli Tekneler",
     "question": "Bir teknede direği bordalar istikametinde destekleyen ve iki yandan tekne gövdesine bağlayan tel veya çubuğa ne ad verilir?",
     "options": [
@@ -1066,20 +741,7 @@
     "explanation": "Doğru cevap: A) Çarmıh"
   },
   {
-    "id": 83,
-    "section": "4-5. Motorlu ve Yelkenli Tekneler",
-    "question": "Çarmıh nedir?",
-    "options": [
-      "Bumbayı askıya alan halat",
-      "Vardavela teli",
-      "Direği tekne baş ve kıçana bağlayan tel donanım",
-      "Direği her iki bordaya bağlayan tel veya çubuk"
-    ],
-    "correct": 3,
-    "explanation": "Doğru cevap: D) Direği her iki bordaya bağlayan tel veya çubuk"
-  },
-  {
-    "id": 84,
+    "id": 58,
     "section": "4-5. Motorlu ve Yelkenli Tekneler",
     "question": "Yelkeni kontrol eden ve kontrol ettiği yelkene göre isimlendirilen halata ne ad verilir?",
     "options": [
@@ -1092,33 +754,7 @@
     "explanation": "Doğru cevap: C) Iskota"
   },
   {
-    "id": 85,
-    "section": "4-5. Motorlu ve Yelkenli Tekneler",
-    "question": "Iskota nedir?",
-    "options": [
-      "Yelkenin açısını ayarlayarak, yelkeni kontrol eden halatlar",
-      "Yelkeni basıp, indirmeye yarayan halatlar",
-      "Yelkeni bumba üzerinde germeye yarayan halatlar",
-      "Alt yakanın trim ayarında kullanılan halatlar"
-    ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Yelkenin açısını ayarlayarak, yelkeni kontrol eden halatlar"
-  },
-  {
-    "id": 86,
-    "section": "4-5. Motorlu ve Yelkenli Tekneler",
-    "question": "Mandar halatının ana işlevi nedir?",
-    "options": [
-      "Yelkenin alt yakalarına kumanda eder",
-      "Yelkeni basıp, indirmeye yarar",
-      "Yelkeni bumba üzerinde germeye yarar",
-      "Alt yakanın trim ayarında kullanılır"
-    ],
-    "correct": 1,
-    "explanation": "Doğru cevap: B) Yelkeni basıp, indirmeye yarar"
-  },
-  {
-    "id": 87,
+    "id": 59,
     "section": "4-5. Motorlu ve Yelkenli Tekneler",
     "question": "Yelkeni basıp, indirmeye yarayan halat hangisidir?",
     "options": [
@@ -1131,7 +767,7 @@
     "explanation": "Doğru cevap: C) Mandar"
   },
   {
-    "id": 88,
+    "id": 60,
     "section": "4-5. Motorlu ve Yelkenli Tekneler",
     "question": "Yelkenli teknelerde direğin orta boyunda veya daha yukarısında, çarmıhları iki yana doğru açan metal veya ahşap çıkıntılara ne ad verilir?",
     "options": [
@@ -1144,7 +780,7 @@
     "explanation": "Doğru cevap: C) Gurcata"
   },
   {
-    "id": 89,
+    "id": 61,
     "section": "6. Halatlar, Bağlar ve Bağlama Halatları",
     "question": "Denizcilikte kullanılan bağların ana özelliği nedir?",
     "options": [
@@ -1157,7 +793,7 @@
     "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
   },
   {
-    "id": 90,
+    "id": 62,
     "section": "6. Halatlar, Bağlar ve Bağlama Halatları",
     "question": "Halatın bağ yapılan ucuna ne denir?",
     "options": [
@@ -1170,20 +806,7 @@
     "explanation": "Doğru cevap: B) Çıma"
   },
   {
-    "id": 91,
-    "section": "6. Halatlar, Bağlar ve Bağlama Halatları",
-    "question": "Bir halatın ‘çıma’sı neresidir?",
-    "options": [
-      "Halatın yükü taşıyan kısmıdır",
-      "Bir halatta yapılan açık halkadır",
-      "Bir halatta yapılan kapalı halkadır",
-      "Halatın bağ yapılan ucudur"
-    ],
-    "correct": 3,
-    "explanation": "Doğru cevap: D) Halatın bağ yapılan ucudur"
-  },
-  {
-    "id": 92,
+    "id": 63,
     "section": "6. Halatlar, Bağlar ve Bağlama Halatları",
     "question": "Halatın yükü taşıyan kısmına ne denir?",
     "options": [
@@ -1196,20 +819,7 @@
     "explanation": "Doğru cevap: A) Beden"
   },
   {
-    "id": 93,
-    "section": "6. Halatlar, Bağlar ve Bağlama Halatları",
-    "question": "Bir halatın ‘beden’i neresidir?",
-    "options": [
-      "Halatın yükü taşıyan kısmıdır",
-      "Bir halatta yapılan açık halkadır",
-      "Bir halatta yapılan kapalı halkadır",
-      "Halatın bağ yapılan ucudur"
-    ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Halatın yükü taşıyan kısmıdır"
-  },
-  {
-    "id": 94,
+    "id": 64,
     "section": "6. Halatlar, Bağlar ve Bağlama Halatları",
     "question": "İzbarço bağının özellikleri nelerdir?",
     "options": [
@@ -1222,7 +832,7 @@
     "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
   },
   {
-    "id": 95,
+    "id": 65,
     "section": "6. Halatlar, Bağlar ve Bağlama Halatları",
     "question": "Kesilen halatın uç kısmındaki kolların dağılmaması için, halat çımasına hangi bağın yapılması gerekir?",
     "options": [
@@ -1235,7 +845,7 @@
     "explanation": "Doğru cevap: C) Piyan"
   },
   {
-    "id": 96,
+    "id": 66,
     "section": "6. Halatlar, Bağlar ve Bağlama Halatları",
     "question": "Aborda olan bir teknenin ileri-geri gitmesini önlemek, yanaşma manevrası sırasında teknenin süratini kontrol etmek için kullanılan halatlara ne ad verilir?",
     "options": [
@@ -1244,11 +854,11 @@
       "Pürmeçe (Çapraz halat)",
       "Açmaz (Koltuk halatı)"
     ],
-    "correct": 3,
-    "explanation": "Doğru cevap: D) Açmaz (Koltuk halatı)"
+    "correct": 2,
+    "explanation": "Doğru cevap: C) Pürmeçe (Çapraz halat)"
   },
   {
-    "id": 97,
+    "id": 67,
     "section": "6. Halatlar, Bağlar ve Bağlama Halatları",
     "question": "Aborda olan bir teknenin rüzgâr ve akıntı etkisiyle rıhtımdan uzaklaşmasını engelleyen halatlara ne ad verilir?",
     "options": [
@@ -1261,7 +871,7 @@
     "explanation": "Doğru cevap: D) Açmaz (Koltuk halatı)"
   },
   {
-    "id": 98,
+    "id": 68,
     "section": "6. Halatlar, Bağlar ve Bağlama Halatları",
     "question": "Koçboynuzuna volta edilen halat önce;",
     "options": [
@@ -1274,7 +884,7 @@
     "explanation": "Doğru cevap: A) Koçboynuzunu çevresinde bir tur döndürülür"
   },
   {
-    "id": 99,
+    "id": 69,
     "section": "6. Halatlar, Bağlar ve Bağlama Halatları",
     "question": "Roda nedir?",
     "options": [
@@ -1287,7 +897,7 @@
     "explanation": "Doğru cevap: C) Halatın halka halinde sarılması"
   },
   {
-    "id": 100,
+    "id": 70,
     "section": "6. Halatlar, Bağlar ve Bağlama Halatları",
     "question": "Bağın kolayca çözülmesi ve gevşetilmesi istenirse bağ…",
     "options": [
@@ -1300,7 +910,7 @@
     "explanation": "Doğru cevap: C) Foralı yapılır"
   },
   {
-    "id": 101,
+    "id": 71,
     "section": "6. Halatlar, Bağlar ve Bağlama Halatları",
     "question": "Halatın yüküne esneklik kazandırmak ve yükü paylaştırmak için…",
     "options": [
@@ -1313,7 +923,7 @@
     "explanation": "Doğru cevap: A) Piyan yapılır"
   },
   {
-    "id": 102,
+    "id": 72,
     "section": "7. Demirleme",
     "question": "Başüstünde bulunan kişiye demir atması için verilecek komut aşağıdakilerden hangisidir?",
     "options": [
@@ -1326,20 +936,7 @@
     "explanation": "Doğru cevap: B) Funda"
   },
   {
-    "id": 103,
-    "section": "7. Demirleme",
-    "question": "Demirlemede kullanılan “Funda Demir “ komutunun anlamı nedir?",
-    "options": [
-      "Demir almak için verilen komut",
-      "Demiri tutmak için verilen komut",
-      "Demiri hazırlamak için verilen komut",
-      "Demiri atmak için verilen komut"
-    ],
-    "correct": 3,
-    "explanation": "Doğru cevap: D) Demiri atmak için verilen komut"
-  },
-  {
-    "id": 104,
+    "id": 73,
     "section": "7. Demirleme",
     "question": "Demir alma işlemi sırasında başüstündeki kişi kaptana, çapanın dipten kurtulduğunu hangi terimi kullanarak haber verir?",
     "options": [
@@ -1352,20 +949,7 @@
     "explanation": "Doğru cevap: B) Salpa"
   },
   {
-    "id": 105,
-    "section": "7. Demirleme",
-    "question": "Demirlemede kullanılan “salpa” teriminin anlamı nedir?",
-    "options": [
-      "Çapanın dipten kurtulmadan önceki durumudur",
-      "Çapanın loçasına oturduğu durumdur",
-      "Çapanın su üstüne çıktığı durumdur",
-      "Çapanın dipten kurtulduğu durumdur"
-    ],
-    "correct": 3,
-    "explanation": "Doğru cevap: D) Çapanın dipten kurtulduğu durumdur"
-  },
-  {
-    "id": 106,
+    "id": 74,
     "section": "7. Demirleme",
     "question": "Demir alma sırasında, çapanın dipten kurtulmadan önceki, zincirin dikine ve gergin olduğu, durumuna ne denir?",
     "options": [
@@ -1378,20 +962,7 @@
     "explanation": "Doğru cevap: A) Apiko"
   },
   {
-    "id": 107,
-    "section": "7. Demirleme",
-    "question": "Demirlemede kullanılan “apiko” teriminin anlamı nedir?",
-    "options": [
-      "Çapanın dipten kurtulmadan önceki zincirin dik ve gergin durumudur",
-      "Çapanın loçasına oturduğu durumdur",
-      "Çapanın su üstüne çıktığı durumdur",
-      "Çapanın dipten koptuğu durumdur"
-    ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Çapanın dipten kurtulmadan önceki zincirin dik ve gergin durumudur"
-  },
-  {
-    "id": 108,
+    "id": 75,
     "section": "7. Demirleme",
     "question": "Demir alma işlemine başlayacaksınız, başüstündeki arkadaşınıza ırgata sarma (alma) yönünde vereceğiniz komut nedir?",
     "options": [
@@ -1404,20 +975,7 @@
     "explanation": "Doğru cevap: D) Vira"
   },
   {
-    "id": 109,
-    "section": "7. Demirleme",
-    "question": "Demirlemede kullanılan “vira” komutunun anlamı nedir?",
-    "options": [
-      "Demir almak için verilen komut",
-      "Demiri tutmak için verilen komut",
-      "Demiri hazırlamak için verilen komut",
-      "Demiri atmak için verilen komut"
-    ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Demir almak için verilen komut"
-  },
-  {
-    "id": 110,
+    "id": 76,
     "section": "7. Demirleme",
     "question": "Çapaya bağlı halat ve/veya zincirin denize verilen miktarına ne denir?",
     "options": [
@@ -1430,20 +988,7 @@
     "explanation": "Doğru cevap: D) Kaloma"
   },
   {
-    "id": 111,
-    "section": "7. Demirleme",
-    "question": "Demirlemede kullanılan “Kaloma” teriminin anlamı nedir?",
-    "options": [
-      "Çapaya bağlı halat ve/veya zincirin denize verilen miktarıdır",
-      "Çapanın loçasına oturmasıdır",
-      "Çapanın su üstüne çıktığı durumdur",
-      "Çapanın deniz tabanına gömülmesidir"
-    ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Çapaya bağlı halat ve/veya zincirin denize verilen miktarıdır"
-  },
-  {
-    "id": 112,
+    "id": 77,
     "section": "7. Demirleme",
     "question": "Hareket halindeki zincirin akışının durdurulması için verilmesi gerek komut nedir?",
     "options": [
@@ -1456,20 +1001,7 @@
     "explanation": "Doğru cevap: C) Aganta"
   },
   {
-    "id": 113,
-    "section": "7. Demirleme",
-    "question": "Demirlemede kullanılan “aganta” komutunun anlamı nedir?",
-    "options": [
-      "Demir almak için verilen komut",
-      "Demirin akışını durdurmak için verilen komut",
-      "Demiri hazırlamak için verilen komut",
-      "Demiri atmak için verilen komut"
-    ],
-    "correct": 1,
-    "explanation": "Doğru cevap: B) Demirin akışını durdurmak için verilen komut"
-  },
-  {
-    "id": 114,
+    "id": 78,
     "section": "7. Demirleme",
     "question": "Ani gerilimlerden ırgatın dişlilerinin zarar görmemesi için, demir zinciri veya halatın yükünün bir halat aracılığıyla alınıp, bir koç boynuzuna veya babaya aktarma işlemine ne denir?",
     "options": [
@@ -1482,7 +1014,7 @@
     "explanation": "Doğru cevap: C) Bosa tutmak"
   },
   {
-    "id": 115,
+    "id": 79,
     "section": "7. Demirleme",
     "question": "Demirlerken yaygın bilinen ve kullanılan şekliyle rüzgâr ve akıntı…",
     "options": [
@@ -1495,7 +1027,7 @@
     "explanation": "Doğru cevap: B) Başa alınmalı ve teknenin üzerinde çok ağır geri yol olmalı"
   },
   {
-    "id": 116,
+    "id": 80,
     "section": "7. Demirleme",
     "question": "Uygun bir zemine normal hava şartlarında demir atacaksınız. 12 metre derinliğe tamamen zincir kullanıyorsanız kaç metre kaloma verirsiniz?",
     "options": [
@@ -1508,7 +1040,7 @@
     "explanation": "Doğru cevap: B) 36"
   },
   {
-    "id": 117,
+    "id": 81,
     "section": "7. Demirleme",
     "question": "Uygun bir zemine normal hava şartlarında demir atacaksınız. 5 metre derinliğe tamamen halat kullanıyorsanız kaç metre kaloma verirsiniz?",
     "options": [
@@ -1521,7 +1053,7 @@
     "explanation": "Doğru cevap: A) 30"
   },
   {
-    "id": 118,
+    "id": 82,
     "section": "7. Demirleme",
     "question": "Çapaya bağlı 5 metre zincir ve devamında halat kullanılan bir tekne, demirleme sırasında ne kadar kaloma vermelidir?",
     "options": [
@@ -1534,7 +1066,7 @@
     "explanation": "Doğru cevap: B) Derinliğin en az 6 katı"
   },
   {
-    "id": 119,
+    "id": 83,
     "section": "7. Demirleme",
     "question": "9 metre derinliğe ve uygun bir zemine normal hava şartlarında tamamen zincir kullanarak demir atacaksınız. Kaç metre kaloma verirsiniz?",
     "options": [
@@ -1547,7 +1079,7 @@
     "explanation": "Doğru cevap: B) 27 m."
   },
   {
-    "id": 120,
+    "id": 84,
     "section": "7. Demirleme",
     "question": "Çapaya bağlı sadece zincir kullanılan bir tekne, demirleme sırasında ne kadar kaloma vermelidir?",
     "options": [
@@ -1560,7 +1092,7 @@
     "explanation": "Doğru cevap: A) Derinliğin en az 3 katı"
   },
   {
-    "id": 121,
+    "id": 85,
     "section": "7. Demirleme",
     "question": "Demirli bulunan bir teknenin rüzgâr ve akıntı nedeni ile yer deştirerek salındığı daireye salınım dairesi denir. Salınım dairesi için aşağıdakilerden hangisi söylenemez?",
     "options": [
@@ -1573,7 +1105,7 @@
     "explanation": "Doğru cevap: C) Salınım dairesi kaloma miktarı yarıçaplı bir dairedir"
   },
   {
-    "id": 122,
+    "id": 86,
     "section": "7. Demirleme",
     "question": "Demirleyeceğiniz bir koyda muhtemel demirleme noktalarındaki salınım daireleriniz gösterilmiştir. Hangi demirleme noktasını A B tercih edersiniz? Mevcut tekneler sarı renkte RÜZGÂR gösterilmiştir.",
     "options": [
@@ -1586,7 +1118,7 @@
     "explanation": "Doğru cevap: C) C D"
   },
   {
-    "id": 123,
+    "id": 87,
     "section": "7. Demirleme",
     "question": "Çift çapa demirlemede iki zincir arasındaki açının ne kadar olması tavsiye edilir?",
     "options": [
@@ -1599,7 +1131,7 @@
     "explanation": "Doğru cevap: C) 40 derece"
   },
   {
-    "id": 124,
+    "id": 88,
     "section": "7. Demirleme",
     "question": "Demirledikten sonra çapanın tutup tutmadığını aşağıdaki seçeneklerden hangisiyle anlarsınız?",
     "options": [
@@ -1612,7 +1144,7 @@
     "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
   },
   {
-    "id": 125,
+    "id": 89,
     "section": "7. Demirleme",
     "question": "Demirlemede çapaya şamandıra bağlanması niçin önerilir?",
     "options": [
@@ -1625,7 +1157,7 @@
     "explanation": "Doğru cevap: C) Çapanın yerini belirtmek ve gerekirse kurtarmak için"
   },
   {
-    "id": 126,
+    "id": 90,
     "section": "7. Demirleme",
     "question": "Aşağıdakilerden hangisi doğrudur?",
     "options": [
@@ -1638,7 +1170,7 @@
     "explanation": "Doğru cevap: D) Halat çapaya camadan bağı ile bağlanır"
   },
   {
-    "id": 127,
+    "id": 91,
     "section": "8. Ayrılma ve Yanaşma",
     "question": "Denizden iskeleye doğru esen sert rüzgâr veya manevra sahasının darlığı nedeniyle teknenin başı açılamıyorsa hangi manevrayla avara edilir? iskele",
     "options": [
@@ -1651,7 +1183,7 @@
     "explanation": "Doğru cevap: D) Baş halat üzerinde, tornistanla manevra yapılarak, kıç açılmaya çalışılır deniz"
   },
   {
-    "id": 128,
+    "id": 92,
     "section": "8. Ayrılma ve Yanaşma",
     "question": "Eğer rüzgâr iskele boyunca esiyorsa iskeleye nasıl yaklaşılmalıdır?",
     "options": [
@@ -1664,7 +1196,7 @@
     "explanation": "Doğru cevap: B) Rüzgâra baş vererek"
   },
   {
-    "id": 129,
+    "id": 93,
     "section": "8. Ayrılma ve Yanaşma",
     "question": "Tornistanda kıçı iskeleye çeken bir tekne, rüzgârsız bir havada tercih durumu varsa iskele veya rıhtıma hangi taraftan aborda olmalıdır?",
     "options": [
@@ -1677,7 +1209,7 @@
     "explanation": "Doğru cevap: A) Sancak taraftan aborda olmalıdır"
   },
   {
-    "id": 130,
+    "id": 94,
     "section": "8. Ayrılma ve Yanaşma",
     "question": "Tornistanda kıçı sancağa çeken bir tekne, rüzgârsız bir havada tercih durumu varsa iskele veya rıhtıma hangi taraftan aborda olmalıdır?",
     "options": [
@@ -1690,7 +1222,7 @@
     "explanation": "Doğru cevap: B) İskele taraftan aborda olmalıdır"
   },
   {
-    "id": 131,
+    "id": 95,
     "section": "8. Ayrılma ve Yanaşma",
     "question": "İskeleye doğru esen sert rüzgâr ve manevra sahası yetersizliği nedeniyle avara ederken teknenin başı açılamıyorsa, teknenin başı sabit tutularak kıçı rüzgarüstüne açılabilir. Bu durumda baş çapraz (pürmeçe) halatı aşağıda görüldüğü gibi fora edilmeden, halat üzerinde manevra yapılır. “A” Teknesi kıçını rüzgarüstüne açmak için dümen ve motoruna nasıl kumanda etmelidir?",
     "options": [
@@ -1703,7 +1235,7 @@
     "explanation": "Doğru cevap: C) Dümen tam olarak iskeleye basılır, motora ileri yol verilir."
   },
   {
-    "id": 132,
+    "id": 96,
     "section": "9. Manevrayı Etkileyen Faktörler",
     "question": "Manevrayı etkileyen unsur, aşağıdakilerden hangisidir?",
     "options": [
@@ -1716,7 +1248,7 @@
     "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
   },
   {
-    "id": 133,
+    "id": 97,
     "section": "9. Manevrayı Etkileyen Faktörler",
     "question": "Yekeli teknede yekenin ucu sancağı gösteriyorsa tekne hangi yöne gider?",
     "options": [
@@ -1729,7 +1261,7 @@
     "explanation": "Doğru cevap: C) İskeleye"
   },
   {
-    "id": 134,
+    "id": 98,
     "section": "9. Manevrayı Etkileyen Faktörler",
     "question": "Yekeli teknede yekenin ucu iskeleyi gösteriyorsa tekne hangi yöne gider?",
     "options": [
@@ -1742,7 +1274,7 @@
     "explanation": "Doğru cevap: A) Sancağa"
   },
   {
-    "id": 135,
+    "id": 99,
     "section": "9. Manevrayı Etkileyen Faktörler",
     "question": "Sola devirli bir pervane kullanan teknenin kıçı tornistanda pervane etkisiyle hangi yöne çeker?",
     "options": [
@@ -1751,11 +1283,11 @@
       "Dümenin basılı olduğu yöne",
       "Hiçbir yöne çekmez"
     ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) İskeleye"
+    "correct": 1,
+    "explanation": "Doğru cevap: B) Sancağa"
   },
   {
-    "id": 136,
+    "id": 100,
     "section": "9. Manevrayı Etkileyen Faktörler",
     "question": "Sağa devirli bir pervane kullanan teknenin başı ileri yolda pervane etkisiyle hangi yöne çeker ?",
     "options": [
@@ -1768,7 +1300,7 @@
     "explanation": "Doğru cevap: B) Sancağa"
   },
   {
-    "id": 137,
+    "id": 101,
     "section": "9. Manevrayı Etkileyen Faktörler",
     "question": "Sola devirli bir pervane kullanan teknenin başı ileri yolda pervane etkisiyle hangi yöne çeker ?",
     "options": [
@@ -1781,7 +1313,7 @@
     "explanation": "Doğru cevap: A) İskeleye"
   },
   {
-    "id": 138,
+    "id": 102,
     "section": "9. Manevrayı Etkileyen Faktörler",
     "question": "Sağa devirli bir pervane kullanan teknenin kıçı tornistanda pervane etkisiyle hangi yöne çeker?",
     "options": [
@@ -1794,7 +1326,7 @@
     "explanation": "Doğru cevap: A) İskeleye"
   },
   {
-    "id": 139,
+    "id": 103,
     "section": "9. Manevrayı Etkileyen Faktörler",
     "question": "Dümenin dönmek istenen tarafa basılabildiği kadar döndürülmesi için verilen komut nedir?",
     "options": [
@@ -1807,7 +1339,7 @@
     "explanation": "Doğru cevap: C) (İskele veya Sancak) Alabanda"
   },
   {
-    "id": 140,
+    "id": 104,
     "section": "9. Manevrayı Etkileyen Faktörler",
     "question": "Aşağıdakilerden hangisi dümen komutlarından biri değildir?",
     "options": [
@@ -1820,7 +1352,7 @@
     "explanation": "Doğru cevap: D) Alarga"
   },
   {
-    "id": 141,
+    "id": 105,
     "section": "9. Manevrayı Etkileyen Faktörler",
     "question": "Tam pruvanızda gördüğünüz kayalıktan kurtulmak için dümen komutu ne olmalıdır?",
     "options": [
@@ -1833,7 +1365,7 @@
     "explanation": "Doğru cevap: C) İskele veya sancak alabanda"
   },
   {
-    "id": 142,
+    "id": 106,
     "section": "9. Manevrayı Etkileyen Faktörler",
     "question": "İki tarafı da kayalık dar bir kanaldan geçerken hangi dümen komutu yanlıştır?",
     "options": [
@@ -1846,7 +1378,7 @@
     "explanation": "Doğru cevap: A) İskele alabanda"
   },
   {
-    "id": 143,
+    "id": 107,
     "section": "9. Manevrayı Etkileyen Faktörler",
     "question": "Hangi dümen komutu iskele baş omuzlukta gördüğünüz size oldukça yakın demirli bir tekne ile çatışmanıza neden olabilir?",
     "options": [
@@ -1859,7 +1391,7 @@
     "explanation": "Doğru cevap: B) İskele alabanda"
   },
   {
-    "id": 144,
+    "id": 108,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Çok yakınınızdaki bir tekneden “tehlike” çağrısı aldınız. Kaptan olarak sorumluluğunuz nedir?",
     "options": [
@@ -1872,7 +1404,7 @@
     "explanation": "Doğru cevap: B) Yardım etmek zorundayım"
   },
   {
-    "id": 145,
+    "id": 109,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Bir tehlike durumunda, tekne kurtarma işlemiyle ilgili olarak size yardıma gelen tekne kaptanıyla hangi hukuksal durumu mutlaka karara bağlamalısınız?",
     "options": [
@@ -1885,7 +1417,7 @@
     "explanation": "Doğru cevap: C) Kurtarma ücreti talep edilip, edilmeyeceğini"
   },
   {
-    "id": 146,
+    "id": 110,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Aşağıdakilerden hangisi Can Kurtarma amaçlı görünür işaret değildir?",
     "options": [
@@ -1898,7 +1430,7 @@
     "explanation": "Doğru cevap: D) Havai Fişekler"
   },
   {
-    "id": 147,
+    "id": 111,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Kötü hava şartlarında güvertede çalışırken aşağıdaki hangi teçhizat mutlaka kullanmalıyız?",
     "options": [
@@ -1911,7 +1443,7 @@
     "explanation": "Doğru cevap: A) Güvenlik ekipmanı ve can halatı"
   },
   {
-    "id": 148,
+    "id": 112,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Denize Adam Düşmesi durumunda, çevredeki tekneleri uyarma amacıyla İşaret Şamandırasının ucunda hangi harf sancağı takılı olmalıdır?",
     "options": [
@@ -1924,7 +1456,7 @@
     "explanation": "Doğru cevap: D) Oscar-Ordu e."
   },
   {
-    "id": 149,
+    "id": 113,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Denizde balıkçı ağları, batık vb. yerleri işaretlemek için kullanılan ve üzerinde ufak bir bayrak bulunan yüzer şamandıraya ne ad verilir?",
     "options": [
@@ -1937,7 +1469,7 @@
     "explanation": "Doğru cevap: D) İşaret Şamandırası"
   },
   {
-    "id": 150,
+    "id": 114,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Deniz Trafiğinin yoğun olduğu bölgelerde gündüz vakti “Denize İnsan (Adam) Düştü” durumu diğer teknelere nasıl duyurulur?",
     "options": [
@@ -1950,7 +1482,7 @@
     "explanation": "Doğru cevap: B) O-Oscar sancağı toka edilir ve VHF’den anons edilir"
   },
   {
-    "id": 151,
+    "id": 115,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Denize düşen insanı (adamı) pervaneden sakınmak için hangi manevra yapılır?",
     "options": [
@@ -1963,7 +1495,7 @@
     "explanation": "Doğru cevap: A) Pervane durdurulur ve dümen insanın düştüğü yöne alabanda edilir"
   },
   {
-    "id": 152,
+    "id": 116,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "080 derece rotasına ilerlerken sancak taraftan denize insan (adam) düşürdünüz. Williamson dönüşüyle kurtarma manevrası yapacaksınız. Hangi dereceye gelince, dümeni ters alabandaya basarak kurtarma rotasına girersiniz?",
     "options": [
@@ -1976,7 +1508,7 @@
     "explanation": "Doğru cevap: C) Sancak alabanda,140"
   },
   {
-    "id": 153,
+    "id": 117,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "180 rotasına ilerlerken iskele taraftan denize insan (adam) düşürdünüz. Williamson yöntemiyle kurtarma manevrası yapacaksınız. Hangi dereceye dönüş yaptıktan sonra, ters alabandayla hangi rotaya girersiniz?",
     "options": [
@@ -1989,7 +1521,7 @@
     "explanation": "Doğru cevap: C) 240-000"
   },
   {
-    "id": 154,
+    "id": 118,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Gece “Denize İnsan (Adam) Düştü” durumlarında öncelikle hangi tip can simidi kullanılmalıdır?",
     "options": [
@@ -2002,7 +1534,7 @@
     "explanation": "Doğru cevap: B) Işıklı can simidi"
   },
   {
-    "id": 155,
+    "id": 119,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Çatışma durumunda başlangıçta yapılması gereken nedir?",
     "options": [
@@ -2015,7 +1547,7 @@
     "explanation": "Doğru cevap: D) Yukarıdakilerin sırayla hepsi"
   },
   {
-    "id": 156,
+    "id": 120,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Çatışma sonrası, suyu kesmek için gerekli önlemleri aldığınız halde batma ihtimaliniz varsa ne yapılmalıdır?",
     "options": [
@@ -2028,7 +1560,7 @@
     "explanation": "Doğru cevap: B) Liman yakınsa, limana; yakın değilse tekneyi en yakın sahile oturtmak için şartlar değerlendirilip, harekete geçilmelidir"
   },
   {
-    "id": 157,
+    "id": 121,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Karaya oturulan bölge hakkında hiçbir bilgi elde edilememişse, tekne hangi yönde yüzdürülmeye çalışılmalıdır?",
     "options": [
@@ -2041,7 +1573,7 @@
     "explanation": "Doğru cevap: A) Oturduğu yönün aksi yönünde"
   },
   {
-    "id": 158,
+    "id": 122,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Yardım almaksızın hangi yöntem uygulanarak teknenin tekrar yüzmesi sağlanabilir?",
     "options": [
@@ -2054,7 +1586,7 @@
     "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
   },
   {
-    "id": 159,
+    "id": 123,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Tekneyi isteyerek karaya oturtma durumunda, teknenin üzerinde ne kadar yol olmalıdır?",
     "options": [
@@ -2067,7 +1599,7 @@
     "explanation": "Doğru cevap: C) Dümen dinleyecek kadar sürat olmalıdır"
   },
   {
-    "id": 160,
+    "id": 124,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Tekneyi “isteyerek karaya oturtma” durumunda yapılması gereken en önemli uygulama ne olmalıdır?",
     "options": [
@@ -2080,7 +1612,7 @@
     "explanation": "Doğru cevap: A) Mutlaka demir atılmalıdır"
   },
   {
-    "id": 161,
+    "id": 125,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Yedeklemeyi kim kontrol eder ?",
     "options": [
@@ -2093,7 +1625,7 @@
     "explanation": "Doğru cevap: C) Yedekleyen teknenin kaptanı"
   },
   {
-    "id": 162,
+    "id": 126,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Yedekleme sırasında yedek halatı hangi pozisyonda olmalıdır?",
     "options": [
@@ -2106,7 +1638,7 @@
     "explanation": "Doğru cevap: A) Aşırı yük olmamalı ve ani gerilmelere karşı ortasında (zincir gibi) bir ağırlık olmalıdır"
   },
   {
-    "id": 163,
+    "id": 127,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Yedek halatı tekne üzerinde nereye volta edilmelidir?",
     "options": [
@@ -2119,7 +1651,7 @@
     "explanation": "Doğru cevap: C) Güçlü halat bağlama noktalarına ve gerekirse teraziye alınarak"
   },
   {
-    "id": 164,
+    "id": 128,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Yedekleme sürati ne olmalıdır?",
     "options": [
@@ -2132,7 +1664,7 @@
     "explanation": "Doğru cevap: C) Yedekteki tekneye zarar vermeyecek uygun gövde sürati"
   },
   {
-    "id": 165,
+    "id": 129,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Yedeklenmek için yardım talep eden tekne, yardım çağrısında aşağıdaki hangi bilgiyi mutlaka iletmelidir?",
     "options": [
@@ -2145,7 +1677,7 @@
     "explanation": "Doğru cevap: A) Teknenin çağrı adı"
   },
   {
-    "id": 166,
+    "id": 130,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Yedeklenme talep eden tekneye birden fazla tekne cevap vermişse, yardım çağıran tekne hangisini çağırmalıdır?",
     "options": [
@@ -2158,7 +1690,7 @@
     "explanation": "Doğru cevap: C) En kısa zamanda yardıma gelecek, boy olarak en uygun tekneyi çağırmalı ve durumu diğer teknelere bildirmelidir"
   },
   {
-    "id": 167,
+    "id": 131,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Yedekleme halatını hazırlarken aşağıdaki hangi hususa dikkat edilmelidir?",
     "options": [
@@ -2171,7 +1703,7 @@
     "explanation": "Doğru cevap: C) Yedek halatı güverte ve kurtağzındaki sürtünmelerden korunmalıdır"
   },
   {
-    "id": 168,
+    "id": 132,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Yedekleme düzeni kurulurken aşağıdaki hangi hususa dikkat edilmelidir?",
     "options": [
@@ -2184,7 +1716,7 @@
     "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
   },
   {
-    "id": 169,
+    "id": 133,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Yedekleme işlemi başlarken, yedekleyecek tekne nasıl davranmalıdır?",
     "options": [
@@ -2197,7 +1729,7 @@
     "explanation": "Doğru cevap: C) Ağır ağır ilerleyerek yedek halatının boşu alınır ve ani yük binmesine müsaade edilmeden uygun yedekleme süratine çıkılır"
   },
   {
-    "id": 170,
+    "id": 134,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Bir tekne kendinden küçük bir tekne veya bot tarafından bordadan yedeklenecekse, yedekleyen tekne nereden itmelidir?",
     "options": [
@@ -2210,7 +1742,7 @@
     "explanation": "Doğru cevap: B) Kıç omuzluktan"
   },
   {
-    "id": 171,
+    "id": 135,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Yedekleme sırasında çevrede trafik yoğunluğu varsa hangi çağrıyla diğer teknelere manevra kabiliyetinin kısıtlılığı duyurulur?",
     "options": [
@@ -2223,7 +1755,7 @@
     "explanation": "Doğru cevap: B) Securite (Emniyet) Mesajı"
   },
   {
-    "id": 172,
+    "id": 136,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Bir yangının meydana gelmesi için aşağıdakilerden hangisinin bulunması gerekir?",
     "options": [
@@ -2236,7 +1768,7 @@
     "explanation": "Doğru cevap: A) Isı kaynağı, yanıcı madde, oksijen"
   },
   {
-    "id": 173,
+    "id": 137,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Aşağıdakilerden hangisi teknede yangın nedenlerindendir?",
     "options": [
@@ -2249,7 +1781,7 @@
     "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
   },
   {
-    "id": 174,
+    "id": 138,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Teknelerde yağ ve yakıtın sebep olabileceği yangınları önlemek için aşağıdaki hangi hususlara dikkat etmek gerekir?",
     "options": [
@@ -2262,7 +1794,7 @@
     "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
   },
   {
-    "id": 175,
+    "id": 139,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Teknelerde gaz tüplerinin neden olabileceği yangınlara sebebiyet vermemek için aşağıdaki hangi hususa dikkat etmek gerekir.",
     "options": [
@@ -2275,7 +1807,7 @@
     "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
   },
   {
-    "id": 176,
+    "id": 140,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Teknelerde elektrik devrelerinin neden olabileceği yangınları önlemek için aşağıdaki hangi hususa dikkat etmek gerekir?",
     "options": [
@@ -2288,7 +1820,7 @@
     "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
   },
   {
-    "id": 177,
+    "id": 141,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Aşağıdakilerden hangisi teknelerde yangına sebebiyet verebilecek kaynaklardır?",
     "options": [
@@ -2301,7 +1833,7 @@
     "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
   },
   {
-    "id": 178,
+    "id": 142,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Seyir sırasında güvertede yangın çıkması durumunda önce ne yapılmalıdır?",
     "options": [
@@ -2314,7 +1846,7 @@
     "explanation": "Doğru cevap: A) Sürat azaltılır. Yanan bölge rüzgâr üstüne alınır"
   },
   {
-    "id": 179,
+    "id": 143,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Güvertede sancak kıç omuzluktaki dolap içinde muhafaza etiğiniz yedek benzin bidonunuz devrilmiş ve içindeki çok az miktardaki yakıtın tamamı dolap içine dökülmüştür. Misafirlerinizden birinin sigara izmaritinden rüzgâr nedeniyle kopan bir ateş parçası dolap kenarından sızan benzinle temas ederek kıç üstünde yangına sebebiyet vermiştir. Yangına portatif söndürücüyle müdahale etmeden önce hangi manevrayı yaparsınız?",
     "options": [
@@ -2327,7 +1859,7 @@
     "explanation": "Doğru cevap: A) Sürati azaltılır. Teknenin kıçını rüzgâr üstüne veririm"
   },
   {
-    "id": 180,
+    "id": 144,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Güvertede çıkan yangında, gerekli manevra yapıldıktan sonra, yanan malzeme denize atılamıyorsa yangına nasıl müdahale edilir?",
     "options": [
@@ -2340,7 +1872,7 @@
     "explanation": "Doğru cevap: A) Yangına rüzgâr üstünden yaklaşılır ve yangın söndürücü alevlerin dibinden (kaynağından) ileri doğru süpürülerek püskürtülür"
   },
   {
-    "id": 181,
+    "id": 145,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Kamara içinde çıkan yangına nasıl müdahale edilmelidir?",
     "options": [
@@ -2353,7 +1885,7 @@
     "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
   },
   {
-    "id": 182,
+    "id": 146,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Gerilim altındaki elektrikli cihaz veya elektrik tesisatı yangınlarına aşağıdaki hangi malzemeyle asla müdahale edilmemelidir?",
     "options": [
@@ -2366,7 +1898,7 @@
     "explanation": "Doğru cevap: B) Deniz suyu"
   },
   {
-    "id": 183,
+    "id": 147,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Yangın battaniyesi yangının başlangıç aşamasında hemen alevlerin üstüne kapatılmalıdır. Bu hangi amaçla yapılır?",
     "options": [
@@ -2379,7 +1911,7 @@
     "explanation": "Doğru cevap: A) Yangını, alevlerin havayla temasını keserek (boğarak) söndürmek için"
   },
   {
-    "id": 184,
+    "id": 148,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Teknelerde katı, sıvı, gaz yangınlarına karşı hangi tip yangın söndürücü kullanılması tavsiye edilir?",
     "options": [
@@ -2392,7 +1924,7 @@
     "explanation": "Doğru cevap: D) Kuru kimyevi tozlu"
   },
   {
-    "id": 185,
+    "id": 149,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Teknelerde çıkabilecek elektrik ve motor bölmesi yangınlarında hangi tip yangın söndürücü kullanılması tavsiye edilir?",
     "options": [
@@ -2405,7 +1937,7 @@
     "explanation": "Doğru cevap: B) Karbondioksit"
   },
   {
-    "id": 186,
+    "id": 150,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "YSC/Yangın Söndürme Cihazlarını, farklı yangın tiplerine karşı kullanırken hangi hususlara dikkat edilmelidir?",
     "options": [
@@ -2418,7 +1950,7 @@
     "explanation": "Doğru cevap: B) YSC’ler, bazı yangın sınıflarına karşı şartlı olarak uygulanır"
   },
   {
-    "id": 187,
+    "id": 151,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Yangın söndürücülerin bakıma gönderilmeleriyle ilgili olarak aşağıdaki hangi hususa dikkat edilmelidir?",
     "options": [
@@ -2431,7 +1963,7 @@
     "explanation": "Doğru cevap: B) Basınç ibresinin yeşil bölgenin dışına çıkması ve kullanım süreleri sonunda bakıma göndermeliyiz"
   },
   {
-    "id": 188,
+    "id": 152,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Tekne kimin emriyle terk edilir?",
     "options": [
@@ -2444,7 +1976,7 @@
     "explanation": "Doğru cevap: C) Kaptan"
   },
   {
-    "id": 189,
+    "id": 153,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Tekneyi terk edecek personel neden üzerine uygun giysiler (bere, eldiven, yün giysi, tulum, rüzgârlık, yağmurluk) giymelidir?",
     "options": [
@@ -2457,7 +1989,7 @@
     "explanation": "Doğru cevap: D) Yukarıdakilerin hepsi"
   },
   {
-    "id": 190,
+    "id": 154,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Tekneyi bir tehlike anında terk ederken kişisel açıdan yapılacak en önemli hazırlık hangisidir?",
     "options": [
@@ -2470,7 +2002,7 @@
     "explanation": "Doğru cevap: A) Kalın yünlü giysiler giymek ve can yeleği takmak"
   },
   {
-    "id": 191,
+    "id": 155,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Tekneyi terk ederken denize atlamanız gerekirse denize hangi pozisyonda atlarsınız?",
     "options": [
@@ -2483,7 +2015,7 @@
     "explanation": "Doğru cevap: B) Can yeleğimin kayışlarını vucuduma zarar vermeyecek ölçüde sıkar, göğsüme doğru bastırarak, ayak üstü pozisyonda atlarım"
   },
   {
-    "id": 192,
+    "id": 156,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Tekneyi terk sırasında can salınız hasar gördü, bu nedenle suyun içinde yardım bekleme durumundasınız, ne yaparsınız?",
     "options": [
@@ -2496,7 +2028,7 @@
     "explanation": "Doğru cevap: C) Mümkünse yüzer bir cisme tutunur, mümkün değilse kollar vucuda yapışık, ayaklar bitişik ve karına çekilmiş pozisyonda, hareketsiz beklerim"
   },
   {
-    "id": 193,
+    "id": 157,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Açık denizde, su içinde bekleme durumunda kalan birden fazla kazazede, hangi pozisyonda beklemelidir?",
     "options": [
@@ -2509,7 +2041,7 @@
     "explanation": "Doğru cevap: A) Grup oluşturup, birbirlerine mümkün olduğu kadar sokularak beklemelidirler"
   },
   {
-    "id": 194,
+    "id": 158,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Can salına bindiniz, bütün kazazedeleri can salına aldıktan sonra ilk olarak ne yaparsınız?",
     "options": [
@@ -2522,7 +2054,7 @@
     "explanation": "Doğru cevap: A) Batan tekneden emniyetli bir mesafeye (80-100 m.) çıkarız"
   },
   {
-    "id": 195,
+    "id": 159,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Emniyetli mesafeye açılan can salında öncelikle ne yapmalıdır?",
     "options": [
@@ -2535,7 +2067,7 @@
     "explanation": "Doğru cevap: B) Deniz demiri atılarak kaza bölgesinin dışına çıkma engellenmelidir"
   },
   {
-    "id": 196,
+    "id": 160,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Kazazedelere can salı içinde ne miktarda su kullanması önerilir?",
     "options": [
@@ -2548,7 +2080,7 @@
     "explanation": "Doğru cevap: D) İlk 24 saat içilmez, sonra günde toplam 50 cl. (2 bardak)"
   },
   {
-    "id": 197,
+    "id": 161,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Cankurtarma aracında bulunan deniz tutmasına karşı ilaçlar ne zaman kullanılır?",
     "options": [
@@ -2561,7 +2093,7 @@
     "explanation": "Doğru cevap: C) Miğde bulantısının yaratacağı su kaybını engellemek için, hemen alınmalıdır"
   },
   {
-    "id": 198,
+    "id": 162,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "EPIRB nedir?",
     "options": [
@@ -2574,7 +2106,7 @@
     "explanation": "Doğru cevap: B) Tehlike anında mevki bildiren telsiz yönlendiricisi"
   },
   {
-    "id": 199,
+    "id": 163,
     "section": "10-16. Emniyet, Yangın, Kurtarma",
     "question": "Can Salı içinde aşağıdakilerden hangisi bulunmaz?",
     "options": [
@@ -2587,7 +2119,7 @@
     "explanation": "Doğru cevap: B) Kıçtan takma motor"
   },
   {
-    "id": 200,
+    "id": 164,
     "section": "17. İlkyardım",
     "question": "Yaralanma, zehirlenme, kan şekerinin düşmesi gibi durumlarda beyne gelen kan miktarında azalma veya hiç kan gelmemesi geçici bilinç kaybı sonucu bayılmaya neden olur. Bu durumdaki hasta hangi pozisyonda bekletilmelidir?",
     "options": [
@@ -2600,7 +2132,7 @@
     "explanation": "Doğru cevap: B) Hasta sırt üstü yatırılır, ayaklarının altına (minder, usturmaça gibi...) bir malzeme konularak 25-30 cm. yukarı kaldırılır. Sıkı giysileri gevşetilir."
   },
   {
-    "id": 201,
+    "id": 165,
     "section": "17. İlkyardım",
     "question": "Baygın durumdaki hasta ağrılı uyarılara cevap vermiyorsa; idrar veya dışkısını kaçırıyorsa, koma durumundadır. Bu durumdaki hasta veya kusan veya üst solunum yollarında kanaması olan hasta hangi pozisyonda bekletilir?",
     "options": [
@@ -2613,7 +2145,7 @@
     "explanation": "Doğru cevap: D) Hasta yan yatırılır, dizler hafif bükülür, altta kalan kol aşağı doğru uzatılır. Üstte kalan el yanak altına yerleştirilir. Baş geriye itili ve ağız açık tutulur."
   },
   {
-    "id": 202,
+    "id": 166,
     "section": "17. İlkyardım",
     "question": "Nefes darlığı olan hastalar nasıl bekletilmelidir?",
     "options": [
@@ -2626,7 +2158,7 @@
     "explanation": "Doğru cevap: B) Yarı oturur pozisyonda"
   },
   {
-    "id": 203,
+    "id": 167,
     "section": "17. İlkyardım",
     "question": "Temel Yaşam Desteğine başlanacak bilincini kaybetmiş bir kazazedede önce hangi kontrolu yapılır?",
     "options": [
@@ -2639,7 +2171,7 @@
     "explanation": "Doğru cevap: A) Hava yolu"
   },
   {
-    "id": 204,
+    "id": 168,
     "section": "17. İlkyardım",
     "question": "Hava yolunun açık olduğunu gördüğünüz ve nabız aldığınız kazazedede solunum olmadığını tesbit ettiniz, ilkyardıma nasıl devam edersiniz?",
     "options": [
@@ -2652,7 +2184,7 @@
     "explanation": "Doğru cevap: B) Arka arkaya 2 kurtarıcı soluk verdikten sonra dakikada 12-15 (5 saniyede bir) temposuna uygun yapay solunuma başlarım."
   },
   {
-    "id": 205,
+    "id": 169,
     "section": "17. İlkyardım",
     "question": "Hava yolu açık ama kalp atışları saptanamayan kazazedeye ilkyardıma nasıl uygulanır?",
     "options": [
@@ -2665,7 +2197,7 @@
     "explanation": "Doğru cevap: C) Suni solunum ve kalp masajı birlikte uygulanır"
   },
   {
-    "id": 206,
+    "id": 170,
     "section": "17. İlkyardım",
     "question": "Kalp masajında elinizi nereye koyarsınız ve hangi tempoyla uygularsınız?",
     "options": [
@@ -2678,7 +2210,7 @@
     "explanation": "Doğru cevap: A) Göğüs kemiğinin alt ucuna koyarım ve dakikada 90-100 temposuna göre uygularım."
   },
   {
-    "id": 207,
+    "id": 171,
     "section": "17. İlkyardım",
     "question": "Tek kişi, kalp masajı ve suni solunumu birlikte uygulayacaktır, hangi sırayla uygulamalıdır?",
     "options": [
@@ -2691,7 +2223,7 @@
     "explanation": "Doğru cevap: B) 15 kalp masajı, 2 suni solunum"
   },
   {
-    "id": 208,
+    "id": 172,
     "section": "17. İlkyardım",
     "question": "İki kişinin uygulayacağı Temel Yaşam Desteği, hangi sıraya uygun yapılmalıdır?",
     "options": [
@@ -2704,7 +2236,7 @@
     "explanation": "Doğru cevap: A) 15 kalp masajı, 2 suni solunum"
   },
   {
-    "id": 209,
+    "id": 173,
     "section": "17. İlkyardım",
     "question": "4 periyotluk Temel Yaşam Desteği sonunda kazazededen nabız almaya başladınız ve gözbebekleri küçülmeye başladı. Henüz solunum başlamamışsa ne yaparsınız?",
     "options": [
@@ -2717,7 +2249,7 @@
     "explanation": "Doğru cevap: A) Kalp masajını keser, 5 saniyede bir (dakikada 12) temposuna uygun olarak suni solunuma devam ederim."
   },
   {
-    "id": 210,
+    "id": 174,
     "section": "17. İlkyardım",
     "question": "Suda boğulmalarda, sudan çıkartılan kazazedeye ilkyardım uygulaması nasıl yapılmalıdır?",
     "options": [
@@ -2730,7 +2262,7 @@
     "explanation": "Doğru cevap: C) Sırtüstü düz bir zemine yatırılıp, hemen standart kontrollere başlanır."
   },
   {
-    "id": 211,
+    "id": 175,
     "section": "17. İlkyardım",
     "question": "Kanamayı durdurmak için yapılacak sargı ile basınç uygulaması nasıl yapılmalıdır?",
     "options": [
@@ -2743,7 +2275,7 @@
     "explanation": "Doğru cevap: C) Yaranın üstüne önce gazlı bez konur, birkaç tur sargı yapıldıktan sonra tampon konup, alt bölgelere kan geçecek sıkılıkta sarılır."
   },
   {
-    "id": 212,
+    "id": 176,
     "section": "17. İlkyardım",
     "question": "Ön kolda dirsekten aşağı bölgede çok ağır atar damar kanaması ile karşılaştığınız kazazedeye turnike uygulayacaksınız. Nereye uygularsınız ve hangi sürelerde gevşetirsiniz?",
     "options": [
@@ -2756,7 +2288,7 @@
     "explanation": "Doğru cevap: B) Kol-Pazu bölgesine uygular. 20 dakikada 5-10 saniye gevşetirim."
   },
   {
-    "id": 213,
+    "id": 177,
     "section": "17. İlkyardım",
     "question": "Yara nasıl ve hangi malzemeyle temizlenmelidir?",
     "options": [
@@ -2769,7 +2301,7 @@
     "explanation": "Doğru cevap: A) Oksijenli su veya antiseptik solüsyonlarla; yara merkez kabul edilerek, içten dışa dairesel olarak temizlenir."
   },
   {
-    "id": 214,
+    "id": 178,
     "section": "17. İlkyardım",
     "question": "Kapalı yaralara nasıl müdahale edilmelidir.",
     "options": [
@@ -2782,7 +2314,7 @@
     "explanation": "Doğru cevap: D) Yukardakilerin hepsi"
   },
   {
-    "id": 215,
+    "id": 179,
     "section": "17. İlkyardım",
     "question": "Yaralanma sonucu vucutta yabancı cisim kalmışşa nasıl müdahale edilir?",
     "options": [
@@ -2795,7 +2327,7 @@
     "explanation": "Doğru cevap: B) Yabancı cisim çıkartılmaz ve hareket ettirilmez. Yaralı bölge kalp seviyesinin üstüne çıkartılır."
   },
   {
-    "id": 216,
+    "id": 180,
     "section": "17. İlkyardım",
     "question": "Hafif yanıklarda ilk müdahale nasıl olmalıdır?",
     "options": [
@@ -2808,7 +2340,7 @@
     "explanation": "Doğru cevap: B) Yanık bölge 10 dakika suyun altında tutulmalı, takılar çıkartılmalı ve gazlı bez ile örtülmelidir."
   },
   {
-    "id": 217,
+    "id": 181,
     "section": "17. İlkyardım",
     "question": "Giysileri yanmakta olan kazazedelere nasıl müdahale edilir?",
     "options": [
@@ -2821,7 +2353,7 @@
     "explanation": "Doğru cevap: D) Yukardaki yöntemlerden en kısa müdahale hangisiyle yapılabilecekse bu yöntem uygulanır."
   },
   {
-    "id": 218,
+    "id": 182,
     "section": "17. İlkyardım",
     "question": "Yanma sonucu yanık bölgesinde kabarcıklar (bül) oluşmuşsa, ne yapılmalıdır?",
     "options": [
@@ -2834,7 +2366,7 @@
     "explanation": "Doğru cevap: C) Kabarcıklar patlatılmamalı ve deri soyulmamalıdır."
   },
   {
-    "id": 219,
+    "id": 183,
     "section": "17. İlkyardım",
     "question": "Hava yolu tıkanıklığı yaşayan kişiye uygulanacak Heimlich manevrasında yumruk yapılan eller nereye konur ve nasıl uygulanır?",
     "options": [
@@ -2847,7 +2379,7 @@
     "explanation": "Doğru cevap: C) Kazazedenin kaburga kemiklerinin önde hemen altına konur ve kuvvetli bir bası uygulanır."
   },
   {
-    "id": 220,
+    "id": 184,
     "section": "17. İlkyardım",
     "question": "Kırıklarda ilkyardım uygulaması sırasında önce kanama varsa durdurulur, üzerine temiz gazlı bez konur; daha sonra kırığa nasıl müdahale edilmelidir?",
     "options": [
@@ -2860,7 +2392,7 @@
     "explanation": "Doğru cevap: D) Kemikler oldukları pozisyonda atellenip, tamponla desteklenir."
   },
   {
-    "id": 221,
+    "id": 185,
     "section": "17. İlkyardım",
     "question": "Omurga kırıklarında hangi hususa dikkat edilmelidir?",
     "options": [
@@ -2873,7 +2405,7 @@
     "explanation": "Doğru cevap: D) Yukardakilerin hepsi."
   },
   {
-    "id": 222,
+    "id": 186,
     "section": "17. İlkyardım",
     "question": "Deniz tutmalarında ilkyardım uygulaması nasıl olmalıdır?",
     "options": [
@@ -2886,7 +2418,7 @@
     "explanation": "Doğru cevap: D) Yukardakilerin hepsi."
   },
   {
-    "id": 223,
+    "id": 187,
     "section": "17. İlkyardım",
     "question": "Deniz tutmalarında dikkat edilmesi gereken hususlar nelerdir?",
     "options": [
@@ -2899,7 +2431,7 @@
     "explanation": "Doğru cevap: D) Yukardakilerin hepsi"
   },
   {
-    "id": 224,
+    "id": 188,
     "section": "17. İlkyardım",
     "question": "Hipotermi tedavisi nası bir ortamda yapılmalıdır?",
     "options": [
@@ -2912,7 +2444,7 @@
     "explanation": "Doğru cevap: A) Ilık ( 20-25°C ) ve havadar bir ortamda."
   },
   {
-    "id": 225,
+    "id": 189,
     "section": "17. İlkyardım",
     "question": "Suda, hipotermiye maruz kalmış bir kazazedenin tedavisi nasıl yapılmalıdır? (Solunum ve Nabız var)",
     "options": [
@@ -2925,7 +2457,7 @@
     "explanation": "Doğru cevap: B) Islak giysiler çıkartılır, yünlü kuru giysiler giydirilip, battaniyeye sarılır. Şekerli sıcak içecekler verilebilir, alkol verilmez."
   },
   {
-    "id": 226,
+    "id": 190,
     "section": "17. İlkyardım",
     "question": "Aşağıdakilerden hangisi yanlıştır?",
     "options": [
@@ -2938,7 +2470,7 @@
     "explanation": "Doğru cevap: D) Yukarıdaki şıkların hiçbiri doğru değildir."
   },
   {
-    "id": 227,
+    "id": 191,
     "section": "18. Meteoroloji",
     "question": "Atmosferin ağırlığından dolayı birim alana dik olarak etki eden kuvvete atmosfer basıncı denir. Normal şartlarda deniz kıyısındaki standart atmosfer basınç değeri nedir?",
     "options": [
@@ -2951,7 +2483,7 @@
     "explanation": "Doğru cevap: B) 1013.25 mb."
   },
   {
-    "id": 228,
+    "id": 192,
     "section": "18. Meteoroloji",
     "question": "Atmosfer basıncını ölçmek için kullandığımız alet hangisidir?",
     "options": [
@@ -2964,7 +2496,7 @@
     "explanation": "Doğru cevap: C) Barometre"
   },
   {
-    "id": 229,
+    "id": 193,
     "section": "18. Meteoroloji",
     "question": "Hava tahmini yapmak için barometre okurken hangi hususa dikkat etmeliyiz?",
     "options": [
@@ -2977,7 +2509,7 @@
     "explanation": "Doğru cevap: D) Üç saatte bir, ondalığına kadar okunmalıdır."
   },
   {
-    "id": 230,
+    "id": 194,
     "section": "18. Meteoroloji",
     "question": "Barometreyi tekne içine monte ederken hangi hususa dikkat etmeliyiz?",
     "options": [
@@ -2990,7 +2522,7 @@
     "explanation": "Doğru cevap: D) Yukardakilerin hepsi."
   },
   {
-    "id": 231,
+    "id": 195,
     "section": "18. Meteoroloji",
     "question": "İzobarların sıklaştığı bölgelerde rüzgâr kuvveti için aşağıdakilerden hangisi söylenebilir?",
     "options": [
@@ -3003,7 +2535,7 @@
     "explanation": "Doğru cevap: C) Rüzgâr kuvvetli eser."
   },
   {
-    "id": 232,
+    "id": 196,
     "section": "18. Meteoroloji",
     "question": "Rüzgâr nasıl oluşur?",
     "options": [
@@ -3016,7 +2548,7 @@
     "explanation": "Doğru cevap: B) Hava kütlesinin yüksek basınç bölgesinden alçak basınç bölgesine hareketiyle."
   },
   {
-    "id": 233,
+    "id": 197,
     "section": "18. Meteoroloji",
     "question": "Kuzey yarı kürede, alçak basınç (siklon) bölgesinde rüzgâr nasıl döner (drise eder)?",
     "options": [
@@ -3029,7 +2561,7 @@
     "explanation": "Doğru cevap: A) Saat yönünün aksi yönde"
   },
   {
-    "id": 234,
+    "id": 198,
     "section": "18. Meteoroloji",
     "question": "Kuzey yarıkürede, yüksek basınç (antisiklon) bölgesinde rüzgâr nasıl döner, (drise eder)?",
     "options": [
@@ -3042,7 +2574,7 @@
     "explanation": "Doğru cevap: B) Saat yönünde"
   },
   {
-    "id": 235,
+    "id": 199,
     "section": "18. Meteoroloji",
     "question": "Kuzey yarı kürede sırtınızı gerçek rüzgâra döndüğünüzde, alçak basınç merkezi nerenizde kalır?",
     "options": [
@@ -3055,7 +2587,7 @@
     "explanation": "Doğru cevap: C) Sol ilerinizde"
   },
   {
-    "id": 236,
+    "id": 200,
     "section": "18. Meteoroloji",
     "question": "Meteorolojik bir haritada seyir yapacağınız bölge üzerinde işaretini gördünüz. Bölgede esecek rüzgârın yön ve sürati nedir?",
     "options": [
@@ -3068,7 +2600,7 @@
     "explanation": "Doğru cevap: A) 225 yönünden 15 knot"
   },
   {
-    "id": 237,
+    "id": 201,
     "section": "18. Meteoroloji",
     "question": "Kuzeyden esen rüzgâra ne ad verilir?",
     "options": [
@@ -3081,20 +2613,7 @@
     "explanation": "Doğru cevap: A) Yıldız"
   },
   {
-    "id": 238,
-    "section": "18. Meteoroloji",
-    "question": "Yıldız hangi yönden esen rüzgârdır?",
-    "options": [
-      "000°",
-      "045°",
-      "090°",
-      "135°"
-    ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) 000°"
-  },
-  {
-    "id": 239,
+    "id": 202,
     "section": "18. Meteoroloji",
     "question": "045 yönünden esen rüzgâra ne ad verilir?",
     "options": [
@@ -3107,20 +2626,7 @@
     "explanation": "Doğru cevap: B) Poyraz"
   },
   {
-    "id": 240,
-    "section": "18. Meteoroloji",
-    "question": "Keşişleme hangi yönden eser?",
-    "options": [
-      "090",
-      "135",
-      "225",
-      "270"
-    ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) 090"
-  },
-  {
-    "id": 241,
+    "id": 203,
     "section": "18. Meteoroloji",
     "question": "090 yönünden esen rüzgâra ne ad verilir?",
     "options": [
@@ -3133,20 +2639,7 @@
     "explanation": "Doğru cevap: D) Gün Doğusu"
   },
   {
-    "id": 242,
-    "section": "18. Meteoroloji",
-    "question": "Gün Doğusu rüzgârı hangi yönden eser?",
-    "options": [
-      "045",
-      "090",
-      "135",
-      "180"
-    ],
-    "correct": 1,
-    "explanation": "Doğru cevap: B) 090"
-  },
-  {
-    "id": 243,
+    "id": 204,
     "section": "18. Meteoroloji",
     "question": "135 yönünden esen rüzgâra ne ad verilir?",
     "options": [
@@ -3155,24 +2648,11 @@
       "Gün Doğusu",
       "Kıble"
     ],
-    "correct": 3,
-    "explanation": "Doğru cevap: D) Kıble"
+    "correct": 0,
+    "explanation": "Doğru cevap: A) Keşişleme"
   },
   {
-    "id": 244,
-    "section": "18. Meteoroloji",
-    "question": "Poyraz hangi yönden esen rüzgârdır?",
-    "options": [
-      "000’",
-      "045’",
-      "090’",
-      "135’"
-    ],
-    "correct": 1,
-    "explanation": "Doğru cevap: B) 045’"
-  },
-  {
-    "id": 245,
+    "id": 205,
     "section": "18. Meteoroloji",
     "question": "180 yönünden esen rüzgâra ne ad verilir?",
     "options": [
@@ -3181,11 +2661,11 @@
       "Poyraz",
       "Karayel"
     ],
-    "correct": 0,
-    "explanation": "Doğru cevap: A) Keşişleme"
+    "correct": 1,
+    "explanation": "Doğru cevap: B) Kıble"
   },
   {
-    "id": 246,
+    "id": 206,
     "section": "18. Meteoroloji",
     "question": "315 yönünden esen rüzgâr nasıl adlandırılır?",
     "options": [
@@ -3198,7 +2678,7 @@
     "explanation": "Doğru cevap: A) Karayel"
   },
   {
-    "id": 247,
+    "id": 207,
     "section": "18. Meteoroloji",
     "question": "225 yönünden esen rüzgâr nasıl adlandırılır?",
     "options": [
@@ -3211,20 +2691,7 @@
     "explanation": "Doğru cevap: B) Lodos"
   },
   {
-    "id": 248,
-    "section": "18. Meteoroloji",
-    "question": "Lodos hangi yönden esen rüzgârdır?",
-    "options": [
-      "135",
-      "225",
-      "315",
-      "045"
-    ],
-    "correct": 1,
-    "explanation": "Doğru cevap: B) 225"
-  },
-  {
-    "id": 249,
+    "id": 208,
     "section": "18. Meteoroloji",
     "question": "270 yönünden esen rüzgâra ne ad verilir?",
     "options": [
@@ -3237,46 +2704,7 @@
     "explanation": "Doğru cevap: B) Gün Batısı"
   },
   {
-    "id": 250,
-    "section": "18. Meteoroloji",
-    "question": "Karayel hangi yönden esen rüzgârdır?",
-    "options": [
-      "000",
-      "045",
-      "315",
-      "225"
-    ],
-    "correct": 2,
-    "explanation": "Doğru cevap: C) 315"
-  },
-  {
-    "id": 251,
-    "section": "18. Meteoroloji",
-    "question": "Kıble rüzgârı hangi yönden eser?",
-    "options": [
-      "090",
-      "180",
-      "225",
-      "270"
-    ],
-    "correct": 1,
-    "explanation": "Doğru cevap: B) 180"
-  },
-  {
-    "id": 252,
-    "section": "18. Meteoroloji",
-    "question": "Gün Batısı hangi yönden eser?",
-    "options": [
-      "180",
-      "090",
-      "000",
-      "270"
-    ],
-    "correct": 3,
-    "explanation": "Doğru cevap: D) 270"
-  },
-  {
-    "id": 253,
+    "id": 209,
     "section": "18. Meteoroloji",
     "question": "Deniz Melteminin özelliği nedir?",
     "options": [
@@ -3289,7 +2717,7 @@
     "explanation": "Doğru cevap: A) Gündüz süresince denizden karaya eser."
   },
   {
-    "id": 254,
+    "id": 210,
     "section": "18. Meteoroloji",
     "question": "Kara Melteminin özelliği nedir?",
     "options": [
@@ -3302,7 +2730,7 @@
     "explanation": "Doğru cevap: B) Gece süresince karadan denize eser."
   },
   {
-    "id": 255,
+    "id": 211,
     "section": "18. Meteoroloji",
     "question": "Sıcak cephe yaklaşırken basınç ve sıcaklık değerleri nasıl değişir?",
     "options": [
@@ -3315,9 +2743,22 @@
     "explanation": "Doğru cevap: B) Sıcaklık artar, basınç düşer."
   },
   {
-    "id": 256,
+    "id": 212,
     "section": "18. Meteoroloji",
     "question": "Kuzey yarı kürede soğuk cephe geçerken rüzgâr nasıl dirise eder?",
+    "options": [
+      "SW-W-NW-N",
+      "SE-E-NE-N",
+      "SW-S-SE-E",
+      "N-NW-W-SW"
+    ],
+    "correct": 1,
+    "explanation": "Doğru cevap: B) SE-E-NE-N"
+  },
+  {
+    "id": 213,
+    "section": "18. Meteoroloji",
+    "question": "Kuzey yarı kürede sıcak cephe geçerken rüzgâr nasıl dirise eder?",
     "options": [
       "SW-W-NW-N",
       "SE-E-NE-N",
@@ -3328,20 +2769,7 @@
     "explanation": "Doğru cevap: A) SW-W-NW-N"
   },
   {
-    "id": 257,
-    "section": "18. Meteoroloji",
-    "question": "Kuzey yarı kürede sıcak cephe geçerken rüzgâr nasıl dirise eder?",
-    "options": [
-      "SW-W-NW-N",
-      "SE-E-NE-N",
-      "SW-S-SE-E",
-      "N-NW-W-SW"
-    ],
-    "correct": 2,
-    "explanation": "Doğru cevap: C) SW-S-SE-E"
-  },
-  {
-    "id": 258,
+    "id": 214,
     "section": "18. Meteoroloji",
     "question": "Cepheler hangi bölgelerde oluşur?",
     "options": [
@@ -3354,7 +2782,7 @@
     "explanation": "Doğru cevap: C) Alçak basınç alanlarında"
   },
   {
-    "id": 259,
+    "id": 215,
     "section": "18. Meteoroloji",
     "question": "Uluslararası sinoptik haritalarda Yüksek basınç hangi harfle gösterilir?",
     "options": [
@@ -3367,7 +2795,7 @@
     "explanation": "Doğru cevap: B) H"
   },
   {
-    "id": 260,
+    "id": 216,
     "section": "18. Meteoroloji",
     "question": "Uluslararası sinoptik haritalarda Alçak basınç hangi harfle gösterilir?",
     "options": [
@@ -3380,7 +2808,7 @@
     "explanation": "Doğru cevap: A) L"
   },
   {
-    "id": 261,
+    "id": 217,
     "section": "18. Meteoroloji",
     "question": "Rüzgârın hızını ve yönünü ölçen aletin adı nedir?",
     "options": [
@@ -3393,7 +2821,7 @@
     "explanation": "Doğru cevap: A) Anemometre"
   },
   {
-    "id": 262,
+    "id": 218,
     "section": "18. Meteoroloji",
     "question": "Basıncın zamana gore değişimi aşağıdaki sözcüklerden hangisi ile ifade edilir?",
     "options": [
@@ -3406,7 +2834,7 @@
     "explanation": "Doğru cevap: A) Tandans"
   },
   {
-    "id": 263,
+    "id": 219,
     "section": "18. Meteoroloji",
     "question": "Basınç eğrilerinin ve cephelerin işlendiği hava haritalarına ne ad verilir?",
     "options": [
@@ -3419,7 +2847,7 @@
     "explanation": "Doğru cevap: D) Sinoptik"
   },
   {
-    "id": 264,
+    "id": 220,
     "section": "18. Meteoroloji",
     "question": "5 Bofor ölçeğinde rapor edilen hava kuvvetinde rüzgâr yaklaşık kaç knot esmektedir?",
     "options": [
@@ -3432,7 +2860,7 @@
     "explanation": "Doğru cevap: B) 20 knot"
   },
   {
-    "id": 265,
+    "id": 221,
     "section": "18. Meteoroloji",
     "question": "38-40 knot rüzgâr sürati tesbit ettiğiniz hava, kaç kuvvetindedir?",
     "options": [
