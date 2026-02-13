@@ -54,36 +54,41 @@ function fromCloudData(data) {
 async function cloudSave(username, data) {
   if (!DB_URL) return;
   try {
-    await fetch(`${DB_URL}/users/${safeKey(username)}.json`, {
+    const resp = await fetch(`${DB_URL}/users/${safeKey(username)}.json`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(toCloudData(data))
     });
-  } catch (e) { /* silent - localStorage is the fallback */ }
+    CLOUD_OK = resp.ok;
+  } catch (e) { CLOUD_OK = false; }
+  updateSyncBadge();
 }
 
 async function cloudLoad(username) {
   if (!DB_URL) return null;
   try {
     const resp = await fetch(`${DB_URL}/users/${safeKey(username)}.json`);
-    if (!resp.ok) return null;
+    if (!resp.ok) { CLOUD_OK = false; updateSyncBadge(); return null; }
+    CLOUD_OK = true;
+    updateSyncBadge();
     return fromCloudData(await resp.json());
-  } catch (e) { return null; }
+  } catch (e) { CLOUD_OK = false; updateSyncBadge(); return null; }
 }
 
 async function cloudLoadAll() {
   if (!DB_URL) return null;
   try {
     const resp = await fetch(`${DB_URL}/users.json`);
-    if (!resp.ok) return null;
+    if (!resp.ok) { CLOUD_OK = false; return null; }
+    CLOUD_OK = true;
     const data = await resp.json();
-    if (!data) return null;
+    if (!data) return {};
     const result = {};
     for (const [key, val] of Object.entries(data)) {
       result[decodeURIComponent(key)] = fromCloudData(val);
     }
     return result;
-  } catch (e) { return null; }
+  } catch (e) { CLOUD_OK = false; return null; }
 }
 
 // ── Local storage helpers ──
@@ -117,6 +122,19 @@ function mergeData(local, cloud) {
     completed: { ...(cloud.completed || {}), ...(local.completed || {}) }
   };
   return merged;
+}
+
+// ── Sync badge ──
+function updateSyncBadge() {
+  const el = document.getElementById('syncBadge');
+  if (!el) return;
+  if (!DB_URL) {
+    el.innerHTML = '<span style="color:#f59e0b;font-size:11px">⚠ Çevrimdışı</span>';
+  } else if (CLOUD_OK) {
+    el.innerHTML = '<span style="color:#4ade80;font-size:11px">☁ Senkronize</span>';
+  } else {
+    el.innerHTML = '<span style="color:#f87171;font-size:11px">☁ Bağlantı hatası</span>';
+  }
 }
 
 // ── Utility ──
@@ -209,6 +227,7 @@ function renderDash() {
 
   let h = `<div class="topbar">
     <span class="user">👤 ${esc(u)}</span>
+    <span id="syncBadge">${DB_URL ? (CLOUD_OK ? '<span style="color:#4ade80;font-size:11px">☁ Senkronize</span>' : '<span style="color:#f59e0b;font-size:11px">☁ Bağlanıyor...</span>') : ''}</span>
     <button class="logout" onclick="doLogout()">Çıkış</button>
   </div>`;
 
@@ -290,8 +309,8 @@ function renderDash() {
     if (wrongCount > 0) {
       h += `<button class="btn btn-danger" onclick="retryAllWrong()">Yanlışları Tekrarla (${wrongCount})</button>`;
     }
-    h += `<button class="btn btn-secondary btn-sm" onclick="showResetModal()">Sıfırla</button>`;
   }
+  h += `<button class="btn btn-secondary btn-sm" onclick="showResetModal()">Sıfırla</button>`;
   h += `</div>`;
   h += `<div id="modal"></div>`;
 
@@ -318,9 +337,13 @@ function closeModal() {
   if (modal) modal.innerHTML = '';
 }
 
-function doReset() {
+async function doReset() {
   const u = getUser();
-  saveUserData(u, { answers: {}, completed: {} });
+  const empty = { answers: {}, completed: {} };
+  const s = getStore();
+  s[u] = empty;
+  setStore(s);
+  await cloudSave(u, empty);
   render('dash');
 }
 
