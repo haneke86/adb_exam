@@ -6,7 +6,7 @@
 //   3. Build → Realtime Database → Create Database → Start in test mode
 //   4. Copy the URL (looks like https://your-project-default-rtdb.firebaseio.com)
 //   5. Paste it below
-const DB_URL = '';
+const DB_URL = 'https://adbexam-31fc9-default-rtdb.europe-west1.firebasedatabase.app';
 
 // ── Data ──
 let ALL_QUESTIONS = [];
