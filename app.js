@@ -569,7 +569,7 @@ function retrySecWrong() {
 // ══════════════════════════════════════
 async function init() {
   try {
-    const resp = await fetch('questions.json');
+    const resp = await fetch('questions.json?v=' + Date.now());
     if (!resp.ok) throw new Error(resp.status);
     ALL_QUESTIONS = await resp.json();
   } catch (e) {
