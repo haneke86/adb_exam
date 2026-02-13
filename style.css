@@ -59,7 +59,7 @@ button { font-family: inherit; }
 }
 .section-item:hover { border-color: #60a5fa; }
 .section-item .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
-.section-item .name { font-size: 14px; font-weight: 500; flex: 1; margin-right: 8px; }
+.section-item .name { font-size: 14px; font-weight: 500; flex: 1; margin-right: 8px; overflow-wrap: break-word; }
 .section-item .badge { font-size: 11px; padding: 3px 8px; border-radius: 10px; font-weight: 600; white-space: nowrap; }
 .section-item .badge.done { background: #052e16; color: #4ade80; }
 .section-item .badge.partial { background: #172554; color: #60a5fa; }
@@ -127,7 +127,7 @@ button { font-family: inherit; }
 .opt.sel .ltr { background: #2563eb; }
 .opt.ok .ltr { background: #22c55e !important; }
 .opt.no .ltr { background: #ef4444 !important; }
-.opt .txt { font-size: 14px; line-height: 1.5; padding-top: 1px; }
+.opt .txt { font-size: 14px; line-height: 1.5; padding-top: 1px; overflow-wrap: break-word; min-width: 0; }
 
 .exp-box { border-radius: 10px; padding: 12px 14px; margin-bottom: 14px; font-size: 13px; line-height: 1.5; }
 .exp-box.is-ok { background: #052e16; border: 1px solid #166534; }

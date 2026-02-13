@@ -1,3 +1,13 @@
+// ── Firebase Cloud Sync ──
+// Set your Firebase Realtime Database URL here.
+// To set up (free, takes 1 min):
+//   1. Go to https://console.firebase.google.com
+//   2. Create a project (disable analytics if asked)
+//   3. Build → Realtime Database → Create Database → Start in test mode
+//   4. Copy the URL (looks like https://your-project-default-rtdb.firebaseio.com)
+//   5. Paste it below
+const DB_URL = 'https://adbexam-31fc9-default-rtdb.europe-west1.firebasedatabase.app';
+
 // ── Data ──
 let ALL_QUESTIONS = [];
 const LETTERS = ['A', 'B', 'C', 'D', 'E'];
@@ -8,21 +18,85 @@ let CUR_IDX = 0;
 let CUR_QS = [];
 let SECS = [];
 let SEC_QS = {};
+let CLOUD_OK = false;
 
-// ── Storage helpers ──
+// ── Cloud sync helpers ──
+function safeKey(name) {
+  return encodeURIComponent(name).replace(/\./g, '%2E');
+}
+
+async function cloudSave(username, data) {
+  if (!DB_URL) return;
+  try {
+    await fetch(`${DB_URL}/users/${safeKey(username)}.json`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    });
+  } catch (e) { /* silent - localStorage is the fallback */ }
+}
+
+async function cloudLoad(username) {
+  if (!DB_URL) return null;
+  try {
+    const resp = await fetch(`${DB_URL}/users/${safeKey(username)}.json`);
+    if (!resp.ok) return null;
+    return await resp.json();
+  } catch (e) { return null; }
+}
+
+async function cloudLoadAll() {
+  if (!DB_URL) return null;
+  try {
+    const resp = await fetch(`${DB_URL}/users.json`);
+    if (!resp.ok) return null;
+    const data = await resp.json();
+    if (!data) return null;
+    // Decode keys back to usernames
+    const result = {};
+    for (const [key, val] of Object.entries(data)) {
+      result[decodeURIComponent(key)] = val;
+    }
+    return result;
+  } catch (e) { return null; }
+}
+
+// ── Local storage helpers ──
 function getStore() {
   try { return JSON.parse(localStorage.getItem('denizci_quiz') || '{}'); }
   catch (e) { return {}; }
 }
 function setStore(d) { localStorage.setItem('denizci_quiz', JSON.stringify(d)); }
-function getUser() { return sessionStorage.getItem('denizci_user') || ''; }
-function setUser(u) { sessionStorage.setItem('denizci_user', u); }
-function getUserData(u) { const s = getStore(); return s[u] || { answers: {}, completed: {} }; }
-function saveUserData(u, d) { const s = getStore(); s[u] = d; setStore(s); }
+function getUser() { return localStorage.getItem('denizci_user') || ''; }
+function setUser(u) { localStorage.setItem('denizci_user', u); }
+
+function getUserData(u) {
+  const s = getStore();
+  return s[u] || { answers: {}, completed: {} };
+}
+
+function saveUserData(u, d) {
+  const s = getStore();
+  s[u] = d;
+  setStore(s);
+  cloudSave(u, d); // async, fire-and-forget
+}
+
 function getAllUsers() { return Object.keys(getStore()); }
+
+// Merge cloud data into local (cloud wins for any question not yet answered locally)
+function mergeData(local, cloud) {
+  if (!cloud) return local;
+  const merged = {
+    answers: { ...(cloud.answers || {}), ...(local.answers || {}) },
+    completed: { ...(cloud.completed || {}), ...(local.completed || {}) }
+  };
+  return merged;
+}
 
 // ── Utility ──
 function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+function escAttr(s) { return s.replace(/&/g,'&amp;').replace(/'/g,'&#39;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
 // ── Render dispatcher ──
 function render(screen, data) {
@@ -38,6 +112,10 @@ function render(screen, data) {
 // ══════════════════════════════════════
 function renderLogin() {
   const users = getAllUsers();
+  const cloudStatus = DB_URL
+    ? `<span style="color:#4ade80;font-size:11px">☁ Bulut senkronizasyonu aktif</span>`
+    : `<span style="color:#f59e0b;font-size:11px">⚠ Bulut bağlantısı yok (sadece bu cihaz)</span>`;
+
   let h = `<div class="login">
     <span class="icon">⚓</span>
     <h1>Denizci Sınav</h1>
@@ -50,32 +128,46 @@ function renderLogin() {
     users.forEach(u => {
       const ud = getUserData(u);
       const total = Object.keys(ud.answers).length;
-      h += `<button class="btn btn-secondary btn-sm" style="margin:4px" onclick="quickLogin('${esc(u)}')">${esc(u)} (${total}/${ALL_QUESTIONS.length})</button>`;
+      h += `<button class="btn btn-secondary btn-sm" style="margin:4px" onclick="quickLogin('${escAttr(u)}')">${esc(u)} (${total}/${ALL_QUESTIONS.length})</button>`;
     });
     h += `</div>`;
   }
 
+  h += `<div style="margin-top:24px">${cloudStatus}</div>`;
   h += `</div>`;
   return h;
 }
 
-function doLogin() {
+async function doLogin() {
   const name = document.getElementById('nameInput').value.trim();
   if (!name) return;
   setUser(name);
-  const s = getStore();
-  if (!s[name]) s[name] = { answers: {}, completed: {} };
-  setStore(s);
+
+  // Merge local + cloud data
+  const local = getUserData(name);
+  const cloud = await cloudLoad(name);
+  const merged = mergeData(local, cloud);
+  saveUserData(name, merged);
+
   render('dash');
 }
 
-function quickLogin(name) {
+async function quickLogin(name) {
   setUser(name);
+
+  const local = getUserData(name);
+  const cloud = await cloudLoad(name);
+  const merged = mergeData(local, cloud);
+  saveUserData(name, merged);
+
   render('dash');
 }
 
 function doLogout() {
   setUser('');
+  CUR_SEC = '';
+  CUR_IDX = 0;
+  CUR_QS = [];
   render('login');
 }
 
@@ -111,9 +203,9 @@ function renderDash() {
     </div>`;
   }
 
-  // Leaderboard (only if multiple users)
+  // Leaderboard (show always if there are users)
   const users = getAllUsers();
-  if (users.length > 1) {
+  if (users.length > 0) {
     const board = users.map(name => {
       const d = getUserData(name);
       const ans = Object.keys(d.answers).length;
@@ -138,7 +230,7 @@ function renderDash() {
   h += `<h3 style="font-size:15px;margin:16px 0 10px">📚 Bölümler</h3>`;
   h += `<div class="section-list">`;
 
-  SECS.forEach(sec => {
+  SECS.forEach((sec, si) => {
     const qs = SEC_QS[sec];
     const answered = qs.filter(q => ud.answers[q.id] !== undefined).length;
     const correct = qs.filter(q => ud.answers[q.id] === q.correct).length;
@@ -151,7 +243,7 @@ function renderDash() {
     const badgeText = isDone ? `%${secPct} ✓` : isPartial ? `${answered}/${total}` : 'Yeni';
     const fillCol = isDone ? (secPct >= 70 ? '#22c55e' : '#eab308') : '#2563eb';
 
-    h += `<div class="section-item" onclick="startSection('${esc(sec)}')">
+    h += `<div class="section-item" onclick="startSection(${si})">
       <div class="top">
         <span class="name">${esc(sec)}</span>
         <span class="badge ${badgeCls}">${badgeText}</span>
@@ -197,7 +289,8 @@ function showResetModal() {
 }
 
 function closeModal() {
-  document.getElementById('modal').innerHTML = '';
+  const modal = document.getElementById('modal');
+  if (modal) modal.innerHTML = '';
 }
 
 function doReset() {
@@ -209,7 +302,9 @@ function doReset() {
 // ══════════════════════════════════════
 // START A SECTION
 // ══════════════════════════════════════
-function startSection(sec) {
+function startSection(secIdx) {
+  const sec = SECS[secIdx];
+  if (!sec || !SEC_QS[sec]) { render('dash'); return; }
   const u = getUser();
   const ud = getUserData(u);
   CUR_SEC = sec;
@@ -351,9 +446,11 @@ function renderSecResult() {
   const pct = answered > 0 ? Math.round((correct / answered) * 100) : 0;
   const col = pct >= 70 ? '#22c55e' : pct >= 50 ? '#eab308' : '#ef4444';
 
-  // Mark section completed
-  ud.completed[CUR_SEC] = true;
-  saveUserData(u, ud);
+  // Only mark real sections as completed, not virtual retry sections
+  if (SEC_QS[CUR_SEC] && skipped === 0) {
+    ud.completed[CUR_SEC] = true;
+    saveUserData(u, ud);
+  }
 
   let h = `<div class="sec-result">
     <h2>${esc(CUR_SEC)}</h2>
@@ -413,6 +510,7 @@ function retrySecWrong() {
     [wrongs[i], wrongs[j]] = [wrongs[j], wrongs[i]];
   }
 
+  CUR_SEC = 'Yanlış Tekrar: ' + CUR_SEC;
   CUR_QS = wrongs;
   CUR_IDX = 0;
   render('quiz');
@@ -424,6 +522,7 @@ function retrySecWrong() {
 async function init() {
   try {
     const resp = await fetch('questions.json');
+    if (!resp.ok) throw new Error(resp.status);
     ALL_QUESTIONS = await resp.json();
   } catch (e) {
     document.getElementById('app').innerHTML = '<div class="login"><p style="color:#f87171">questions.json yüklenemedi!</p></div>';
@@ -433,6 +532,18 @@ async function init() {
   // Build section index
   SECS = [...new Set(ALL_QUESTIONS.map(q => q.section))];
   SECS.forEach(s => { SEC_QS[s] = ALL_QUESTIONS.filter(q => q.section === s); });
+
+  // If cloud is configured, sync all cloud users into local store
+  if (DB_URL) {
+    const cloudAll = await cloudLoadAll();
+    if (cloudAll) {
+      const store = getStore();
+      for (const [name, cloudData] of Object.entries(cloudAll)) {
+        store[name] = mergeData(store[name] || { answers: {}, completed: {} }, cloudData);
+      }
+      setStore(store);
+    }
+  }
 
   // Check for returning user
   const saved = getUser();
