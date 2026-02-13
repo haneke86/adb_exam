@@ -1,3 +1,13 @@
+// ── Firebase Cloud Sync ──
+// Set your Firebase Realtime Database URL here.
+// To set up (free, takes 1 min):
+//   1. Go to https://console.firebase.google.com
+//   2. Create a project (disable analytics if asked)
+//   3. Build → Realtime Database → Create Database → Start in test mode
+//   4. Copy the URL (looks like https://your-project-default-rtdb.firebaseio.com)
+//   5. Paste it below
+const DB_URL = '';
+
 // ── Data ──
 let ALL_QUESTIONS = [];
 const LETTERS = ['A', 'B', 'C', 'D', 'E'];
@@ -8,8 +18,50 @@ let CUR_IDX = 0;
 let CUR_QS = [];
 let SECS = [];
 let SEC_QS = {};
+let CLOUD_OK = false;
 
-// ── Storage helpers ──
+// ── Cloud sync helpers ──
+function safeKey(name) {
+  return encodeURIComponent(name).replace(/\./g, '%2E');
+}
+
+async function cloudSave(username, data) {
+  if (!DB_URL) return;
+  try {
+    await fetch(`${DB_URL}/users/${safeKey(username)}.json`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    });
+  } catch (e) { /* silent - localStorage is the fallback */ }
+}
+
+async function cloudLoad(username) {
+  if (!DB_URL) return null;
+  try {
+    const resp = await fetch(`${DB_URL}/users/${safeKey(username)}.json`);
+    if (!resp.ok) return null;
+    return await resp.json();
+  } catch (e) { return null; }
+}
+
+async function cloudLoadAll() {
+  if (!DB_URL) return null;
+  try {
+    const resp = await fetch(`${DB_URL}/users.json`);
+    if (!resp.ok) return null;
+    const data = await resp.json();
+    if (!data) return null;
+    // Decode keys back to usernames
+    const result = {};
+    for (const [key, val] of Object.entries(data)) {
+      result[decodeURIComponent(key)] = val;
+    }
+    return result;
+  } catch (e) { return null; }
+}
+
+// ── Local storage helpers ──
 function getStore() {
   try { return JSON.parse(localStorage.getItem('denizci_quiz') || '{}'); }
   catch (e) { return {}; }
@@ -17,9 +69,30 @@ function getStore() {
 function setStore(d) { localStorage.setItem('denizci_quiz', JSON.stringify(d)); }
 function getUser() { return localStorage.getItem('denizci_user') || ''; }
 function setUser(u) { localStorage.setItem('denizci_user', u); }
-function getUserData(u) { const s = getStore(); return s[u] || { answers: {}, completed: {} }; }
-function saveUserData(u, d) { const s = getStore(); s[u] = d; setStore(s); }
+
+function getUserData(u) {
+  const s = getStore();
+  return s[u] || { answers: {}, completed: {} };
+}
+
+function saveUserData(u, d) {
+  const s = getStore();
+  s[u] = d;
+  setStore(s);
+  cloudSave(u, d); // async, fire-and-forget
+}
+
 function getAllUsers() { return Object.keys(getStore()); }
+
+// Merge cloud data into local (cloud wins for any question not yet answered locally)
+function mergeData(local, cloud) {
+  if (!cloud) return local;
+  const merged = {
+    answers: { ...(cloud.answers || {}), ...(local.answers || {}) },
+    completed: { ...(cloud.completed || {}), ...(local.completed || {}) }
+  };
+  return merged;
+}
 
 // ── Utility ──
 function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
@@ -39,6 +112,10 @@ function render(screen, data) {
 // ══════════════════════════════════════
 function renderLogin() {
   const users = getAllUsers();
+  const cloudStatus = DB_URL
+    ? `<span style="color:#4ade80;font-size:11px">☁ Bulut senkronizasyonu aktif</span>`
+    : `<span style="color:#f59e0b;font-size:11px">⚠ Bulut bağlantısı yok (sadece bu cihaz)</span>`;
+
   let h = `<div class="login">
     <span class="icon">⚓</span>
     <h1>Denizci Sınav</h1>
@@ -56,28 +133,33 @@ function renderLogin() {
     h += `</div>`;
   }
 
-  // Import button
-  h += `<div style="margin-top:32px;border-top:1px solid #334155;padding-top:20px">
-    <p style="font-size:12px;color:#64748b;margin-bottom:8px">Başka cihazdan ilerleme aktarmak için:</p>
-    <button class="btn btn-secondary btn-sm" onclick="showImportModal()">📥 İlerleme İçe Aktar</button>
-  </div>`;
-
+  h += `<div style="margin-top:24px">${cloudStatus}</div>`;
   h += `</div>`;
   return h;
 }
 
-function doLogin() {
+async function doLogin() {
   const name = document.getElementById('nameInput').value.trim();
   if (!name) return;
   setUser(name);
-  const s = getStore();
-  if (!s[name]) s[name] = { answers: {}, completed: {} };
-  setStore(s);
+
+  // Merge local + cloud data
+  const local = getUserData(name);
+  const cloud = await cloudLoad(name);
+  const merged = mergeData(local, cloud);
+  saveUserData(name, merged);
+
   render('dash');
 }
 
-function quickLogin(name) {
+async function quickLogin(name) {
   setUser(name);
+
+  const local = getUserData(name);
+  const cloud = await cloudLoad(name);
+  const merged = mergeData(local, cloud);
+  saveUserData(name, merged);
+
   render('dash');
 }
 
@@ -183,7 +265,6 @@ function renderDash() {
     if (wrongCount > 0) {
       h += `<button class="btn btn-danger" onclick="retryAllWrong()">Yanlışları Tekrarla (${wrongCount})</button>`;
     }
-    h += `<button class="btn btn-secondary btn-sm" onclick="showExportModal()">📤 Dışa Aktar</button>`;
     h += `<button class="btn btn-secondary btn-sm" onclick="showResetModal()">Sıfırla</button>`;
   }
   h += `</div>`;
@@ -205,75 +286,6 @@ function showResetModal() {
         </div>
       </div>
     </div>`;
-}
-
-// ── Export/Import for cross-device sync ──
-function showExportModal() {
-  const u = getUser();
-  const ud = getUserData(u);
-  const exportData = { user: u, data: ud, version: 1 };
-  const code = btoa(unescape(encodeURIComponent(JSON.stringify(exportData))));
-
-  document.getElementById('modal').innerHTML = `
-    <div class="modal-bg" onclick="closeModal()">
-      <div class="modal" onclick="event.stopPropagation()" style="max-width:400px">
-        <h3>📤 İlerlemeyi Dışa Aktar</h3>
-        <p>Bu kodu kopyalayıp diğer cihazda yapıştırın:</p>
-        <textarea id="exportCode" readonly style="width:100%;height:80px;background:#0f172a;color:#e2e8f0;border:1px solid #334155;border-radius:8px;padding:8px;font-size:11px;word-break:break-all;resize:none">${code}</textarea>
-        <div class="btns" style="margin-top:12px">
-          <button class="btn btn-primary" onclick="copyExport()">Kopyala</button>
-          <button class="btn btn-secondary" onclick="closeModal()">Kapat</button>
-        </div>
-      </div>
-    </div>`;
-}
-
-function copyExport() {
-  const el = document.getElementById('exportCode');
-  el.select();
-  navigator.clipboard.writeText(el.value).then(() => {
-    el.style.borderColor = '#22c55e';
-    setTimeout(() => { el.style.borderColor = '#334155'; }, 1500);
-  });
-}
-
-function showImportModal() {
-  const container = document.getElementById('app');
-  // Add a modal div if not present
-  let modal = document.getElementById('modal');
-  if (!modal) {
-    container.insertAdjacentHTML('beforeend', '<div id="modal"></div>');
-    modal = document.getElementById('modal');
-  }
-  modal.innerHTML = `
-    <div class="modal-bg" onclick="closeModal()">
-      <div class="modal" onclick="event.stopPropagation()" style="max-width:400px">
-        <h3>📥 İlerleme İçe Aktar</h3>
-        <p>Diğer cihazdan aldığınız kodu yapıştırın:</p>
-        <textarea id="importCode" style="width:100%;height:80px;background:#0f172a;color:#e2e8f0;border:1px solid #334155;border-radius:8px;padding:8px;font-size:11px;resize:none" placeholder="Kodu buraya yapıştırın..."></textarea>
-        <div id="importMsg" style="font-size:12px;margin-top:6px"></div>
-        <div class="btns" style="margin-top:12px">
-          <button class="btn btn-primary" onclick="doImport()">İçe Aktar</button>
-          <button class="btn btn-secondary" onclick="closeModal()">İptal</button>
-        </div>
-      </div>
-    </div>`;
-}
-
-function doImport() {
-  const code = document.getElementById('importCode').value.trim();
-  const msg = document.getElementById('importMsg');
-  if (!code) { msg.innerHTML = '<span style="color:#f87171">Kod boş!</span>'; return; }
-  try {
-    const json = JSON.parse(decodeURIComponent(escape(atob(code))));
-    if (!json.user || !json.data || !json.data.answers) throw new Error('bad');
-    setUser(json.user);
-    saveUserData(json.user, json.data);
-    closeModal();
-    render('dash');
-  } catch (e) {
-    msg.innerHTML = '<span style="color:#f87171">Geçersiz kod! Lütfen doğru kodu yapıştırın.</span>';
-  }
 }
 
 function closeModal() {
@@ -520,6 +532,18 @@ async function init() {
   // Build section index
   SECS = [...new Set(ALL_QUESTIONS.map(q => q.section))];
   SECS.forEach(s => { SEC_QS[s] = ALL_QUESTIONS.filter(q => q.section === s); });
+
+  // If cloud is configured, sync all cloud users into local store
+  if (DB_URL) {
+    const cloudAll = await cloudLoadAll();
+    if (cloudAll) {
+      const store = getStore();
+      for (const [name, cloudData] of Object.entries(cloudAll)) {
+        store[name] = mergeData(store[name] || { answers: {}, completed: {} }, cloudData);
+      }
+      setStore(store);
+    }
+  }
 
   // Check for returning user
   const saved = getUser();
