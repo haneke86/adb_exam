@@ -15,14 +15,15 @@ function getStore() {
   catch (e) { return {}; }
 }
 function setStore(d) { localStorage.setItem('denizci_quiz', JSON.stringify(d)); }
-function getUser() { return sessionStorage.getItem('denizci_user') || ''; }
-function setUser(u) { sessionStorage.setItem('denizci_user', u); }
+function getUser() { return localStorage.getItem('denizci_user') || ''; }
+function setUser(u) { localStorage.setItem('denizci_user', u); }
 function getUserData(u) { const s = getStore(); return s[u] || { answers: {}, completed: {} }; }
 function saveUserData(u, d) { const s = getStore(); s[u] = d; setStore(s); }
 function getAllUsers() { return Object.keys(getStore()); }
 
 // ── Utility ──
 function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+function escAttr(s) { return s.replace(/&/g,'&amp;').replace(/'/g,'&#39;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
 // ── Render dispatcher ──
 function render(screen, data) {
@@ -50,10 +51,16 @@ function renderLogin() {
     users.forEach(u => {
       const ud = getUserData(u);
       const total = Object.keys(ud.answers).length;
-      h += `<button class="btn btn-secondary btn-sm" style="margin:4px" onclick="quickLogin('${esc(u)}')">${esc(u)} (${total}/${ALL_QUESTIONS.length})</button>`;
+      h += `<button class="btn btn-secondary btn-sm" style="margin:4px" onclick="quickLogin('${escAttr(u)}')">${esc(u)} (${total}/${ALL_QUESTIONS.length})</button>`;
     });
     h += `</div>`;
   }
+
+  // Import button
+  h += `<div style="margin-top:32px;border-top:1px solid #334155;padding-top:20px">
+    <p style="font-size:12px;color:#64748b;margin-bottom:8px">Başka cihazdan ilerleme aktarmak için:</p>
+    <button class="btn btn-secondary btn-sm" onclick="showImportModal()">📥 İlerleme İçe Aktar</button>
+  </div>`;
 
   h += `</div>`;
   return h;
@@ -76,6 +83,9 @@ function quickLogin(name) {
 
 function doLogout() {
   setUser('');
+  CUR_SEC = '';
+  CUR_IDX = 0;
+  CUR_QS = [];
   render('login');
 }
 
@@ -111,9 +121,9 @@ function renderDash() {
     </div>`;
   }
 
-  // Leaderboard (only if multiple users)
+  // Leaderboard (show always if there are users)
   const users = getAllUsers();
-  if (users.length > 1) {
+  if (users.length > 0) {
     const board = users.map(name => {
       const d = getUserData(name);
       const ans = Object.keys(d.answers).length;
@@ -138,7 +148,7 @@ function renderDash() {
   h += `<h3 style="font-size:15px;margin:16px 0 10px">📚 Bölümler</h3>`;
   h += `<div class="section-list">`;
 
-  SECS.forEach(sec => {
+  SECS.forEach((sec, si) => {
     const qs = SEC_QS[sec];
     const answered = qs.filter(q => ud.answers[q.id] !== undefined).length;
     const correct = qs.filter(q => ud.answers[q.id] === q.correct).length;
@@ -151,7 +161,7 @@ function renderDash() {
     const badgeText = isDone ? `%${secPct} ✓` : isPartial ? `${answered}/${total}` : 'Yeni';
     const fillCol = isDone ? (secPct >= 70 ? '#22c55e' : '#eab308') : '#2563eb';
 
-    h += `<div class="section-item" onclick="startSection('${esc(sec)}')">
+    h += `<div class="section-item" onclick="startSection(${si})">
       <div class="top">
         <span class="name">${esc(sec)}</span>
         <span class="badge ${badgeCls}">${badgeText}</span>
@@ -173,6 +183,7 @@ function renderDash() {
     if (wrongCount > 0) {
       h += `<button class="btn btn-danger" onclick="retryAllWrong()">Yanlışları Tekrarla (${wrongCount})</button>`;
     }
+    h += `<button class="btn btn-secondary btn-sm" onclick="showExportModal()">📤 Dışa Aktar</button>`;
     h += `<button class="btn btn-secondary btn-sm" onclick="showResetModal()">Sıfırla</button>`;
   }
   h += `</div>`;
@@ -196,8 +207,78 @@ function showResetModal() {
     </div>`;
 }
 
+// ── Export/Import for cross-device sync ──
+function showExportModal() {
+  const u = getUser();
+  const ud = getUserData(u);
+  const exportData = { user: u, data: ud, version: 1 };
+  const code = btoa(unescape(encodeURIComponent(JSON.stringify(exportData))));
+
+  document.getElementById('modal').innerHTML = `
+    <div class="modal-bg" onclick="closeModal()">
+      <div class="modal" onclick="event.stopPropagation()" style="max-width:400px">
+        <h3>📤 İlerlemeyi Dışa Aktar</h3>
+        <p>Bu kodu kopyalayıp diğer cihazda yapıştırın:</p>
+        <textarea id="exportCode" readonly style="width:100%;height:80px;background:#0f172a;color:#e2e8f0;border:1px solid #334155;border-radius:8px;padding:8px;font-size:11px;word-break:break-all;resize:none">${code}</textarea>
+        <div class="btns" style="margin-top:12px">
+          <button class="btn btn-primary" onclick="copyExport()">Kopyala</button>
+          <button class="btn btn-secondary" onclick="closeModal()">Kapat</button>
+        </div>
+      </div>
+    </div>`;
+}
+
+function copyExport() {
+  const el = document.getElementById('exportCode');
+  el.select();
+  navigator.clipboard.writeText(el.value).then(() => {
+    el.style.borderColor = '#22c55e';
+    setTimeout(() => { el.style.borderColor = '#334155'; }, 1500);
+  });
+}
+
+function showImportModal() {
+  const container = document.getElementById('app');
+  // Add a modal div if not present
+  let modal = document.getElementById('modal');
+  if (!modal) {
+    container.insertAdjacentHTML('beforeend', '<div id="modal"></div>');
+    modal = document.getElementById('modal');
+  }
+  modal.innerHTML = `
+    <div class="modal-bg" onclick="closeModal()">
+      <div class="modal" onclick="event.stopPropagation()" style="max-width:400px">
+        <h3>📥 İlerleme İçe Aktar</h3>
+        <p>Diğer cihazdan aldığınız kodu yapıştırın:</p>
+        <textarea id="importCode" style="width:100%;height:80px;background:#0f172a;color:#e2e8f0;border:1px solid #334155;border-radius:8px;padding:8px;font-size:11px;resize:none" placeholder="Kodu buraya yapıştırın..."></textarea>
+        <div id="importMsg" style="font-size:12px;margin-top:6px"></div>
+        <div class="btns" style="margin-top:12px">
+          <button class="btn btn-primary" onclick="doImport()">İçe Aktar</button>
+          <button class="btn btn-secondary" onclick="closeModal()">İptal</button>
+        </div>
+      </div>
+    </div>`;
+}
+
+function doImport() {
+  const code = document.getElementById('importCode').value.trim();
+  const msg = document.getElementById('importMsg');
+  if (!code) { msg.innerHTML = '<span style="color:#f87171">Kod boş!</span>'; return; }
+  try {
+    const json = JSON.parse(decodeURIComponent(escape(atob(code))));
+    if (!json.user || !json.data || !json.data.answers) throw new Error('bad');
+    setUser(json.user);
+    saveUserData(json.user, json.data);
+    closeModal();
+    render('dash');
+  } catch (e) {
+    msg.innerHTML = '<span style="color:#f87171">Geçersiz kod! Lütfen doğru kodu yapıştırın.</span>';
+  }
+}
+
 function closeModal() {
-  document.getElementById('modal').innerHTML = '';
+  const modal = document.getElementById('modal');
+  if (modal) modal.innerHTML = '';
 }
 
 function doReset() {
@@ -209,7 +290,9 @@ function doReset() {
 // ══════════════════════════════════════
 // START A SECTION
 // ══════════════════════════════════════
-function startSection(sec) {
+function startSection(secIdx) {
+  const sec = SECS[secIdx];
+  if (!sec || !SEC_QS[sec]) { render('dash'); return; }
   const u = getUser();
   const ud = getUserData(u);
   CUR_SEC = sec;
@@ -351,9 +434,11 @@ function renderSecResult() {
   const pct = answered > 0 ? Math.round((correct / answered) * 100) : 0;
   const col = pct >= 70 ? '#22c55e' : pct >= 50 ? '#eab308' : '#ef4444';
 
-  // Mark section completed
-  ud.completed[CUR_SEC] = true;
-  saveUserData(u, ud);
+  // Only mark real sections as completed, not virtual retry sections
+  if (SEC_QS[CUR_SEC] && skipped === 0) {
+    ud.completed[CUR_SEC] = true;
+    saveUserData(u, ud);
+  }
 
   let h = `<div class="sec-result">
     <h2>${esc(CUR_SEC)}</h2>
@@ -413,6 +498,7 @@ function retrySecWrong() {
     [wrongs[i], wrongs[j]] = [wrongs[j], wrongs[i]];
   }
 
+  CUR_SEC = 'Yanlış Tekrar: ' + CUR_SEC;
   CUR_QS = wrongs;
   CUR_IDX = 0;
   render('quiz');
@@ -424,6 +510,7 @@ function retrySecWrong() {
 async function init() {
   try {
     const resp = await fetch('questions.json');
+    if (!resp.ok) throw new Error(resp.status);
     ALL_QUESTIONS = await resp.json();
   } catch (e) {
     document.getElementById('app').innerHTML = '<div class="login"><p style="color:#f87171">questions.json yüklenemedi!</p></div>';
