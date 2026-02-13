@@ -1,0 +1,446 @@
+// ── Data ──
+let ALL_QUESTIONS = [];
+const LETTERS = ['A', 'B', 'C', 'D', 'E'];
+
+// ── State ──
+let CUR_SEC = '';
+let CUR_IDX = 0;
+let CUR_QS = [];
+let SECS = [];
+let SEC_QS = {};
+
+// ── Storage helpers ──
+function getStore() {
+  try { return JSON.parse(localStorage.getItem('denizci_quiz') || '{}'); }
+  catch (e) { return {}; }
+}
+function setStore(d) { localStorage.setItem('denizci_quiz', JSON.stringify(d)); }
+function getUser() { return sessionStorage.getItem('denizci_user') || ''; }
+function setUser(u) { sessionStorage.setItem('denizci_user', u); }
+function getUserData(u) { const s = getStore(); return s[u] || { answers: {}, completed: {} }; }
+function saveUserData(u, d) { const s = getStore(); s[u] = d; setStore(s); }
+function getAllUsers() { return Object.keys(getStore()); }
+
+// ── Utility ──
+function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+// ── Render dispatcher ──
+function render(screen, data) {
+  const app = document.getElementById('app');
+  if (screen === 'login') app.innerHTML = renderLogin();
+  else if (screen === 'dash') app.innerHTML = renderDash();
+  else if (screen === 'quiz') app.innerHTML = renderQuiz();
+  else if (screen === 'secResult') app.innerHTML = renderSecResult();
+}
+
+// ══════════════════════════════════════
+// LOGIN SCREEN
+// ══════════════════════════════════════
+function renderLogin() {
+  const users = getAllUsers();
+  let h = `<div class="login">
+    <span class="icon">⚓</span>
+    <h1>Denizci Sınav</h1>
+    <p class="sub">Amatör Denizciler İçin Sınav Soru Bankası • ${ALL_QUESTIONS.length} Soru</p>
+    <input class="login-input" id="nameInput" placeholder="Adınızı girin..." maxlength="20" autocomplete="off" onkeydown="if(event.key==='Enter')doLogin()">
+    <br><button class="login-btn" onclick="doLogin()">Giriş Yap</button>`;
+
+  if (users.length > 0) {
+    h += `<div style="margin-top:24px"><p style="font-size:13px;color:#64748b;margin-bottom:8px">Kayıtlı kullanıcılar:</p>`;
+    users.forEach(u => {
+      const ud = getUserData(u);
+      const total = Object.keys(ud.answers).length;
+      h += `<button class="btn btn-secondary btn-sm" style="margin:4px" onclick="quickLogin('${esc(u)}')">${esc(u)} (${total}/${ALL_QUESTIONS.length})</button>`;
+    });
+    h += `</div>`;
+  }
+
+  h += `</div>`;
+  return h;
+}
+
+function doLogin() {
+  const name = document.getElementById('nameInput').value.trim();
+  if (!name) return;
+  setUser(name);
+  const s = getStore();
+  if (!s[name]) s[name] = { answers: {}, completed: {} };
+  setStore(s);
+  render('dash');
+}
+
+function quickLogin(name) {
+  setUser(name);
+  render('dash');
+}
+
+function doLogout() {
+  setUser('');
+  render('login');
+}
+
+// ══════════════════════════════════════
+// DASHBOARD
+// ══════════════════════════════════════
+function renderDash() {
+  const u = getUser();
+  const ud = getUserData(u);
+  const totalAnswered = Object.keys(ud.answers).length;
+  const totalCorrect = ALL_QUESTIONS.filter(q => ud.answers[q.id] === q.correct).length;
+  const pct = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
+  const col = pct >= 70 ? '#22c55e' : pct >= 50 ? '#eab308' : '#ef4444';
+
+  let h = `<div class="topbar">
+    <span class="user">👤 ${esc(u)}</span>
+    <button class="logout" onclick="doLogout()">Çıkış</button>
+  </div>`;
+
+  h += `<div class="dash-header">
+    <span class="icon">⚓</span>
+    <h2>Denizci Sınav</h2>
+    <p class="sub">${totalAnswered}/${ALL_QUESTIONS.length} soru tamamlandı</p>
+  </div>`;
+
+  // Overall score ring
+  if (totalAnswered > 0) {
+    h += `<div class="overall-score">
+      <div class="score-ring" style="border-color:${col}">
+        <span class="pct" style="color:${col}">%${pct}</span>
+        <span class="lbl">${totalCorrect}/${totalAnswered}</span>
+      </div>
+    </div>`;
+  }
+
+  // Leaderboard (only if multiple users)
+  const users = getAllUsers();
+  if (users.length > 1) {
+    const board = users.map(name => {
+      const d = getUserData(name);
+      const ans = Object.keys(d.answers).length;
+      const cor = ALL_QUESTIONS.filter(q => d.answers[q.id] === q.correct).length;
+      return { name, ans, cor, pct: ans > 0 ? Math.round((cor / ans) * 100) : 0 };
+    }).sort((a, b) => b.cor - a.cor || b.pct - a.pct);
+
+    h += `<div class="lb-card"><h3>🏆 Sıralama</h3>`;
+    board.forEach((p, i) => {
+      const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : (i + 1) + '.';
+      const isMe = p.name === u ? ' style="color:#60a5fa;font-weight:600"' : '';
+      h += `<div class="lb-row">
+        <span class="rank">${medal}</span>
+        <span class="uname"${isMe}>${esc(p.name)}</span>
+        <span class="score" style="color:${p.pct >= 70 ? '#4ade80' : p.pct >= 50 ? '#eab308' : '#f87171'}">${p.cor}/${p.ans} (%${p.pct})</span>
+      </div>`;
+    });
+    h += `</div>`;
+  }
+
+  // Section list
+  h += `<h3 style="font-size:15px;margin:16px 0 10px">📚 Bölümler</h3>`;
+  h += `<div class="section-list">`;
+
+  SECS.forEach(sec => {
+    const qs = SEC_QS[sec];
+    const answered = qs.filter(q => ud.answers[q.id] !== undefined).length;
+    const correct = qs.filter(q => ud.answers[q.id] === q.correct).length;
+    const total = qs.length;
+    const secPct = answered > 0 ? Math.round((correct / answered) * 100) : 0;
+    const progPct = Math.round((answered / total) * 100);
+    const isDone = answered === total;
+    const isPartial = answered > 0 && !isDone;
+    const badgeCls = isDone ? 'done' : isPartial ? 'partial' : 'new';
+    const badgeText = isDone ? `%${secPct} ✓` : isPartial ? `${answered}/${total}` : 'Yeni';
+    const fillCol = isDone ? (secPct >= 70 ? '#22c55e' : '#eab308') : '#2563eb';
+
+    h += `<div class="section-item" onclick="startSection('${esc(sec)}')">
+      <div class="top">
+        <span class="name">${esc(sec)}</span>
+        <span class="badge ${badgeCls}">${badgeText}</span>
+      </div>
+      <div class="prog-bar"><div class="prog-fill" style="width:${progPct}%;background:${fillCol}"></div></div>
+      <div class="stats">
+        <span>${answered}/${total} soru</span>
+        ${answered > 0 ? `<span>${correct} doğru</span>` : ''}
+      </div>
+    </div>`;
+  });
+
+  h += `</div>`;
+
+  // Actions
+  h += `<div class="dash-actions">`;
+  if (totalAnswered > 0) {
+    const wrongCount = ALL_QUESTIONS.filter(q => ud.answers[q.id] !== undefined && ud.answers[q.id] !== q.correct).length;
+    if (wrongCount > 0) {
+      h += `<button class="btn btn-danger" onclick="retryAllWrong()">Yanlışları Tekrarla (${wrongCount})</button>`;
+    }
+    h += `<button class="btn btn-secondary btn-sm" onclick="showResetModal()">Sıfırla</button>`;
+  }
+  h += `</div>`;
+  h += `<div id="modal"></div>`;
+
+  return h;
+}
+
+// ── Modal helpers ──
+function showResetModal() {
+  document.getElementById('modal').innerHTML = `
+    <div class="modal-bg" onclick="closeModal()">
+      <div class="modal" onclick="event.stopPropagation()">
+        <h3>Sıfırla</h3>
+        <p>Tüm ilerlemeniz silinecek. Emin misiniz?</p>
+        <div class="btns">
+          <button class="btn btn-secondary" onclick="closeModal()">İptal</button>
+          <button class="btn btn-danger" onclick="doReset()">Sıfırla</button>
+        </div>
+      </div>
+    </div>`;
+}
+
+function closeModal() {
+  document.getElementById('modal').innerHTML = '';
+}
+
+function doReset() {
+  const u = getUser();
+  saveUserData(u, { answers: {}, completed: {} });
+  render('dash');
+}
+
+// ══════════════════════════════════════
+// START A SECTION
+// ══════════════════════════════════════
+function startSection(sec) {
+  const u = getUser();
+  const ud = getUserData(u);
+  CUR_SEC = sec;
+  CUR_QS = SEC_QS[sec];
+
+  // Resume from first unanswered, or start from beginning
+  const firstUnanswered = CUR_QS.findIndex(q => ud.answers[q.id] === undefined);
+  CUR_IDX = firstUnanswered >= 0 ? firstUnanswered : 0;
+  render('quiz');
+}
+
+function retryAllWrong() {
+  const u = getUser();
+  const ud = getUserData(u);
+  const wrongs = ALL_QUESTIONS.filter(q => ud.answers[q.id] !== undefined && ud.answers[q.id] !== q.correct);
+  if (!wrongs.length) return;
+
+  // Clear answers for wrong ones
+  wrongs.forEach(q => { delete ud.answers[q.id]; });
+  saveUserData(u, ud);
+
+  // Shuffle
+  for (let i = wrongs.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [wrongs[i], wrongs[j]] = [wrongs[j], wrongs[i]];
+  }
+
+  CUR_SEC = 'Yanlış Cevaplar';
+  CUR_QS = wrongs;
+  CUR_IDX = 0;
+  render('quiz');
+}
+
+// ══════════════════════════════════════
+// QUIZ SCREEN
+// ══════════════════════════════════════
+function renderQuiz() {
+  const u = getUser();
+  const ud = getUserData(u);
+  const q = CUR_QS[CUR_IDX];
+  const total = CUR_QS.length;
+  const prog = ((CUR_IDX + 1) / total) * 100;
+  const ans = ud.answers[q.id];
+  const answered = ans !== undefined;
+  const isOk = ans === q.correct;
+
+  let h = `<div class="quiz-topbar">
+    <span class="sec">${esc(CUR_SEC)}</span>
+    <span class="prog">${CUR_IDX + 1}/${total}</span>
+  </div>`;
+
+  h += `<div class="prog-bar-wrap"><div class="prog-bar-fill" style="width:${prog}%"></div></div>`;
+
+  h += `<div class="q-card">
+    <div class="q-num">Soru ${CUR_IDX + 1}</div>
+    <div class="q-text">${esc(q.question)}</div>
+  </div>`;
+
+  h += `<div class="opts">`;
+  q.options.forEach((opt, i) => {
+    let c = 'opt';
+    if (answered) {
+      c += ' dis';
+      if (i === q.correct) c += ' ok';
+      else if (i === ans && i !== q.correct) c += ' no';
+    }
+    h += `<div class="${c}" onclick="pickOpt(${q.id},${i})">
+      <span class="ltr">${LETTERS[i]}</span>
+      <span class="txt">${esc(opt)}</span>
+    </div>`;
+  });
+  h += `</div>`;
+
+  if (answered) {
+    h += `<div class="exp-box ${isOk ? 'is-ok' : 'is-no'}">
+      <div class="elbl">${isOk ? '✅ Doğru!' : '❌ Yanlış!'}</div>
+      <div>${esc(q.explanation)}</div>
+    </div>`;
+  }
+
+  h += `<div class="quiz-nav">`;
+  h += `<button class="btn btn-secondary" onclick="quizPrev()" ${CUR_IDX === 0 ? 'disabled' : ''}>← Önceki</button>`;
+  h += `<button class="btn btn-secondary btn-sm" onclick="quizBack()" style="padding:8px 12px">✕</button>`;
+
+  if (answered) {
+    const isLast = CUR_IDX === total - 1;
+    h += `<button class="btn btn-primary" onclick="quizNext()">${isLast ? 'Sonuçlar →' : 'Sonraki →'}</button>`;
+  } else {
+    h += `<button class="btn btn-primary" disabled style="opacity:.3">Sonraki →</button>`;
+  }
+  h += `</div>`;
+
+  return h;
+}
+
+function pickOpt(qid, idx) {
+  const u = getUser();
+  const ud = getUserData(u);
+  if (ud.answers[qid] !== undefined) return;
+  ud.answers[qid] = idx;
+  saveUserData(u, ud);
+  render('quiz');
+}
+
+function quizNext() {
+  if (CUR_IDX < CUR_QS.length - 1) {
+    CUR_IDX++;
+    render('quiz');
+    window.scrollTo(0, 0);
+  } else {
+    render('secResult');
+  }
+}
+
+function quizPrev() {
+  if (CUR_IDX > 0) {
+    CUR_IDX--;
+    render('quiz');
+    window.scrollTo(0, 0);
+  }
+}
+
+function quizBack() {
+  render('dash');
+}
+
+// ══════════════════════════════════════
+// SECTION RESULTS
+// ══════════════════════════════════════
+function renderSecResult() {
+  const u = getUser();
+  const ud = getUserData(u);
+  const qs = CUR_QS;
+  const total = qs.length;
+  const answered = qs.filter(q => ud.answers[q.id] !== undefined).length;
+  const correct = qs.filter(q => ud.answers[q.id] === q.correct).length;
+  const wrong = answered - correct;
+  const skipped = total - answered;
+  const pct = answered > 0 ? Math.round((correct / answered) * 100) : 0;
+  const col = pct >= 70 ? '#22c55e' : pct >= 50 ? '#eab308' : '#ef4444';
+
+  // Mark section completed
+  ud.completed[CUR_SEC] = true;
+  saveUserData(u, ud);
+
+  let h = `<div class="sec-result">
+    <h2>${esc(CUR_SEC)}</h2>
+    <div class="ring" style="border-color:${col}">
+      <span class="num" style="color:${col}">%${pct}</span>
+      <span class="lbl">${correct}/${answered}</span>
+    </div>
+    <div class="mini-stats">
+      <div class="mini-stat"><div class="v" style="color:#4ade80">${correct}</div><div class="l">Doğru</div></div>
+      <div class="mini-stat"><div class="v" style="color:#f87171">${wrong}</div><div class="l">Yanlış</div></div>
+      <div class="mini-stat"><div class="v" style="color:#fbbf24">${skipped}</div><div class="l">Boş</div></div>
+    </div>`;
+
+  // Wrong answers list
+  const wrongs = qs.filter(q => {
+    const a = ud.answers[q.id];
+    return a !== undefined && a !== q.correct;
+  });
+
+  if (wrongs.length > 0) {
+    h += `<div class="wrong-list"><h3>❌ Yanlış Cevaplar (${wrongs.length})</h3>`;
+    wrongs.forEach(q => {
+      const a = ud.answers[q.id];
+      h += `<div class="w-item">
+        <div class="wq">${esc(q.question)}</div>
+        <div class="wa">✘ Senin cevabın: ${LETTERS[a]}. ${esc(q.options[a])}</div>
+        <div class="wc">✔ Doğru cevap: ${LETTERS[q.correct]}. ${esc(q.options[q.correct])}</div>
+        <div class="we">${esc(q.explanation)}</div>
+      </div>`;
+    });
+    h += `</div>`;
+  }
+
+  h += `<div class="sec-actions">
+    <button class="btn btn-secondary" onclick="render('dash')">← Ana Menü</button>`;
+  if (wrongs.length > 0) {
+    h += `<button class="btn btn-danger" onclick="retrySecWrong()">Yanlışları Tekrarla</button>`;
+  }
+  h += `</div></div>`;
+
+  return h;
+}
+
+function retrySecWrong() {
+  const u = getUser();
+  const ud = getUserData(u);
+  const wrongs = CUR_QS.filter(q => {
+    const a = ud.answers[q.id];
+    return a !== undefined && a !== q.correct;
+  });
+
+  wrongs.forEach(q => { delete ud.answers[q.id]; });
+  saveUserData(u, ud);
+
+  for (let i = wrongs.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [wrongs[i], wrongs[j]] = [wrongs[j], wrongs[i]];
+  }
+
+  CUR_QS = wrongs;
+  CUR_IDX = 0;
+  render('quiz');
+}
+
+// ══════════════════════════════════════
+// INIT — load questions then start
+// ══════════════════════════════════════
+async function init() {
+  try {
+    const resp = await fetch('questions.json');
+    ALL_QUESTIONS = await resp.json();
+  } catch (e) {
+    document.getElementById('app').innerHTML = '<div class="login"><p style="color:#f87171">questions.json yüklenemedi!</p></div>';
+    return;
+  }
+
+  // Build section index
+  SECS = [...new Set(ALL_QUESTIONS.map(q => q.section))];
+  SECS.forEach(s => { SEC_QS[s] = ALL_QUESTIONS.filter(q => q.section === s); });
+
+  // Check for returning user
+  const saved = getUser();
+  if (saved && getStore()[saved]) {
+    render('dash');
+  } else {
+    render('login');
+  }
+}
+
+init();
